@@ -1,0 +1,186 @@
+.headerall {
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+.Header {
+  padding: 10px 0;
+  background-color: #fff;
+  width: 100%;
+}
+.Header .left {
+  margin-top: -10px;
+}
+.linkEdit {
+  text-decoration: none;
+}
+.linkEdit span {
+  color: var(--red, #c01c25);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Header nav {
+  display: flex;
+  align-items: center;
+}
+.linkEdit button {
+  display: flex;
+  border-radius: 4px;
+  padding: 8px 23px;
+  background: var(--red, #c01c25);
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: 800ms ease all;
+  position: relative;
+  margin-top: -15px;
+  margin-left: 70px;
+}
+.linkEdit button:hover {
+  background: #fff;
+  color: #c01c25;
+}
+.linkEdit button:before,
+button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #c01c25;
+  transition: 400ms ease all;
+}
+.linkEdit button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.linkEdit button:hover:before,
+.linkEdit button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.linkEdit .spanedit:hover::before {
+  width: 100%;
+}
+.linkEdit .spanedit::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  transition: 0.5s;
+  background-color: rgb(240, 18, 55);
+}
+.Header .linkEdit {
+  position: relative;
+}
+.Header span:hover {
+  opacity: 0.8;
+}
+
+.menu {
+  display: none;
+  cursor: pointer;
+}
+.Header .close {
+  display: none;
+}
+.nav_menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+@media screen and (max-width: 800px) {
+  .menu {
+    display: block;
+    font-size: 25px;
+    margin-left: 40px;
+    z-index: 2;
+  }
+  .nav_menu {
+    position: fixed;
+    top: 7vh;
+    z-index: 1;
+    right: 0;
+    width: 50%;
+    height: 93vh;
+    background: #fff;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+  .Header .left {
+    position: relative;
+  }
+  .Header .left img {
+    position: absolute;
+    left: -18%;
+    top: 10px;
+  }
+
+  .Header .right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    margin-top: -5px;
+    margin-left: 50px;
+  }
+  .Header .linkEdit button {
+    padding: 10px 22px;
+    width: 75%;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+}
+
+.nav_active {
+  transform: translateX(0);
+}
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+  .Header .linkEdit {
+    width: 100%;
+  }
+  .Header span {
+    display: inline-block;
+    width: 170%;
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+  .Header button {
+    padding: 4px 23px;
+  }
+  .Header .left {
+    width: 20%;
+  }
+  .Header .right {
+    position: absolute;
+    top: -18px;
+    right: 30px;
+    width: 70%;
+  }
+  .headerall {
+    display: flex;
+    width: 100%;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .Header button {
+    padding: 8px 25px;
+    width: 45%;
+  }
+}

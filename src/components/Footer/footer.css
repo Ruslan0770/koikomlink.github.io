@@ -1,0 +1,238 @@
+.Footer {
+  background: var(--blue, #143771);
+  padding: 80px 0px 0px 0px;
+}
+
+.Footer .iconcontent {
+  display: flex;
+  position: relative;
+}
+.Footer .iconedit:hover .name {
+  opacity: 1;
+  pointer-events: visible;
+  top: -70px;
+}
+.Footer .name::before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  bottom: -8px;
+  left: 25%;
+  transform: translateX(-50%) rotate(45deg);
+  margin-bottom: 3px;
+}
+.iconedit:nth-child(1):hover,
+.iconedit:nth-child(1) .name,
+.iconedit:nth-child(1) .name::before {
+  background: #07e934;
+  color: white;
+}
+.iconedit:nth-child(2):hover,
+.iconedit:nth-child(2) .name,
+.iconedit:nth-child(2) .name::before {
+  background: #eb0f0f;
+  color: white;
+}
+.iconedit:nth-child(3):hover,
+.iconedit:nth-child(3) .name,
+.iconedit:nth-child(3) .name::before {
+  background: #3f75eb;
+  color: white;
+}
+
+.Footer .iconedit {
+  font-size: 22px;
+  background: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+.Footer .name {
+  position: absolute;
+  top: 0px;
+  background: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 25px;
+  color: black;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.26, 1.55);
+}
+
+.Footer .all {
+  margin-bottom: 60px;
+}
+
+.Footer h5 {
+  color: #fff;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.54px;
+}
+.Footer p {
+  color: var(--white, #fff);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 24.8px */
+}
+.Footer .center h6 {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 24.8px */
+}
+.Footer .right h6 {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 24.8px */
+}
+.Footer hr {
+  width: 40%;
+  opacity: 0.5;
+  background: #fff;
+  height: 2px;
+}
+.Footer hr:nth-last-child(1) {
+  width: 20%;
+}
+.lefthr {
+  width: 80% !important;
+}
+.down {
+  background: var(--blue, #3b5682);
+  z-index: 1;
+  height: 70px;
+}
+.down .right{
+  display: flex;
+  flex-direction: row;
+}
+.down h6 {
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 24.8px */
+  margin-top: 20px;
+}
+.down .all {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  
+}
+.down span {
+  display: inline-block;
+  color: #fff;
+  margin-left: 60px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 24.8px */
+  margin-top: 15px;
+}
+.Footer .footer_active{
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 24.8px */
+}
+.Footer .box a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .Footer p {
+    font-size: 18px;
+    width: 130%;
+  }
+  .Footer h6 {
+    margin-top: 15px;
+  }
+  .Footer h5 {
+    margin-top: 60px;
+  }
+  .Footer .iconcontent {
+    margin-bottom: 40px;
+  }
+  .Footer{
+    width: 105%;
+  }
+  .Footer .iconedit {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .Footer .lefthr {
+    width: 100% !important;
+  }
+  .Footer hr {
+    width: 80%;
+  }
+  .Footer .down a{
+    display: none;
+  }
+  .Footer .down .left{
+    display: flex;
+    justify-content: left;
+  }
+  
+}
+
+@media screen and (min-width: 600px) and (max-width:1000px){
+ 
+  
+
+  .Footer .down .right{
+    display: none;
+  }
+  .Footer .down h6{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Footer p {
+    font-size: 20px;
+    width: 100%;
+  }
+  .Footer .box h6 {
+    margin-top: 15px;
+    font-size: 21px;
+  }
+  .Footer h5 {
+    margin-top: 60px;
+    font-size: 23px;
+  }
+  .Footer .iconcontent {
+    margin-bottom: 40px;
+  }
+  .Footer .iconedit {
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+  }
+
+  .Footer {
+
+    }
+}

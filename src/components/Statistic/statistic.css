@@ -1,0 +1,41 @@
+.Statistic {
+  background-image: url(../../assets//img/statistic.svg);
+  padding: 4rem;
+  margin-top: 8rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Statistic .all {
+  justify-content: center;
+}
+.Statistic h5 {
+  color: #fff;
+  text-align: center;
+  /* h2-bold -18 */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.54px;
+}
+.Statistic h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (max-width: 600px) {
+  .Statistic .box {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .Statistic .box {
+    margin: auto;
+    margin-top: 50px;
+  }
+}

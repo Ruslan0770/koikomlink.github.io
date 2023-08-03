@@ -1,0 +1,133 @@
+.ContactUs {
+  padding: 4rem 0 6rem 0;
+}
+.ContactUs img {
+  width: 90%;
+  object-fit: cover;
+}
+.ContactUs .right {
+  position: relative;
+}
+.ContactUs h2 {
+  color: var(--blue, #143771);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.ContactUs h6 {
+  color: var(--gray, #363e47);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+  margin-bottom: 40px;
+}
+.ContactUs input {
+  color: var(--gray-2, #545f6b);
+  font-size: 16px;
+  background-color: rgba(245, 245, 245, 1);
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  line-height: 155%; /* 27.9px */
+  margin-top: 20px;
+  width: 73%;
+  height: 6vh;
+  padding: 20px 20px;
+}
+.ContactUs button {
+  border-radius: 4px;
+  background: var(--red, #c01c25);
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  font-style: normal;
+  padding: 8px 55px;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+}
+.ContactUs .box {
+  border-radius: 7px;
+  background: var(--blue, #143771);
+  width: 70%;
+  height: 43vh;
+  position: absolute;
+  top: 10%;
+  left: 57%;
+}
+.ContactUs .miniboxitems {
+  margin-left: 50px;
+}
+.ContactUs h3 {
+  color: var(--white, #fff);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 30px;
+  line-height: normal;
+}
+.ContactUs span {
+  display: inline-block;
+  color: var(--white, #fff);
+  margin-left: 15px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 38.75px */
+}
+.ContactUs .icons {
+  font-size: 18px;
+  color: #fff;
+}
+.ContactUs .itemsEdit {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.ContactUs button:hover {
+  background: #fff;
+  color: #c01c25;
+}
+.ContactUs button:before,
+button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #c01c25;
+  transition: 400ms ease all;
+}
+.ContactUs button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.ContactUs button:hover:before,
+.ContactUs button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+@media screen and (max-width: 600px) {
+  .ContactUs img {
+    margin: auto;
+    margin-top: 50px;
+  }
+  .ContactUs input {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .Testimonial .box {
+    margin: auto;
+    margin-top: 50px;
+  }
+}
