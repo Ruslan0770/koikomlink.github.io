@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/koikomlink.github.io/static/css/main.1fd64555.css",
+    "main.js": "/koikomlink.github.io/static/js/main.134651b1.js",
+    "static/media/contact.svg": "/koikomlink.github.io/static/media/contact.d1377a5216bbe538b9fa6c42de1b0290.svg",
+    "static/media/aboutus3.svg": "/koikomlink.github.io/static/media/aboutus3.a911460600ce9940a164ebeb5e5f0f41.svg",
+    "static/media/aboutus4.svg": "/koikomlink.github.io/static/media/aboutus4.5b19b9283774d56a6b1ba195df55023d.svg",
+    "static/media/people4.svg": "/koikomlink.github.io/static/media/people4.8e86c4c3f9f53cfb8e07c36cff788b21.svg",
+    "static/media/people2.svg": "/koikomlink.github.io/static/media/people2.8f6eb91987a47d5815b31039a08605f3.svg",
+    "static/media/aboutus2.svg": "/koikomlink.github.io/static/media/aboutus2.1f6903c219cc885779eeedf272815b07.svg",
+    "static/media/people3.svg": "/koikomlink.github.io/static/media/people3.463c7c4d99936de6a09f8202fa8910c5.svg",
+    "static/media/statistic.svg": "/koikomlink.github.io/static/media/statistic.675ccf695a57b06441ef.svg",
+    "static/media/aboutus.svg": "/koikomlink.github.io/static/media/aboutus.f24d5e4d19ed273d67ad3f469c6cc930.svg",
+    "static/media/scompanyphoto.png": "/koikomlink.github.io/static/media/scompanyphoto.ebf0270602779839c72b.png",
+    "static/media/people.svg": "/koikomlink.github.io/static/media/people.f58776c36bebc9ecfab53af34308629c.svg",
+    "static/media/koikom.svg": "/koikomlink.github.io/static/media/koikom.bbc8d8f59d9242940b330312d174572c.svg",
+    "static/media/brendsphone.svg": "/koikomlink.github.io/static/media/brendsphone.99c88c3096d6901c5fa4.svg",
+    "static/media/brends.svg": "/koikomlink.github.io/static/media/brends.6c8c9f96a9dde41e8bc579aa567c3e5b.svg",
+    "static/media/icons4.svg": "/koikomlink.github.io/static/media/icons4.665997115518a6b3abc52ec124cb4e90.svg",
+    "static/media/icons6.svg": "/koikomlink.github.io/static/media/icons6.b3e95c20fb299f0b64f7ddb46b9c6921.svg",
+    "static/media/icons3.svg": "/koikomlink.github.io/static/media/icons3.2f12e018f786bf83a9652eace8d4df75.svg",
+    "static/media/serviceicons1.svg": "/koikomlink.github.io/static/media/serviceicons1.be50f659c113ec352c7d931faf982575.svg",
+    "static/media/choose.svg": "/koikomlink.github.io/static/media/choose.efc5c57ee1a23a9163ef337f860b9ccb.svg",
+    "static/media/icons5.svg": "/koikomlink.github.io/static/media/icons5.a7b352499ffb5809aff4b82d7c3ffadd.svg",
+    "static/media/trust.svg": "/koikomlink.github.io/static/media/trust.2f5d1097d284a39f3b70038938a39298.svg",
+    "static/media/aboutcompany.svg": "/koikomlink.github.io/static/media/aboutcompany.47d121e508bcbc2c9624a2e160050c4d.svg",
+    "static/media/icons2.svg": "/koikomlink.github.io/static/media/icons2.cf19582496c5bbd2d98086486eb6f245.svg",
+    "index.html": "/koikomlink.github.io/index.html",
+    "main.1fd64555.css.map": "/koikomlink.github.io/static/css/main.1fd64555.css.map",
+    "main.134651b1.js.map": "/koikomlink.github.io/static/js/main.134651b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fd64555.css",
+    "static/js/main.134651b1.js"
+  ]
+}
