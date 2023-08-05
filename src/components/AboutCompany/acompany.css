@@ -2,7 +2,14 @@
   margin-top: 150px;
   padding: 5rem 0;
 }
-
+.AboutCompany img{
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.AboutCompany .right:hover img {
+  opacity: 0.6;
+}
 .AboutCompany .box h3 {
   color: var(--red, #c01c25);
   font-size: 17px;
@@ -31,6 +38,7 @@
   background: var(--red, #c01c25);
   color: var(--white, #fff);
   text-align: center;
+  border: none;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;

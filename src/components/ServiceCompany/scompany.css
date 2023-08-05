@@ -50,6 +50,7 @@
   margin-top: 15px;
   background-size: 300%;
   cursor: pointer;
+  border: none;
   z-index: 1;
 }
 .leftItems button:hover {
@@ -118,7 +119,6 @@ button:after {
     margin-left: -30px;
   }
   .Service button {
-    margin: auto;
     margin-top: 30px;
     margin-left: -30px;
     font-size: 16px;

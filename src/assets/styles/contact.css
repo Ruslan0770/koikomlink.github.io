@@ -37,6 +37,7 @@
   width: 73%;
   height: 6vh;
   padding: 20px 20px;
+  cursor: pointer;
 }
 .ContactUs button {
   border-radius: 4px;
@@ -46,10 +47,11 @@
   font-size: 14px;
   margin-top: 20px;
   font-style: normal;
-  padding: 8px 55px;
+  padding: 10px 55px;
   font-weight: 600;
   line-height: normal;
   position: relative;
+  border: none;
 }
 .ContactUs .box {
   border-radius: 7px;

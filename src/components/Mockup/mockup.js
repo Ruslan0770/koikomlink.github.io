@@ -9,6 +9,7 @@ export default function MockUp({ closeMock }) {
           <button className="closebutton" onClick={() => closeMock(false)}>
             X
           </button>
+          <div className="box">
           <h3>Want to get support?</h3>
           <form>
             <input className="d-block" type="text" placeholder="Your Name" />
@@ -20,6 +21,7 @@ export default function MockUp({ closeMock }) {
             />
           </form>
           <button className="sendbutton">Send</button>
+          </div>
         </div>
       </div>
     </>

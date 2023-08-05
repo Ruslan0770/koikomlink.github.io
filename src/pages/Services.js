@@ -14,7 +14,7 @@ export default function Services() {
         <h2 className="text-center">Services</h2>
         <div className="container">
           <div className="box">
-            <div className="row align-items-center">
+            <div className="row all2 align-items-center">
               <div className="col-lg-8">
                 <div className="left">
                   <h5>IT Solution</h5>
@@ -39,7 +39,7 @@ export default function Services() {
             </div>
           </div>
           <div className="box">
-            <div className="row align-items-center">
+            <div className="row all align-items-center">
               <div className="col-lg-4">
                 <div className="left">
                   <img src={icons2} alt="" />
@@ -47,8 +47,8 @@ export default function Services() {
               </div>
               <div className="col-lg-8">
                 <div className="right1">
-                  <h5>IT Solution</h5>
-                  <p>
+                  <h5 style={{textAlign:"end",marginRight:"27px"}}>Web Development</h5>
+                  <p style={{textAlign:"right"}}>
                     Lorem ipsum dolor sit amet consectetur. Ac purus at id
                     turpis aenean. Et pulvinar ut etiam consequat cras. Velit id
                     elementum in tempor ac volutpat sed. Odio id nulla tortor
@@ -64,10 +64,10 @@ export default function Services() {
             </div>
           </div>
           <div className="box">
-            <div className="row align-items-center">
+            <div className="row all2 align-items-center">
               <div className="col-lg-8">
                 <div className="left">
-                  <h5>IT Solution</h5>
+                  <h5>Networking Services</h5>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Ac purus at id
                     turpis aenean. Et pulvinar ut etiam consequat cras. Velit id
@@ -89,7 +89,7 @@ export default function Services() {
             </div>
           </div>
           <div className="box">
-            <div className="row align-items-center">
+            <div className="row all align-items-center">
               <div className="col-lg-4">
                 <div className="left">
                   <img src={icons4} alt="" />
@@ -97,8 +97,8 @@ export default function Services() {
               </div>
               <div className="col-lg-8">
                 <div className="right1">
-                  <h5>IT Solution</h5>
-                  <p>
+                  <h5 style={{textAlign:"end",marginRight:"27px"}}>SEO Optimization</h5>
+                  <p style={{textAlign:"right"}}>
                     Lorem ipsum dolor sit amet consectetur. Ac purus at id
                     turpis aenean. Et pulvinar ut etiam consequat cras. Velit id
                     elementum in tempor ac volutpat sed. Odio id nulla tortor
@@ -114,10 +114,10 @@ export default function Services() {
             </div>
           </div>
           <div className="box">
-            <div className="row align-items-center">
+            <div className="row all2 align-items-center">
               <div className="col-lg-8">
                 <div className="left">
-                  <h5>IT Solution</h5>
+                  <h5>App Optimization</h5>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Ac purus at id
                     turpis aenean. Et pulvinar ut etiam consequat cras. Velit id
@@ -139,7 +139,7 @@ export default function Services() {
             </div>
           </div>
           <div className="box">
-            <div className="row align-items-center">
+            <div className="row all align-items-center">
               <div className="col-lg-4">
                 <div className="left">
                   <img src={icons6} alt="" />
@@ -147,8 +147,8 @@ export default function Services() {
               </div>
               <div className="col-lg-8">
                 <div className="right1">
-                  <h5>IT Solution</h5>
-                  <p>
+                  <h5 style={{textAlign:"end",marginRight:"27px"}}>Data Recovery</h5>
+                  <p style={{textAlign:"right"}}>
                     Lorem ipsum dolor sit amet consectetur. Ac purus at id
                     turpis aenean. Et pulvinar ut etiam consequat cras. Velit id
                     elementum in tempor ac volutpat sed. Odio id nulla tortor

@@ -4,32 +4,35 @@ import koikom from "../../assets/img/koikom.svg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import MockUp from "../Mockup/mockup";
-import { AiOutlineMenu } from "react-icons/ai";
-import { useRef } from "react";
 
 export default function Header() {
-  const [active, setActive] = useState("nav_menu");
   const [openMock, setOpenMock] = useState(false);
-  const menu = () => {
+  const [active, setActive] = useState("nav_menu");
+  const [toggleIcon, setToggleIcon] = useState("nav_toggler");
+
+  const navToggle = () => {
     active === "nav_menu"
       ? setActive("nav_menu nav_active")
       : setActive("nav_menu");
+
+    toggleIcon === "nav_toggler"
+      ? setToggleIcon("nav_toggler toggle")
+      : setToggleIcon("nav_toggler");
   };
-  const navRef = useRef();
 
   return (
     <>
       <div className="Header">
         <div className="container">
           <div className="headerall row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-5 col-md-6">
               <div className="left">
                 <Link to="/">
                   <img src={koikom} alt="" />
                 </Link>
               </div>
             </div>
-            <div className="col-lg-7">
+            <div className="col-lg-7 col-7 col-md-6">
               <div className="right">
                 <nav>
                   <ul className={active}>
@@ -64,7 +67,12 @@ export default function Header() {
                     </button>
                   </Link>
                   {openMock && <MockUp closeMock={setOpenMock} />}
-                  <AiOutlineMenu onClick={menu} className="menu" />
+                  <div onClick={navToggle} className={toggleIcon}>
+                    <div className="line1"></div>
+                    <div className="line2"></div>
+                    <div className="line3"></div>
+                    {/* <AiOutlineMenu onClick={menu} className="menu" /> */}
+                  </div>
                 </nav>
               </div>
             </div>

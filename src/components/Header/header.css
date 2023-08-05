@@ -35,6 +35,7 @@
   text-align: center;
   font-size: 14px;
   font-style: normal;
+  border: none;
   font-weight: 600;
   line-height: normal;
   transition: 800ms ease all;
@@ -89,12 +90,16 @@ button:after {
   opacity: 0.8;
 }
 
-.menu {
-  display: none;
-  cursor: pointer;
-}
 .Header .close {
   display: none;
+}
+
+.nav_toggler div {
+  width: 2.2rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(101, 84, 84);
+  transition: 0.4s ease-in;
 }
 .nav_menu {
   display: flex;
@@ -103,84 +108,91 @@ button:after {
   justify-content: space-around;
   gap: 3rem;
 }
-@media screen and (max-width: 800px) {
-  .menu {
-    display: block;
-    font-size: 25px;
-    margin-left: 40px;
-    z-index: 2;
+.nav_toggler {
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+
+  .linkEdit span {
+    font-size: 35px;
+  }
+  .headerall .right{
+    display: flex;
+    width: 100%;
+    gap: 21px;
+    justify-content: center;
   }
   .nav_menu {
     position: fixed;
-    top: 7vh;
+    top: 9vh;
     z-index: 1;
     right: 0;
-    width: 50%;
-    height: 93vh;
+    width: 100%;
+    height: 91vh;
     background: #fff;
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
   }
-  .Header .left {
-    position: relative;
-  }
-  .Header .left img {
-    position: absolute;
-    left: -18%;
-    top: 10px;
+  .nav_toggler {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 10px;
   }
 
-  .Header .right {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    width: 100%;
-    margin-top: -5px;
-    margin-left: 50px;
-  }
   .Header .linkEdit button {
-    padding: 10px 22px;
-    width: 75%;
-    margin-top: 0px;
     font-size: 10px;
+    width: 60%;
+    padding: 3px 30px;
+  }
+  .headerall{
+    display: flex;
+    align-items: center;
   }
 }
-
 .nav_active {
   transform: translateX(0);
 }
-@media screen and (min-width: 800px) and (max-width: 1400px) {
-  .Header .linkEdit {
-    width: 100%;
-  }
-  .Header span {
-    display: inline-block;
-    width: 170%;
-    margin-top: 15px;
-    font-size: 1rem;
-  }
-  .Header button {
-    padding: 4px 23px;
-  }
-  .Header .left {
-    width: 20%;
-  }
-  .Header .right {
-    position: absolute;
-    top: -18px;
-    right: 30px;
-    width: 70%;
-  }
-  .headerall {
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .headerall .right{
     display: flex;
     width: 100%;
-    position: relative;
+    gap: 21px;
+    justify-content: end;
+  }
+  .headerall .nav_toggler{
+    margin-right: -50px;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
   .Header button {
-    padding: 8px 25px;
-    width: 45%;
+    padding: 2px 25px;
+    width: 75%;
   }
+  .headerall ul{
+    width: 100%;
+  }
+  .headerall .spanedit{
+    display: inline-block;
+
+    font-size: 17px;
+    width: 170%;
+  }
+  .headerall{
+    display: flex;
+    justify-content: start;
+  }
+    
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-1px, 5px);
+}
+.toggle .line2{
+  opacity: 0;
+}
+.toggle .line3{
+  transform: rotate(45deg) translate(-9px, -12px)
 }

@@ -21,7 +21,8 @@ export default function Testimonial() {
             className="row all"
           >
             <div className="col-lg-3 col-md-6">
-              <div className="box text-center">
+             <div className="boxall">
+             <div className="box text-center">
                 <AiFillStar className="iconsEdit" />
                 <AiFillStar className="iconsEdit" />
                 <AiFillStar className="iconsEdit" />
@@ -36,9 +37,11 @@ export default function Testimonial() {
                 <h5>Zahra Burnett</h5>
                 <h6>Business Man</h6>
               </div>
+             </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <div className="box text-center">
+             <div className="boxall">
+             <div className="box text-center">
                 <AiFillStar className="iconsEdit" />
                 <AiFillStar className="iconsEdit" />
                 <AiFillStar className="iconsEdit" />
@@ -53,8 +56,10 @@ export default function Testimonial() {
                 <h5>Saabir al-Obeid</h5>
                 <h6>Business Man</h6>
               </div>
+             </div>
             </div>
             <div className="col-lg-3 col-md-6">
+              <div className="boxall">
               <div className="box text-center">
                 <AiFillStar className="iconsEdit" />
                 <AiFillStar className="iconsEdit" />
@@ -70,8 +75,10 @@ export default function Testimonial() {
                 <h5>Stevie Wills</h5>
                 <h6>Business Man</h6>
               </div>
+              </div>
             </div>
             <div className="col-lg-3 col-md-6">
+              <div className="boxall">
               <div className="box text-center">
                 <AiFillStar className="iconsEdit" />
                 <AiFillStar className="iconsEdit" />
@@ -86,6 +93,7 @@ export default function Testimonial() {
                 <img src={people4} alt="" />
                 <h5>Stevie Wills</h5>
                 <h6>Business Man</h6>
+              </div>
               </div>
             </div>
           </div>

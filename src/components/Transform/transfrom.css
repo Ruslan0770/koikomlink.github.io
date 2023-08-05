@@ -46,6 +46,7 @@
   padding: 12px 40px;
   margin-left: 25px;
   position: relative;
+  border: none;
 }
 .Transform button:hover {
   background: #fff;

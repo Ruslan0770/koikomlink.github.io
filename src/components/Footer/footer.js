@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="Footer">
         <div className="container">
           <div className="row all">
-            <div className="col-lg-5">
+            <div className="col-lg-5 col-md-5">
               <div className="box">
                 <div className="left">
                   <h5>About Us</h5>
@@ -46,7 +46,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4">
               <div className="box">
                 <div className="center">
                   <h5>Our Services</h5>
@@ -60,7 +60,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-3">
               <div className="box">
                 <div className="right">
                   <h5>Useful Links</h5>
