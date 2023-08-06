@@ -83,25 +83,4 @@ export default function Header() {
   );
 }
 
-{
-  /* <nav>
-<Link className="linkEdit" to="/">
-      <span className="spanedit">Home</span>
-  </Link>
-  <Link className="linkEdit" to="./aboutus">
-      <span className="spanedit">About Us</span>
-  </Link>
-  <Link className="linkEdit" to="./services">
-      <span className="spanedit">Services</span>
-  </Link>
-  <Link className="linkEdit" to="./contactus">
-      <span className="spanedit">Contact Us</span>
-  </Link>
-  <Link className="linkEdit" to="/">
-     <button onClick={()=>{setOpenMock(true)}}>Get it Support</button>
-  </Link>
- {openMock&& <MockUp closeMock={setOpenMock} />}
-  <AiOutlineMenu className="menu" />
-  <AiOutlineClose className="close"/>
-</nav> */
-}
+

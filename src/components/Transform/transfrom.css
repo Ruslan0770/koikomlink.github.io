@@ -47,7 +47,6 @@
   position: relative;
   border: none;
   transition: 0.7s;
-
 }
 .Transform button:hover {
   background: #fff;
@@ -96,26 +95,22 @@ button:after {
 }
 
 @media screen and (max-width: 600px) {
-  .Transform .buttonedit button {
-
-
-  }
+  
   .Transform p {
     width: 100%;
     font-size: 22px;
   }
   .Transform .buttonedit {
-   
     display: flex;
     justify-content: center;
   }
 }
-@media screen and (min-width:300px) and (max-width:421px){
-  .Transform .buttonedit button{
+@media screen and (min-width: 300px) and (max-width: 421px) {
+  .Transform .buttonedit button {
     width: 100%;
     padding: 10px 20px;
   }
-  .Transform .buttonedit .button{
+  .Transform .buttonedit .button {
     width: 100%;
     padding: 10px 35px;
   }

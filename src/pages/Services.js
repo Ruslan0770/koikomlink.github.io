@@ -47,8 +47,10 @@ export default function Services() {
               </div>
               <div className="col-lg-8">
                 <div className="right1">
-                  <h5 style={{textAlign:"end",marginRight:"27px"}}>Web Development</h5>
-                  <p style={{textAlign:"right"}}>
+                  <h5 style={{ textAlign: "end", marginRight: "27px" }}>
+                    Web Development
+                  </h5>
+                  <p style={{ textAlign: "right" }}>
                     Lorem ipsum dolor sit amet consectetur. Ac purus at id
                     turpis aenean. Et pulvinar ut etiam consequat cras. Velit id
                     elementum in tempor ac volutpat sed. Odio id nulla tortor
@@ -97,8 +99,10 @@ export default function Services() {
               </div>
               <div className="col-lg-8">
                 <div className="right1">
-                  <h5 style={{textAlign:"end",marginRight:"27px"}}>SEO Optimization</h5>
-                  <p style={{textAlign:"right"}}>
+                  <h5 style={{ textAlign: "end", marginRight: "27px" }}>
+                    SEO Optimization
+                  </h5>
+                  <p style={{ textAlign: "right" }}>
                     Lorem ipsum dolor sit amet consectetur. Ac purus at id
                     turpis aenean. Et pulvinar ut etiam consequat cras. Velit id
                     elementum in tempor ac volutpat sed. Odio id nulla tortor
@@ -147,8 +151,10 @@ export default function Services() {
               </div>
               <div className="col-lg-8">
                 <div className="right1">
-                  <h5 style={{textAlign:"end",marginRight:"27px"}}>Data Recovery</h5>
-                  <p style={{textAlign:"right"}}>
+                  <h5 style={{ textAlign: "end", marginRight: "27px" }}>
+                    Data Recovery
+                  </h5>
+                  <p style={{ textAlign: "right" }}>
                     Lorem ipsum dolor sit amet consectetur. Ac purus at id
                     turpis aenean. Et pulvinar ut etiam consequat cras. Velit id
                     elementum in tempor ac volutpat sed. Odio id nulla tortor

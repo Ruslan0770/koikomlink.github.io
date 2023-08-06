@@ -11,132 +11,97 @@ export default function Privacy() {
             <h6>Last Updated: [July 26th 2023]</h6>
             <div className="box">
               <span>1.</span>
-              <span>Use of the Service</span>
+              <span>Information We Collect</span>
               <p>
-                1.1 Eligibility: By using the Service, you represent that you
-                are at least [age] years old and have the legal capacity to
-                enter into this agreement. <br />
-                1.2 Permitted Use: The Service is intended for personal,
-                non-commercial use only. Any commercial use or unauthorized
-                access to the Service is strictly prohibited. <br />
-                1.3 Account: Some features of the Service may require you to
-                create an account. You are responsible for maintaining the
-                confidentiality of your account information and for all
-                activities that occur under your account.
+                1.1 Personal Information: We may collect personal information
+                that you voluntarily provide to us, such as your name, email
+                address, contact details, and any other information you choose
+                to provide when using the Service. <br /> 1.2 Usage Data: We may
+                collect information about how you use the Service, including
+                your IP address, device information, browser type, pages
+                visited, and other usage data to improve the Service's
+                performance and your experience. <br /> 1.3 Cookies and Similar
+                Technologies: We may use cookies and similar technologies to
+                collect information about your interactions with the Service.
+                You can manage your cookie preferences through your browser
+                settings.
               </p>
             </div>
             <div className="box">
               <span>2.</span>
-              <span>Intellectual Property</span>
+              <span>Use of Information</span>
               <p>
-                2.1 Ownership: All content and materials available on the
-                Service, including but not limited to text, graphics, logos,
-                images, videos, and software, are the property of [Your Company
-                Name] or its licensors and are protected by applicable
-                intellectual property laws. <br />
-                2.2 License: You are granted a limited, non-exclusive,
-                non-transferable, and revocable license to access and use the
-                Service for personal, non-commercial purposes. You may not
-                modify, distribute, transmit, display, perform, reproduce,
-                publish, license, create derivative works from, transfer, or
-                sell any information, software, products, or services obtained
-                from the Service.
+                2.1 We use the information we collect for the following
+                purposes: a) To provide and maintain the Service; b) To improve
+                and optimize the Service; c) To respond to your inquiries,
+                comments, or requests; d) To send you important updates,
+                newsletters, and promotional materials; e) To prevent or detect
+                fraud, security breaches, or other illegal activities; f) To
+                comply with legal obligations.
               </p>
             </div>
             <div className="box">
               <span>3.</span>
-              <span>User Content</span>
+              <span>Disclosure of Information</span>
               <p>
-                3.1 User Content: The Service may allow you to submit or upload
-                content, such as comments, reviews, or other materials ("User
-                Content"). By submitting User Content, you grant us a worldwide,
-                royalty-free, irrevocable, perpetual, and sublicensable right to
-                use, reproduce, modify, adapt, publish, translate, distribute,
-                and display such User Content in any media. <br />
-                3.2 Responsibility: You are solely responsible for your User
-                Content. By submitting User Content, you represent and warrant
-                that you own or have the necessary rights to distribute the
-                content and that the content does not violate any laws or
-                infringe upon the rights of any third party.
+                3.1 We may share your personal information in the following
+                circumstances: a) With service providers and partners who assist
+                us in operating the Service and providing related services; b)
+                With law enforcement, government authorities, or other third
+                parties when required by law or to protect our rights, privacy,
+                safety, or property; c) In connection with a merger,
+                acquisition, or sale of all or a portion of our assets.
               </p>
             </div>
             <div className="box">
               <span>4.</span>
-              <span>Prohibited Activities</span>
+              <span>Data Security</span>
               <p>
-                4.1 You agree not to use the Service to engage in any of the
-                following activities: a) Violating any applicable laws or
-                regulations; b) Interfering with or disrupting the integrity or
-                performance of the Service or its servers; c) Gaining
-                unauthorized access to any accounts, computer systems, or
-                networks; d) Uploading or transmitting any harmful or malicious
-                software; e) Harassing, threatening, or infringing upon the
-                rights of others; f) Collecting or storing personal data of
-                other users without their consent; g) Impersonating any person
-                or entity or misrepresenting your affiliation with any person or
-                entity.
+                4.1 We implement reasonable security measures to protect your
+                personal information from unauthorized access, disclosure,
+                alteration, or destruction. However, please note that no method
+                of transmission over the internet or electronic storage is 100%
+                secure, and we cannot guarantee absolute security.
               </p>
             </div>
             <div className="box">
               <span>5.</span>
-              <span>Privacy Policy</span>
+              <span>Third-Party Links</span>
               <p>
-                5.1 Our Privacy Policy [Link to Privacy Policy] describes how we
-                collect, use, and protect your personal information. By using
-                the Service, you consent to the practices described in the
-                Privacy Policy.
+                5.1 The Service may contain links to third-party websites or
+                services that are not operated by us. We are not responsible for
+                the privacy practices of such third parties, and you should
+                review their respective privacy policies.
               </p>
             </div>
             <div className="box">
               <span>6.</span>
-              <span>Disclaimer of Warranties</span>
+              <span>Your Choices</span>
               <p>
-                6.1 The Service is provided on an "as is" and "as available"
-                basis, without warranties of any kind, whether express or
-                implied. We do not warrant that the Service will be
-                uninterrupted, error-free, secure, or free from viruses or other
-                harmful components. Your use of the Service is at your own risk.
+                6.1 You have the right to access, update, or delete your
+                personal information. If you wish to exercise these rights or
+                have any concerns about your data, please contact us using the
+                information provided below.
               </p>
             </div>
             <div className="box">
               <span>7.</span>
-              <span>Limitation of Liability</span>
+              <span>Changes to this Privacy Police</span>
               <p>
-                7.1 To the maximum extent permitted by applicable law, we shall
-                not be liable for any direct, indirect, incidental,
-                consequential, or special damages arising out of or in
-                connection with the use of the Service or these Terms, even if
-                we have been advised of the possibility of such damages.
+                7.1 We may update this Privacy Policy from time to time to
+                reflect changes to our practices or for other operational,
+                legal, or regulatory reasons. The updated Privacy Policy will be
+                posted on this page, and the "Last Updated" date will be revised
+                accordingly.
               </p>
             </div>
             <div className="box">
               <span>8.</span>
-              <span>Modifications to the Terms</span>
-              <p>
-                8.1 We reserve the right to modify these Terms at any time. The
-                updated Terms will be posted on this page, and the "Last
-                Updated" date will be revised accordingly. By continuing to use
-                the Service after the changes are made, you agree to be bound by
-                the revised Terms.
-              </p>
-            </div>
-            <div className="box">
-              <span>9.</span>
-              <span>Governing Law and Jurisdiction</span>
-              <p>
-                9.1 These Terms shall be governed by and construed in accordance
-                with the laws of [Your Country/State], without regard to its
-                conflict of law principles. Any disputes arising under or in
-                connection with these Terms shall be subject to the exclusive
-                jurisdiction of the courts in [Your Country/State].
-              </p>
-            </div>
-            <div className="box">
-              <span>10.</span>
               <span>Contact Us</span>
               <p>
-                10.1 If you have any questions or concerns about these Terms or
-                the Service, please contact us at [Contact Email Address].
+                8.1 If you have any questions or concerns about this Privacy
+                Policy or our data practices, please contact us at [Contact
+                Email Address].
               </p>
             </div>
           </div>

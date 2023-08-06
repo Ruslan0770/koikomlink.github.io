@@ -101,7 +101,6 @@ button:after {
   cursor: pointer;
   z-index: 1;
   transition: 0.7s;
-
 }
 .Service .right img {
   width: 100%;
@@ -126,19 +125,17 @@ button:after {
   }
   .Service .buttonedit button {
     padding: 10px 20px;
-    
   }
-  
+
   .Service .buttonedit {
     display: flex;
     gap: 30px;
     margin-left: -30px;
-
   }
-  .Service h1{
+  .Service h1 {
     font-size: 35px;
   }
-  .Service{
+  .Service {
     padding-bottom: 200px;
   }
 
@@ -157,13 +154,10 @@ button:after {
   .Service .right {
     width: 100%;
   }
-  
 }
-@media screen and (min-width:300px) and (max-width:420px) {
-      .Service .buttonedit button{
-        padding: 10px 8px;
-        width: 100%;
-      }
-    }
-      
-        
+@media screen and (min-width: 300px) and (max-width: 420px) {
+  .Service .buttonedit button {
+    padding: 10px 8px;
+    width: 100%;
+  }
+}

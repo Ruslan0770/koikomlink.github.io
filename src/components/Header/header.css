@@ -187,6 +187,7 @@ button:after {
     
 }
 
+  /* Toggle animation */
 .toggle .line1{
   transform: rotate(-45deg) translate(-1px, 5px);
 }

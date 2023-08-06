@@ -35,8 +35,8 @@
 .Testimonial .box:hover {
   background-color: #143771;
 }
-.Testimonial .boxall:hover .box{
-  transform: scale(1.1,1.1);
+.Testimonial .boxall:hover .box {
+  transform: scale(1.1, 1.1);
 }
 
 .Testimonial .box:hover p {
@@ -48,14 +48,13 @@
 .Testimonial .box:hover span {
   color: #fff;
 }
-.Testimonial .box:hover .iconsEdit{
+.Testimonial .box:hover .iconsEdit {
   color: #fff;
 }
 
 .Testimonial .box:hover h6 {
   color: #fff;
 }
-
 
 .Testimonial p {
   margin-top: 10px;

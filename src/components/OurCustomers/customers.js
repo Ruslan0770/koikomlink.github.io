@@ -1,6 +1,5 @@
 import React from "react";
 import "./customers.css";
-import brends from "../../assets/img/brends.svg";
 
 export default function Customers() {
   return (

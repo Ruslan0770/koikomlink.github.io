@@ -48,7 +48,6 @@
   transition: 800ms ease all;
 }
 
-
 .Alert h3 {
   color: var(--blue, #143771);
   font-size: 30px;
@@ -79,7 +78,7 @@
   margin-top: 20px;
   font-style: normal;
   padding: 12px 50px;
-  width:50%;
+  width: 50%;
   font-weight: 600;
   outline: none;
   border: none;
@@ -99,72 +98,67 @@
   background-color: transparent !important;
   padding: 0px 12px !important;
 }
-@media screen and (max-width:600px) {
-  .Alert input{
-  font-size: 14px;
-  padding: 8px;
-  width: 100%;
+@media screen and (max-width: 600px) {
+  .Alert input {
+    font-size: 14px;
+    padding: 8px;
+    width: 100%;
   }
-  .Alert .box{
+  .Alert .box {
     position: absolute;
     left: 8%;
   }
-  .alertAll{
+  .alertAll {
     position: relative;
     width: 90%;
     height: 50vh;
     text-align: left;
   }
-  .Alert h3{
+  .Alert h3 {
     font-size: 30px;
   }
- 
 }
-@media screen and (min-width:600px) and (max-width:1000px) {
-  .Alert input{
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .Alert input {
     font-size: 18px;
     padding: 8px;
     width: 120%;
-    }
-    .Alert .box{
-      position: absolute;
-      left: 45%;
-      top: 50%;
-      transform: translate(-50%,-50%);
-    }
-    .alertAll{
-      position: relative;
-      width: 85%;
-      height: 50vh;
-      text-align: left;
-    }
-    .Alert h3{
-      font-size: 31px;
-    }
-  
- 
+  }
+  .Alert .box {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .alertAll {
+    position: relative;
+    width: 85%;
+    height: 50vh;
+    text-align: left;
+  }
+  .Alert h3 {
+    font-size: 31px;
+  }
 }
-@media screen and (min-width:1000px) and (max-width:1200px) {
-  .Alert input{
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .Alert input {
     font-size: 18px;
     padding: 8px;
     width: 120%;
-    }
-    .Alert .box{
-      position: absolute;
-      left: 45%;
-      top: 50%;
-      transform: translate(-50%,-50%);
-    }
-    .alertAll{
-      position: relative;
-      width: 55%;
-      height: 50vh;
-      text-align: left;
-    }
-    .Alert h3{
-      font-size: 31px;
-    }
-    
- 
+  }
+  .Alert .box {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .alertAll {
+    position: relative;
+    width: 55%;
+    height: 50vh;
+    text-align: left;
+  }
+  .Alert h3 {
+    font-size: 31px;
+  }
 }

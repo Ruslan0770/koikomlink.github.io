@@ -1,6 +1,5 @@
 import React from "react";
 import "./ourservice.css";
-
 import icons1 from "../../assets/img/serviceicons1.svg";
 import icons2 from "../../assets/img/icons2.svg";
 import icons3 from "../../assets/img/icons3.svg";
@@ -8,6 +7,7 @@ import icons4 from "../../assets/img/icons4.svg";
 import icons5 from "../../assets/img/icons5.svg";
 import icons6 from "../../assets/img/icons6.svg";
 import { Link } from "react-router-dom";
+
 
 export default function Ourservice() {
   return (
@@ -20,7 +20,7 @@ export default function Ourservice() {
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
-              style={{transition:"1s"}}
+                style={{ transition: "1s" }}
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
@@ -41,8 +41,7 @@ export default function Ourservice() {
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
-              style={{transition:"1s"}}
-
+                style={{ transition: "1s" }}
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
@@ -63,8 +62,7 @@ export default function Ourservice() {
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
-              style={{transition:"1s"}}
-
+                style={{ transition: "1s" }}
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
@@ -85,8 +83,7 @@ export default function Ourservice() {
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
-              style={{transition:"1s"}}
-
+                style={{ transition: "1s" }}
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
@@ -107,13 +104,11 @@ export default function Ourservice() {
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
-              style={{transition:"1s"}}
-
+                style={{ transition: "1s" }}
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
                 className="box"
-                // style={{ transition: "2s" }}
               >
                 <img src={icons5} alt="" />
                 <h5>App Optimization</h5>
@@ -130,8 +125,7 @@ export default function Ourservice() {
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
-              style={{transition:"1s"}}
-
+                style={{ transition: "1s" }}
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
