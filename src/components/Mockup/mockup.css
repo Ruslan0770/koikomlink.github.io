@@ -95,9 +95,9 @@
   top: 0;
   color: #545f6b;
   border: none !important;
-  font-size: 25px !important;
+  font-size: 28px !important;
   background-color: transparent !important;
-  padding: 12px 12px !important;
+  padding: 0px 12px !important;
 }
 @media screen and (max-width:600px) {
   .Alert input{
@@ -111,7 +111,7 @@
   }
   .alertAll{
     position: relative;
-    width: 85%;
+    width: 90%;
     height: 50vh;
     text-align: left;
   }

@@ -51,11 +51,21 @@ export default function Footer() {
                 <div className="center">
                   <h5>Our Services</h5>
                   <hr />
-                  <h6>IT Solution</h6>
-                  <h6>Web Development</h6>
-                  <h6>Networking Services</h6>
-                  <h6>SEO Optimization</h6>
-                  <h6>App Optimization</h6>
+                  <Link to="./services">
+                    <h6>IT Solution</h6>
+                  </Link>
+                  <Link to="./services">
+                    <h6>Web Development</h6>
+                  </Link>
+                  <Link to="./services">
+                    <h6>Networking Services</h6>
+                  </Link>
+                  <Link to="./services">
+                    <h6>SEO Optimization</h6>
+                  </Link>
+                  <Link to="./services">
+                    <h6>App Optimization</h6>
+                  </Link>
                 </div>
               </div>
             </div>
