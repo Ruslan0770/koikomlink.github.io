@@ -1,5 +1,6 @@
 import React from "react";
 import "./transfrom.css";
+import { Link } from "react-router-dom";
 
 export default function Transform() {
   return (
@@ -21,8 +22,12 @@ export default function Transform() {
             </p>
           </div>
           <div className="buttonedit">
-            <button>Call Now</button>
-            <button>Contact Us</button>
+            <Link to="/">
+              <button className="button">Call Now</button>
+            </Link>
+            <Link to="./contactus">
+              <button className="button2">Contact Us</button>
+            </Link>
           </div>
         </div>
       </div>

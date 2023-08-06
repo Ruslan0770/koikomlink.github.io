@@ -41,7 +41,7 @@
   width: 28%;
 }
 .OurService span:hover {
-  text-decoration: none;
+  text-decoration-color: transparent;
 }
 .OurService span::before {
   content: "";

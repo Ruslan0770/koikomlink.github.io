@@ -1,6 +1,7 @@
 import "./acompany.css";
 import React from "react";
 import aboutcompany from "../../assets/img/aboutcompany.svg";
+import { Link } from "react-router-dom";
 
 export default function Aboutcompany() {
   return (
@@ -28,7 +29,9 @@ export default function Aboutcompany() {
                     consectetur. Duis eu et interdum id. Malesuada amet rhoncus
                     non sit. Lectus pellentesque ornare felis in semper sit.
                   </p>
+                  <Link to="./aboutus">
                   <button>Learn More</button>
+                  </Link>
                 </div>
               </div>
             </div>

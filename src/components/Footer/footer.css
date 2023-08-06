@@ -190,7 +190,7 @@
     width: 100% !important;
   }
   .Footer hr {
-    width: 80%;
+    width: 60%;
   }
   .Footer .down a{
     display: none;
@@ -203,8 +203,12 @@
 }
 
 @media screen and (min-width: 600px) and (max-width:1000px){
- 
- 
+  .Footer hr{
+    width: 90%;
+  }
+  .Footer p{
+    width: 100%;
+  }
   .Footer .container{
     padding: 0px !important;
   }
@@ -224,7 +228,7 @@
     font-size: 21px;
   }
   .Footer h5 {
-    margin-top: 60px;
+    margin-top: 50px;
     font-size: 23px;
   }
   .Footer .iconcontent {
@@ -233,10 +237,15 @@
   .Footer .iconedit {
     width: 40px;
     height: 40px;
-    margin-top: 30px;
   }
+ 
+ 
+}
 
-  .Footer {
-
-    }
+@media screen and (min-width: 600px) and (max-width:768px){
+  .Footer hr{
+    width: 50%;
+  }
+ 
+ 
 }

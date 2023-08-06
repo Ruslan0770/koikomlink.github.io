@@ -33,7 +33,7 @@ export default function Ourservice() {
                   elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
                   sagittis. Amet duis est eget nisi.
                 </p>
-                <Link to="/">
+                <Link to="./services">
                   <span>Read more</span>
                 </Link>
               </div>
@@ -55,7 +55,7 @@ export default function Ourservice() {
                   elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
                   sagittis. Amet duis est eget nisi.
                 </p>
-                <Link to="/">
+                <Link to="./services">
                   <span>Read more</span>
                 </Link>
               </div>
@@ -77,7 +77,7 @@ export default function Ourservice() {
                   elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
                   sagittis. Amet duis est eget nisi.
                 </p>
-                <Link to="/">
+                <Link to="./services">
                   <span>Read more</span>
                 </Link>
               </div>
@@ -99,7 +99,7 @@ export default function Ourservice() {
                   elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
                   sagittis. Amet duis est eget nisi.
                 </p>
-                <Link to="/">
+                <Link to="./services">
                   <span>Read more</span>
                 </Link>
               </div>
@@ -122,7 +122,7 @@ export default function Ourservice() {
                   elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
                   sagittis. Amet duis est eget nisi.
                 </p>
-                <Link to="/">
+                <Link to="./services">
                   <span>Read more</span>
                 </Link>
               </div>
@@ -144,7 +144,7 @@ export default function Ourservice() {
                   elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
                   sagittis. Amet duis est eget nisi.
                 </p>
-                <Link to="/">
+                <Link to="./services">
                   <span>Read more</span>
                 </Link>
               </div>

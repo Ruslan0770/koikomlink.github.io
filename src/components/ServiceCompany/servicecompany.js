@@ -1,6 +1,7 @@
 import React from "react";
 import "./scompany.css";
 import scompany from "../../assets/img/scompanyphoto.png";
+import { Link } from "react-router-dom";
 
 export default function ServiceCompany() {
   return (
@@ -25,8 +26,8 @@ export default function ServiceCompany() {
                 </p>
               </div>
               <div className="buttonedit">
-                <button>Our Service</button>
-                <button>Contact Us</button>
+               <Link  to="./services"><button className="button">Our Service</button></Link>
+                <Link  to="./contactus"><button className="button2">Contact Us</button></Link>
               </div>
             </div>
           </div>
