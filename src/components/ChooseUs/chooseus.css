@@ -45,6 +45,8 @@
   background: var(--white, #fff);
   color: var(--blue, #143771);
   font-size: 14px;
+  z-index: 1;
+
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -55,7 +57,28 @@
   border: 3px solid transparent;
   border-left-color: #143771;
   position: relative;
-  transition: all 0.35s;
+  transition: all 0.6s;
+}
+
+
+.Choose button:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #143771;
+  transition: all 0.6s;
+  z-index: -1;
+}
+
+.Choose button:hover{
+  color: #fff !important;
+}
+
+.Choose button:hover:after{
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {

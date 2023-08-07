@@ -161,9 +161,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .Footer p {
+  .Footer .box p {
     font-size: 18px;
-    width: 130%;
+    width: 100%;
   }
   .Footer h6 {
     margin-top: 15px;
@@ -204,8 +204,9 @@
   .Footer hr {
     width: 90%;
   }
-  .Footer p {
+  .Footer .box p {
     width: 100%;
+    font-size: 19px !important;
   }
   .Footer .container {
     padding: 0px !important;
@@ -216,10 +217,7 @@
   }
 }
 @media screen and (max-width: 1000px) {
-  .Footer p {
-    font-size: 20px;
-    width: 100%;
-  }
+  
   .Footer .box h6 {
     margin-top: 15px;
     font-size: 21px;
@@ -240,5 +238,13 @@
 @media screen and (min-width: 600px) and (max-width: 768px) {
   .Footer hr {
     width: 50%;
+  }
+  .Footer .iconcontent {
+    position: absolute;
+    bottom: 4%;
+    margin-left: -20px;
+  }
+  .Footer {
+    position: relative;
   }
 }

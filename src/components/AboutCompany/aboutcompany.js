@@ -9,7 +9,7 @@ export default function Aboutcompany() {
       <div className="AboutCompany">
         <div className="container">
           <div className="row all">
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-7 col-md-12">
               <div className="box">
                 <div
                   data-aos="fade-up"
@@ -35,7 +35,7 @@ export default function Aboutcompany() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-5 col-md-12">
               <div className="box">
                 <div
                   data-aos="fade-up"

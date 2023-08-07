@@ -15,13 +15,17 @@
   text-decoration: none;
 }
 .linkEdit span {
-  color: var(--red, #c01c25);
+  color: var(--gray, #363E47);
   text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
+.linkEdit .basespan{
+  color: #c01c25;
+}
+
 .Header nav {
   display: flex;
   align-items: center;
@@ -70,10 +74,10 @@ button:after {
   transition: 800ms ease all;
 }
 
-.linkEdit .spanedit:hover::before {
+.linkEdit span:hover::before {
   width: 100%;
 }
-.linkEdit .spanedit::before {
+.linkEdit span::before {
   content: "";
   position: absolute;
   bottom: -4px;
@@ -86,6 +90,7 @@ button:after {
 .Header .linkEdit {
   position: relative;
 }
+
 .Header span:hover {
   opacity: 0.8;
 }

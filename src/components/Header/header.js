@@ -38,7 +38,7 @@ export default function Header() {
                   <ul className={active}>
                     <li className="nav_item">
                       <Link className="linkEdit" to="/">
-                        <span className="spanedit">Home</span>
+                        <span className="basespan">Home</span>
                       </Link>
                     </li>
                     <li className="nav_item">

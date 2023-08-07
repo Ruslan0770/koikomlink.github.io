@@ -20,7 +20,7 @@ export default function Ourservice() {
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
-                style={{ transition: "1s" }}
+                style={{ transition: "1.3s" }}
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
@@ -41,7 +41,7 @@ export default function Ourservice() {
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
-                style={{ transition: "1s" }}
+                style={{ transition: "1.3s" }}
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
@@ -62,7 +62,7 @@ export default function Ourservice() {
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
-                style={{ transition: "1s" }}
+                style={{ transition: "1.3s" }}
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
@@ -83,7 +83,7 @@ export default function Ourservice() {
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
-                style={{ transition: "1s" }}
+                style={{ transition: "1.3s" }}
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
@@ -104,7 +104,7 @@ export default function Ourservice() {
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
-                style={{ transition: "1s" }}
+                style={{ transition: "1.3s" }}
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
@@ -125,7 +125,7 @@ export default function Ourservice() {
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
-                style={{ transition: "1s" }}
+                style={{ transition: "1.3s" }}
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"

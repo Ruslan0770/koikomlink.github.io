@@ -1,6 +1,6 @@
 import React from "react";
 import "./scompany.css";
-import scompany from "../../assets/img/scompanyphoto.png";
+import scompany from "../../assets/img/scompany.svg";
 import { Link } from "react-router-dom";
 
 export default function ServiceCompany() {

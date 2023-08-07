@@ -25,7 +25,7 @@ export default function Footer() {
                   <p>
                     Lorem ipsum dolor sit amet consectetur. <br /> Duis eu et
                     interdum id. Malesuada amet <br /> rhoncus non sit. Lectus
-                    pellentesque <br /> ornare felis in semper sit.{" "}
+                    pellentesque <br /> ornare felis in semper sit.
                   </p>
                   <div className="iconcontent">
                     <div className="iconedit">

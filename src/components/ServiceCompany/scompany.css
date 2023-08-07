@@ -32,7 +32,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 155%; /* 34.1px */
+  line-height: 155%; 
   margin-top: 15px;
 }
 .leftItems .button {
@@ -136,7 +136,7 @@ button:after {
     font-size: 35px;
   }
   .Service {
-    padding-bottom: 200px;
+    padding-bottom: 0px;
   }
 
   .Service p {
