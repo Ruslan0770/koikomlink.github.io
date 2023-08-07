@@ -42,7 +42,9 @@ export default function Aboutcompany() {
                   data-aos-anchor-placement="top-center"
                   className="right"
                 >
-                  <img src={aboutcompany} alt="" />
+                 <div className="imgedit">
+                 <img src={aboutcompany} alt="" />
+                 </div>
                 </div>
               </div>
             </div>

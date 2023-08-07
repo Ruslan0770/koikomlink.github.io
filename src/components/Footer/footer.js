@@ -94,7 +94,7 @@ export default function Footer() {
         </div>
         <div className="down">
           <div className="d-flex all">
-            <div className="col-lg-6 col-8 col-md-5">
+            <div className="col-lg-5 col-8 col-md-5">
               <div className="left">
                 <h6>
                   {new Date().getFullYear()} KOIKOM - All Rights Reserved.

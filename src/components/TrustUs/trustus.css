@@ -1,12 +1,13 @@
 .Trust img {
   width: 60%;
-  opacity: 1;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+  transition: 2s ease;
 }
 
-.Trust .right:hover img {
-  opacity: 0.7;
+.Trust .right img:hover {
+  -webkit-transform: rotateZ(-360deg);
+  -ms-transform: rotateZ(-360deg);
+  transform: rotateZ(-360deg);
+  transition: 2s ease;
 }
 .Trust .row {
   justify-content: center;

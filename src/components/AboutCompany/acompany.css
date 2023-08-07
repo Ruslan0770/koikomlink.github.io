@@ -3,13 +3,10 @@
   padding: 5rem 0;
 }
 .AboutCompany img{
-  opacity: 1;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+ 
+  transition: .5s ease;
 }
-.AboutCompany .right:hover img {
-  opacity: 0.6;
-}
+
 .AboutCompany .box h3 {
   color: var(--red, #c01c25);
   font-size: 17px;
@@ -46,6 +43,10 @@
   padding: 10px 24px;
   margin-top: 20px;
   position: relative;
+}
+.AboutCompany .imgedit img:hover{
+  box-shadow: 0 0 0 10px #143771;
+transition: .5s ease;
 }
 
 @media screen and (max-width: 600px) {
