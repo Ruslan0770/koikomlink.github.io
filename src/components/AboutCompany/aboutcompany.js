@@ -12,8 +12,7 @@ export default function Aboutcompany() {
             <div className="col-lg-7 col-md-12">
               <div className="box">
                 <div
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="bottom-bottom"
+                  data-aos="fade-up-right"
                   data-aos-duration="1000"
                   className="left"
                 >
@@ -30,7 +29,7 @@ export default function Aboutcompany() {
                     non sit. Lectus pellentesque ornare felis in semper sit.
                   </p>
                   <Link to="./aboutus">
-                  <button>Learn More</button>
+                    <button>Learn More</button>
                   </Link>
                 </div>
               </div>
@@ -38,13 +37,13 @@ export default function Aboutcompany() {
             <div className="col-lg-5 col-md-12">
               <div className="box">
                 <div
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="top-center"
+                  data-aos="fade-up-right"
+                  data-aos-duration="1000"
                   className="right"
                 >
-                 <div className="imgedit">
-                 <img src={aboutcompany} alt="" />
-                 </div>
+                  <div className="imgedit">
+                    <img src={aboutcompany} alt="" />
+                  </div>
                 </div>
               </div>
             </div>

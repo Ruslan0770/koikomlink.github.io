@@ -86,6 +86,22 @@
     margin-bottom: 150px;
     width: 100%;
   }
+  .Choose h4{
+    text-align: center;
+  }
+  .Choose h2{
+    text-align: center;
+    width: 100%;
+    font-size: 23px;
+  }
+  .Choose p{
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+  }
+  .Choose .minibox{
+    text-align: center;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {
   .Choose img {

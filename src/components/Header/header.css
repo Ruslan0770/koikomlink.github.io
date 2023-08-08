@@ -15,14 +15,14 @@
   text-decoration: none;
 }
 .linkEdit span {
-  color: var(--gray, #363E47);
+  color: var(--gray, #363e47);
   text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-.linkEdit .basespan{
+.linkEdit .basespan {
   color: #c01c25;
 }
 
@@ -117,33 +117,39 @@ button:after {
   cursor: pointer;
   display: none;
 }
+.headerall ul {
+  list-style: none;
+}
 @media screen and (max-width: 1000px) {
-
   .linkEdit span {
-    font-size: 35px;
+    font-size: 25px;
+    color: #fff !important;
   }
-  .headerall .right{
+  .headerall .right {
     display: flex;
     width: 100%;
     gap: 21px;
     justify-content: center;
   }
-  .nav_menu {
-    position: fixed;
-    top: 9vh;
-    z-index: 1;
-    right: 0;
-    width: 100%;
-    height: 91vh;
-    background: #fff;
-    flex-direction: column;
-    transform: translateX(100%);
-    transition: 0.5s ease-in;
-  }
   .nav_toggler {
     display: block;
     margin-bottom: 15px;
     margin-left: 10px;
+  }
+  .nav_menu {
+    list-style: none;
+    position: fixed;
+    top: 12vh;
+    z-index: 1;
+    right: 0;
+    width: 100%;
+    height: 90vh;
+    padding: 9rem;
+    background: #fff;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+      background-color: #143771;
   }
 
   .Header .linkEdit button {
@@ -151,23 +157,25 @@ button:after {
     width: 60%;
     padding: 3px 30px;
   }
-  .headerall{
+  .headerall {
     display: flex;
     align-items: center;
   }
+ 
 }
 .nav_active {
   transform: translateX(0);
+  list-style: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
-  .headerall .right{
+  .headerall .right {
     display: flex;
     width: 100%;
     gap: 21px;
     justify-content: end;
   }
-  .headerall .nav_toggler{
+  .headerall .nav_toggler {
     margin-right: -50px;
   }
 }
@@ -176,29 +184,28 @@ button:after {
     padding: 2px 25px;
     width: 75%;
   }
-  .headerall ul{
+  .headerall ul {
     width: 100%;
   }
-  .headerall .spanedit{
+  .headerall .spanedit {
     display: inline-block;
 
     font-size: 17px;
     width: 170%;
   }
-  .headerall{
+  .headerall {
     display: flex;
     justify-content: start;
   }
-    
 }
 
-  /* Toggle animation */
-.toggle .line1{
+/* Toggle animation */
+.toggle .line1 {
   transform: rotate(-45deg) translate(-1px, 5px);
 }
-.toggle .line2{
+.toggle .line2 {
   opacity: 0;
 }
-.toggle .line3{
-  transform: rotate(45deg) translate(-9px, -12px)
+.toggle .line3 {
+  transform: rotate(45deg) translate(-9px, -12px);
 }

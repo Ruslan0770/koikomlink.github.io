@@ -84,6 +84,22 @@
     margin-top: 60px;
     width: 100%;
   }
+  .Trust h4{
+    text-align: center;
+  }
+  .Trust h2{
+    text-align: center;
+    width: 100%;
+    font-size: 23px;
+  }
+  .Trust p{
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+  }
+  .Trust .minibox{
+    text-align: center;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {
   .Trust img {
