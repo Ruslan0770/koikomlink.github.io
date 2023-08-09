@@ -104,6 +104,9 @@ button:after {
     display: flex;
     justify-content: center;
   }
+  .Transform button{
+    font-size: 13px !important;
+  }
 }
 @media screen and (min-width: 300px) and (max-width: 421px) {
   .Transform .buttonedit button {
