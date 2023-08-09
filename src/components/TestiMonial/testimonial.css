@@ -124,7 +124,7 @@
     width: 100%;
   }
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:361px) {
     .Testimonial .box{
       height: 47vh;
     }

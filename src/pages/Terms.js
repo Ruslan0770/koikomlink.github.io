@@ -111,7 +111,7 @@ export default function Termss() {
             </div>
             <div className="box">
               <span>8.</span>
-              <span>Modifications to the Terms</span>
+              <span className="spanedit">Modifications to the Terms</span>
               <p>
                 8.1 We reserve the right to modify these Terms at any time. The
                 updated Terms will be posted on this page, and the "Last
@@ -122,7 +122,7 @@ export default function Termss() {
             </div>
             <div className="box">
               <span>9.</span>
-              <span>Governing Law and Jurisdiction</span>
+              <span className="spanedit">Governing Law and Jurisdiction</span>
               <p>
                 9.1 These Terms shall be governed by and construed in accordance
                 with the laws of [Your Country/State], without regard to its

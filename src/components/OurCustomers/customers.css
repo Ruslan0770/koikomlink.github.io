@@ -93,4 +93,15 @@
     height: 30vh;
   }
 }
+@media screen and (max-width:361px){
+  .Customers h2{
+    font-size: 32px;
+  }
+  .Customers .imgedit{
+    width: 100%;
+  }
+  .Customers{
+    padding: 60px 0 0 0px !important;
+  }
+}
 

@@ -209,7 +209,7 @@ button:after {
 .toggle .line3 {
   transform: rotate(45deg) translate(-6px, -11px);
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:361px) {
     .Header .left img{
       width: 120%;
     }

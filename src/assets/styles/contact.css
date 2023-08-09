@@ -123,6 +123,9 @@ button:after {
  .ContactUs .all{
   flex-direction: column-reverse;
  }
+ .ContactUs input{
+  width: 80%;
+ }
  .ContactUs .left{
   margin-top: 50px;
 }
@@ -147,7 +150,9 @@ button:after {
 .ContactUs h3{
   font-size: 20px;
 }
-
+  .ContactUs button{
+    margin-top: 30px;
+  }
 
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -200,7 +205,7 @@ button:after {
       width: 100%;
     }
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:361px) {
     .ContactUs input{
       font-size: 12px !important;
       width: 90%;

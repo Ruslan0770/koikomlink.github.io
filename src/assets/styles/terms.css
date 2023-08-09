@@ -49,6 +49,35 @@
   .Terms .boxAll h6{
     font-size: 15px;
   }
+  .Terms span{
+    font-size: 16px !important;
+  }
+  .Terms .container{
+    padding: 0px !important;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {
+}
+@media screen and (max-width:361px) {
+    .Terms p{
+      width: 100%;
+      font-size:12px !important;
+    }
+    .Terms .box{
+      width: 100%;
+      margin-left: -30px;
+    }
+    .Terms .boxAll{
+      width: 100% !important;
+    }
+    .Terms span{
+      font-size: 13px !important;
+      width: 100% !important;
+    }
+    .Terms h2{
+      font-size: 28px !important;
+    }
+    .Terms h6{
+      font-size: 12px !important;
+    }
 }
