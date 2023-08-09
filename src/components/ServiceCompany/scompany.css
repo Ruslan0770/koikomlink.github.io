@@ -161,3 +161,18 @@ button:after {
     width: 100%;
   }
 }
+@media screen and (max-width:350px){
+    .Service h1{
+      font-size: 29px !important;
+    }
+    .Service p{
+      width: 100% !important;
+      font-size: 12px;
+    }
+    .Service button{
+      padding: 2px 25px !important;
+      width: 100%;
+      font-size: 10px !important;
+
+    }
+}

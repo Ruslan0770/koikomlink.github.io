@@ -115,11 +115,18 @@ button:after {
 }
 
 @media screen and (min-width: 600px) and (max-width: 1100px) {
-  .AboutCompany h2 {
-    width: 100%;
-  }
+  
   .AboutCompany img {
-    width: 85%;
-    margin-top: 50px;
+    width: 100%;
+    margin-top: 7rem;
   }
+  .AboutCompany h2{
+    width: 100%;
+    font-size: 24px !important;
+  }
+  .AboutCompany p{
+    width: 100%;
+    font-size: 17px !important;
+  }
+
 }

@@ -115,3 +115,26 @@ button:after {
     padding: 10px 35px;
   }
 }
+@media screen and (max-width:350px) {
+  .Transform p{
+    font-size: 12px;
+    width: 100%;
+  }
+  .Transform h2{
+    font-size: 17px;
+  }
+  .Transform .button2{
+    padding:3px 25px !important;
+    width: 80%;
+    font-size: 9px !important;
+  }
+  .Transform .button{
+    width: 100% !important;
+    font-size: 9px !important;
+    padding: 3px 35px !important;
+  }.Transform .buttonedit{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+}

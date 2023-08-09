@@ -33,7 +33,7 @@ export default function Ourservice() {
                   elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
                   sagittis. Amet duis est eget nisi.
                 </p>
-                <Link to="./services">
+                <Link className="linkedit" to="./services">
                   <span>Read more</span>
                 </Link>
               </div>
@@ -54,7 +54,7 @@ export default function Ourservice() {
                   elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
                   sagittis. Amet duis est eget nisi.
                 </p>
-                <Link to="./services">
+                <Link className="linkedit" to="./services">
                   <span>Read more</span>
                 </Link>
               </div>
@@ -75,7 +75,7 @@ export default function Ourservice() {
                   elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
                   sagittis. Amet duis est eget nisi.
                 </p>
-                <Link to="./services">
+                <Link className="linkedit" to="./services">
                   <span>Read more</span>
                 </Link>
               </div>
@@ -96,7 +96,7 @@ export default function Ourservice() {
                   elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
                   sagittis. Amet duis est eget nisi.
                 </p>
-                <Link to="./services">
+                <Link className="linkedit" to="./services">
                   <span>Read more</span>
                 </Link>
               </div>
@@ -117,7 +117,7 @@ export default function Ourservice() {
                   elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
                   sagittis. Amet duis est eget nisi.
                 </p>
-                <Link to="./services">
+                <Link className="linkedit" to="./services">
                   <span>Read more</span>
                 </Link>
               </div>
@@ -138,7 +138,7 @@ export default function Ourservice() {
                   elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
                   sagittis. Amet duis est eget nisi.
                 </p>
-                <Link to="./services">
+                <Link className="linkedit" to="./services">
                   <span>Read more</span>
                 </Link>
               </div>

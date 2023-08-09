@@ -90,8 +90,7 @@
     width: 100%;
     margin-top: -80px;
   }
-  .About .left img {
-  }
+  
   .About .imgbox {
     width: 100%;
   }
@@ -152,5 +151,15 @@
   .About p {
     width: 100%;
     font-size: 20px;
+  }
+  .Stats h6{
+    font-size: 13px;
+    width: 100%;
+  }
+  .Stats .all{
+    width: 100%;
+  }
+  .Stats .container{
+    padding: 0px !important;
   }
 }

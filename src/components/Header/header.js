@@ -13,17 +13,9 @@ export default function Header() {
   const handleMenuClick = () => {
     if (window.innerWidth <= 1000) {
       setActive("nav_menu");
-      setToggleIcon("nav_toggler")
+      setToggleIcon("nav_toggler");
     }
   };
-
-
-    
-    
-    
-    
-    
-    
 
   const navToggle = () => {
     active === "nav_menu"
@@ -51,24 +43,32 @@ export default function Header() {
               <div className="right">
                 <nav>
                   <ul className={active}>
-                    <li  className="nav_item">
-                      <Link  className="linkEdit" to="/">
-                        <span  onClick={handleMenuClick} className="basespan">Home</span>
+                    <li className="nav_item">
+                      <Link className="linkEdit" to="/">
+                        <span onClick={handleMenuClick} className="basespan">
+                          Home
+                        </span>
                       </Link>
                     </li>
                     <li className="nav_item">
                       <Link className="linkEdit" to="./aboutus">
-                        <span onClick={handleMenuClick} className="spanedit">About Us</span>
+                        <span onClick={handleMenuClick} className="spanedit">
+                          About Us
+                        </span>
                       </Link>
                     </li>
                     <li className="nav_item">
                       <Link className="linkEdit" to="./services">
-                        <span  onClick={handleMenuClick} className="spanedit">Services</span>
+                        <span onClick={handleMenuClick} className="spanedit">
+                          Services
+                        </span>
                       </Link>
                     </li>
                     <li className="nav_item">
                       <Link className="linkEdit" to="./contactus">
-                        <span  onClick={handleMenuClick} className="spanedit">Contact Us</span>
+                        <span onClick={handleMenuClick} className="spanedit">
+                          Contact Us
+                        </span>
                       </Link>
                     </li>
                   </ul>
@@ -97,5 +97,3 @@ export default function Header() {
     </>
   );
 }
-
-

@@ -74,26 +74,26 @@ export default function Aboutus() {
       <section>
         <div className="Stats">
           <div className="container">
-            <div className="row">
-              <div className="col-lg-3">
+            <div className="row all">
+              <div className="col-lg-3 col-md-3">
                 <div className="box">
                   <h5>27+</h5>
                   <h6>Years Helping Business</h6>
                 </div>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-md-3">
                 <div className="box">
                   <h5>500+</h5>
                   <h6>Employees</h6>
                 </div>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-md-3">
                 <div className="box">
                   <h5>30M</h5>
                   <h6>Completed Projects</h6>
                 </div>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-md-3">
                 <div className="box">
                   <h5>90K+</h5>
                   <h6>5 Star Rating</h6>

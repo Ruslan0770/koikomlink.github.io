@@ -124,3 +124,9 @@
     width: 100%;
   }
 }
+@media screen and (max-width:350px) {
+    .Testimonial .box{
+      height: 47vh;
+    }
+    
+}

@@ -15,7 +15,7 @@ export default function Services() {
         <div className="container">
           <div className="box">
             <div className="row all2 align-items-center">
-              <div className="col-lg-8">
+              <div className="col-lg-8 col-md-9">
                 <div className="left">
                   <h5>IT Solution</h5>
                   <p>
@@ -31,7 +31,7 @@ export default function Services() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-3">
                 <div className="right">
                   <img src={icons} alt="" />
                 </div>
@@ -40,12 +40,12 @@ export default function Services() {
           </div>
           <div className="box">
             <div className="row all align-items-center">
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-3">
                 <div className="left">
                   <img src={icons2} alt="" />
                 </div>
               </div>
-              <div className="col-lg-8">
+              <div className="col-lg-8 col-md-9">
                 <div className="right1">
                   <h5 style={{ textAlign: "end", marginRight: "27px" }}>
                     Web Development
@@ -67,7 +67,7 @@ export default function Services() {
           </div>
           <div className="box">
             <div className="row all2 align-items-center">
-              <div className="col-lg-8">
+              <div className="col-lg-8 col-md-9">
                 <div className="left">
                   <h5>Networking Services</h5>
                   <p>
@@ -83,7 +83,7 @@ export default function Services() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-3">
                 <div className="right">
                   <img src={icons3} alt="" />
                 </div>
@@ -92,12 +92,12 @@ export default function Services() {
           </div>
           <div className="box">
             <div className="row all align-items-center">
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-3">
                 <div className="left">
                   <img src={icons4} alt="" />
                 </div>
               </div>
-              <div className="col-lg-8">
+              <div className="col-lg-8 col-md-9">
                 <div className="right1">
                   <h5 style={{ textAlign: "end", marginRight: "27px" }}>
                     SEO Optimization
@@ -119,7 +119,7 @@ export default function Services() {
           </div>
           <div className="box">
             <div className="row all2 align-items-center">
-              <div className="col-lg-8">
+              <div className="col-lg-8 col-md-9">
                 <div className="left">
                   <h5>App Optimization</h5>
                   <p>
@@ -135,7 +135,7 @@ export default function Services() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-3">
                 <div className="right">
                   <img src={icons5} alt="" />
                 </div>
@@ -144,12 +144,12 @@ export default function Services() {
           </div>
           <div className="box">
             <div className="row all align-items-center">
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-3">
                 <div className="left">
                   <img src={icons6} alt="" />
                 </div>
               </div>
-              <div className="col-lg-8">
+              <div className="col-lg-8 col-md-9">
                 <div className="right1">
                   <h5 style={{ textAlign: "end", marginRight: "27px" }}>
                     Data Recovery

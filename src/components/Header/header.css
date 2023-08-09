@@ -100,10 +100,10 @@ button:after {
 }
 
 .nav_toggler div {
-  width: 2.2rem;
+  width: 2.1rem;
   height: 0.2rem;
-  margin: 0.4rem;
-  background: rgb(101, 84, 84);
+  margin: 0.3rem;
+  background: rgb(85, 69, 69);
   transition: 0.4s ease-in;
 }
 .nav_menu {
@@ -122,7 +122,7 @@ button:after {
 }
 @media screen and (max-width: 1000px) {
   .linkEdit span {
-    font-size: 25px;
+    font-size: 22px;
     color: #fff !important;
   }
   .headerall .right {
@@ -144,7 +144,7 @@ button:after {
     right: 0;
     width: 100%;
     height: 90vh;
-    padding: 9rem;
+    padding:130px;
     background: #fff;
     flex-direction: column;
     transform: translateX(100%);
@@ -207,5 +207,35 @@ button:after {
   opacity: 0;
 }
 .toggle .line3 {
-  transform: rotate(45deg) translate(-9px, -12px);
+  transform: rotate(45deg) translate(-6px, -11px);
+}
+@media screen and (max-width:350px) {
+    .Header .left img{
+      width: 120%;
+    }
+    .Header .left{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .Header .right{
+      width: 50%;
+    }
+    .Header .linkEdit button{
+      padding: 8px 10px;
+      font-size: 8px !important;
+    }
+    .Header .nav_toggler{
+      margin-left: 30px !important;
+    }
+    .headerall{
+      align-items: center;
+    }
+    .headerall .linkEdit span{
+      display: inline-block;
+      font-size: 20px !important;
+      width: 155% !important;
+    }
+    .headerall .nav_menu{
+      padding: 150px;
+    }
 }

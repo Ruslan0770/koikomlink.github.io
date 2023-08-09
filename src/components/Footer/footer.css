@@ -206,7 +206,7 @@
   }
   .Footer .box p {
     width: 100%;
-    font-size: 19px !important;
+    font-size: 16.0px !important;
   }
   .Footer .container {
     padding: 0px !important;
@@ -215,16 +215,17 @@
   .Footer .down .right {
     display: none;
   }
+  .Footer .iconcontent{
+    margin-top: 25px !important;
+  }
+  .Footer .box h6{
+    font-size: 18px !important;
+    margin-top: 17px;
+  }
 }
 @media screen and (max-width: 1000px) {
-  .Footer .box h6 {
-    margin-top: 15px;
-    font-size: 21px;
-  }
-  .Footer h5 {
-    margin-top: 50px;
-    font-size: 23px;
-  }
+ 
+  
   .Footer .iconcontent {
     margin-bottom: 40px;
   }
@@ -234,7 +235,7 @@
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 767px) {
   .Footer hr {
     width: 50%;
   }
@@ -245,5 +246,9 @@
   }
   .Footer {
     position: relative;
+  }
+  .Footer h5 {
+    margin-top: 30px;
+    font-size: 23px;
   }
 }

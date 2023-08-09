@@ -115,7 +115,7 @@
     text-align: left;
   }
   .Alert h3 {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {
@@ -161,4 +161,22 @@
   .Alert h3 {
     font-size: 31px;
   }
+}
+@media screen and (max-width:350px) {
+  .alertAll h3{
+    font-size: 20px !important;
+  }
+  .alertAll button{
+    padding: 8px 25px !important;
+    width: 60% !important;
+  }
+  .alertAll .closebutton{
+    display: flex;
+    justify-content: end;
+    margin-top: -10px;
+    margin-right: -16px;
+  }
+ .alertAll{
+  padding: 0px;
+ }
 }
