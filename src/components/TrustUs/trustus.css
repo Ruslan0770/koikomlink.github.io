@@ -52,10 +52,10 @@
   z-index: 1;
   border: 3px solid transparent;
   border-left-color: #143771;
-  transition:  all 0.6s;
+  transition: all 0.6s;
 }
 
-.Trust button:after{
+.Trust button:after {
   position: absolute;
   content: "";
   top: 0;
@@ -67,11 +67,11 @@
   z-index: -1;
 }
 
-.Trust button:hover{
+.Trust button:hover {
   color: #fff !important;
 }
 
-.Trust button:hover:after{
+.Trust button:hover:after {
   width: 100%;
 }
 .Trust .right {
@@ -84,20 +84,20 @@
     margin-top: 60px;
     width: 100%;
   }
-  .Trust h4{
+  .Trust h4 {
     text-align: center;
   }
-  .Trust h2{
+  .Trust h2 {
     text-align: center;
     width: 100%;
     font-size: 23px;
   }
-  .Trust p{
+  .Trust p {
     text-align: center;
     width: 100%;
     font-size: 17px;
   }
-  .Trust .minibox{
+  .Trust .minibox {
     text-align: center;
   }
 }
