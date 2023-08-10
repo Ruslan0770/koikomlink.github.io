@@ -14,6 +14,7 @@ export default function Header() {
     if (window.innerWidth <= 1000) {
       setActive("nav_menu");
       setToggleIcon("nav_toggler");
+    } else {
     }
   };
 
@@ -25,6 +26,8 @@ export default function Header() {
     toggleIcon === "nav_toggler"
       ? setToggleIcon("nav_toggler toggle")
       : setToggleIcon("nav_toggler");
+
+    document.body.style.overflow = active === "nav_menu" ? "hidden" : "auto";
   };
 
   return (
