@@ -15,7 +15,7 @@ export default function Header() {
       setActive("nav_menu");
       setToggleIcon("nav_toggler");
       document.body.style.overflow = "auto";
-    } 
+    }
   };
 
   const navToggle = () => {
@@ -28,6 +28,9 @@ export default function Header() {
       : setToggleIcon("nav_toggler");
     if (window.innerWidth <= 1000) {
       document.body.style.overflow = active === "nav_menu" ? "hidden" : "auto";
+    } 
+    else{
+      document.body.style.overflow = "auto";
     }
   };
 
