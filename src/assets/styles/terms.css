@@ -40,6 +40,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 155%; /* 27.9px */
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 600px) {

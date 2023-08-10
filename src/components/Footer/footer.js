@@ -5,6 +5,7 @@ import { SlEnvolopeLetter } from "react-icons/sl";
 import { AiFillLinkedin } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import logo from "../../assets/img/footerlogo.svg"
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -20,12 +21,11 @@ export default function Footer() {
             <div className="col-lg-5 col-md-6">
               <div className="box">
                 <div className="left">
-                  <h5>About Us</h5>
-                  <hr className="lefthr" />
+                  <img src={logo} alt="" />
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. <br /> Duis eu et
-                    interdum id. Malesuada amet <br /> rhoncus non sit. Lectus
-                    pellentesque <br /> ornare felis in semper sit.
+                    Lorem ipsum dolor sit amet consectetur. Duis eu et
+                    interdum id. Malesuada  amet  rhoncus non sit. Lectus
+                    pellentesque ornare felis in semper sit.
                   </p>
                   <div className="iconcontent">
                     <div className="iconedit">
@@ -93,25 +93,12 @@ export default function Footer() {
           </div>
         </div>
         <div className="down">
-          <div className="d-flex all">
-            <div className="col-lg-5 col-8 col-md-5">
               <div className="left">
                 <h6>
                   {new Date().getFullYear()} KOIKOM - All Rights Reserved.
                 </h6>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-3">
-              <div className="right">
-                <Link to="./terms">
-                  <span>Terms & Condition</span>
-                </Link>
-                <Link to="./privacy">
-                  <span>Privacy Policy</span>
-                </Link>
-              </div>
-            </div>
-          </div>
+           
         </div>
       </div>
     </>

@@ -14,7 +14,7 @@ export default function Header() {
     if (window.innerWidth <= 1000) {
       setActive("nav_menu");
       setToggleIcon("nav_toggler");
-      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
     }
   };
 
@@ -27,10 +27,10 @@ export default function Header() {
       ? setToggleIcon("nav_toggler toggle")
       : setToggleIcon("nav_toggler");
     if (window.innerWidth <= 1000) {
-      document.body.style.overflow = active === "nav_menu" ? "hidden" : "auto";
+      document.documentElement.style.overflow = active === "nav_menu" ? "hidden" : "auto";
     } 
     else{
-      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
     }
   };
 
@@ -79,7 +79,7 @@ export default function Header() {
                       </Link>
                     </li>
                   </ul>
-                  <Link className="linkEdit" to="/">
+                  <Link className="linkEdit">
                     <button
                       onClick={() => {
                         setOpenMock(true);

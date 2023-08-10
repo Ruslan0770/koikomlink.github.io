@@ -11,7 +11,8 @@
 }
 .About h2 {
   color: var(--blue, #143771);
-  font-size: 35px;
+  font-size: 34px;
+  width: 80%;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -19,6 +20,7 @@
 .About p {
   color: var(--gray-2, #545f6b);
   font-size: 18px;
+  width: 87%;
   font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 35.2px */
@@ -32,8 +34,11 @@
 .About .left {
   margin-bottom: 150px;
 }
-.About .right {
-  margin-bottom: 150px;
+.About .downright {
+  margin-top: 60px;
+}
+.About .downright p{
+  width: 90% !important;
 }
 .About .imgbox img {
   width: 40%;
@@ -93,6 +98,7 @@
   
   .About .imgbox {
     width: 100%;
+    margin-top: 100px;
   }
   .Stats .box {
     margin: auto;
@@ -113,25 +119,29 @@
   }
   .About .left p {
     text-align: left;
-    font-size: 25px;
+    font-size: 18px;
     width: 100%;
     margin-top: 30px;
   }
-  .About .right h2 {
+  .About .downright h2 {
     width: 100%;
     font-size: 24px;
     text-align: left;
   }
-  .About .right h3 {
+  .About .downright{
+    margin-top: -80px;
+  }
+  .About .downright h3 {
     text-align: start;
   }
-  .About .right p {
+  .About .downright p {
+    margin-top: 20px;
     text-align: left;
-    font-size: 25px;
+    font-size: 18px;
     width: 100%;
   }
   .Stats {
-    margin-top: -150px;
+    margin-top: -50px;
   }
   .Stats h5 {
     font-size: 38px;

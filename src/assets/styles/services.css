@@ -19,7 +19,7 @@
 }
 .Services p {
   color: var(--gray-2, #545f6b);
-  font-size: 17px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 35.2px */

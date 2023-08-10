@@ -21,15 +21,15 @@ export default function Aboutus() {
                   </h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Duis eu et interdum
-                    id. Malesuada <br /> amet rhoncus non sit. Lectus
-                    pellentesque ornare felis in semper sit. Lorem <br /> ipsum
+                    id. Malesuada  amet rhoncus non sit. Lectus
+                    pellentesque ornare felis in semper sit. Lorem  ipsum
                     dolor sit amet consectetur. Duis eu et interdum id.
-                    Malesuada amet <br /> rhoncus non sit. Lectus pellentesque
-                    ornare felis in semper sit. Lorem ipsum <br /> dolor sit
-                    amet consectetur. Duis eu et interdum id. Malesuada amet{" "}
-                    <br /> rhoncus non sit. Lectus pellentesque ornare felis in
-                    semper sit. Lorem ipsum <br /> dolor sit amet consectetur.
-                    Duis eu et interdum id. Malesuada amet <br /> rhoncus non
+                    Malesuada amet  rhoncus non sit. Lectus pellentesque
+                    ornare felis in semper sit. Lorem ipsum  dolor sit
+                    amet consectetur. Duis eu et interdum id. Malesuada amet
+                  rhoncus non sit. Lectus pellentesque ornare felis in
+                    semper sit. Lorem ipsum  dolor sit amet consectetur.
+                    Duis eu et interdum id. Malesuada amet  rhoncus non
                     sit. Lectus pellentesque ornare felis in semper sit.
                   </p>
                 </div>
@@ -49,21 +49,21 @@ export default function Aboutus() {
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="right">
+                <div className="downright">
                   <h3>ABOUT OUR TEAM</h3>
                   <h2>The Team</h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Duis eu et interdum
-                    id. <br /> Malesuada amet rhoncus non sit. Lectus
-                    pellentesque ornare <br /> felis in semper sit. Lorem ipsum
-                    dolor sit amet consectetur. Duis <br /> eu et interdum id.
-                    Malesuada amet rhoncus non sit. Lectus <br /> pellentesque
-                    ornare felis in semper sit. Lorem ipsum dolor sit <br />{" "}
-                    amet consectetur. Duis eu et interdum id. Malesuada amet{" "}
-                    <br /> rhoncus non sit. Lectus pellentesque ornare felis in
-                    semper sit. <br /> Lorem ipsum dolor sit amet consectetur.
-                    Duis eu et interdum id. <br /> Malesuada amet rhoncus non
-                    sit. Lectus pellentesque ornare <br /> felis in semper sit.
+                    id. Malesuada amet rhoncus non sit. Lectus
+                    pellentesque ornare felis in semper sit. Lorem ipsum
+                    dolor sit amet consectetur. Duis  eu et interdum id.
+                    Malesuada amet rhoncus non sit. Lectus  pellentesque
+                    ornare felis in semper sit. Lorem ipsum dolor sit 
+                    amet consectetur. Duis eu et interdum id. Malesuada amet
+                     rhoncus non sit. Lectus pellentesque ornare felis in
+                    semper sit.  Lorem ipsum dolor sit amet consectetur.
+                    Duis eu et interdum id.  Malesuada amet rhoncus non
+                    sit. Lectus pellentesque ornare  felis in semper sit.
                   </p>
                 </div>
               </div>

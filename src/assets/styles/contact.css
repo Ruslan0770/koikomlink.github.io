@@ -55,7 +55,7 @@
 .ContactUs .box {
   border-radius: 7px;
   background: var(--blue, #fff);
-  width:70%;
+  width:75%;
   height: 43vh;
   position: absolute;
   top: 50%;
@@ -80,7 +80,7 @@
   background-size: cover;
   height: 80vh;
   position: relative;
-  width: 70%;
+  width: 75%;
   margin-top: -50px;
 }
 
@@ -161,16 +161,20 @@ button:after {
    }
    .ContactUs .left{
     margin-top: 50px;
+    margin-bottom: -95px;
+    width: 100%;
+    height: 55vh;
   }
   .ContactUs h6{
     font-size: 16px;
   }
-  .ContactUs .left{
-    width: 100%;
-    height: 55vh;
+
+  .ContactUs .container{
+    padding: 0px !important;
   }
+  
   .ContactUs .box{
-    padding-top: 20px;
+    padding: 50px;
     height: 40vh;
     width: 65%;
   }
@@ -178,7 +182,7 @@ button:after {
     margin-top: -10px;
   }
   .ContactUs img{
-    width: 65%;
+    width: 80%;
   }
   .ContactUs h3{
     font-size: 30px;
