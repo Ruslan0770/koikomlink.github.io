@@ -18,7 +18,8 @@ export default function Header() {
     }
   };
 
-  const navToggle = () => {
+  const navToggle = (event) => {
+    event.preventDefault();
     active === "nav_menu"
       ? setActive("nav_menu nav_active")
       : setActive("nav_menu");
