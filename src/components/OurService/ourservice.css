@@ -25,8 +25,8 @@
   background: var(--white, #fff);
   box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.25);
   text-align: left;
-  width: 75%;
-  height: 40vh;
+  width: 90%;
+  height: 35vh;
   margin-top: 30px;
   cursor: pointer;
 }
@@ -64,9 +64,10 @@
   margin-left: 30px;
   color: var(--gray-2, #545f6b);
   font-size: 14px;
+  width: 82%;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 19.6px */
+  line-height: 140%; 
 }
 .OurService h5 {
   color: var(--blue, #143771);
@@ -86,7 +87,6 @@
   text-decoration-line: underline;
   margin-left: 30px;
   width: 100%;
-  margin-top: 40px;
   position: relative;
 }
 .OurService .linkedit{
@@ -105,10 +105,10 @@
     margin: auto;
     margin-top: 30px;
     width: 100%;
-    height: 44vh;
+    height: 41vh;
   }
   .OurService .box p{
-    width: 100%;
+    width: 80%;
     font-size: 16px;
   }
 }
@@ -117,6 +117,7 @@
     margin: auto;
     margin-top: 40px;
     width: 100%;
+    height: 30vh;
   }
 }
 @media screen and (min-width: 950px) and (max-width: 1200px) {
@@ -127,8 +128,8 @@
 }
 @media screen and (max-width:361px) {
     .OurService p{
-      font-size: 12.3px !important;
-      width: 90% !important;
+      font-size: 13.3px !important;
+      width: 71% !important;
     }
    
 }

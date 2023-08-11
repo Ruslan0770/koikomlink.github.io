@@ -6,6 +6,8 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/img/footerlogo.svg"
+import copy from "../../assets/img/footercopy.svg"
+
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -94,9 +96,12 @@ export default function Footer() {
         </div>
         <div className="down">
               <div className="left">
+                <div className="leftbox">
+                <img src={copy} alt="" />
                 <h6>
                   {new Date().getFullYear()} KOIKOM - All Rights Reserved.
                 </h6>
+                </div>
               </div>
            
         </div>

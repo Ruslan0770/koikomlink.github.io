@@ -29,8 +29,8 @@ export default function Ourservice() {
                 <img src={icons1} alt="" />
                 <h5>IT Solution</h5>
                 <p>
-                  Lorem ipsum dolor sit amet <br /> consectetur. Scelerisque
-                  elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
+                  Lorem ipsum dolor sit amet consectetur. Scelerisque
+                  elit vitae dui rhoncus est vestibulum metus 
                   sagittis. Amet duis est eget nisi.
                 </p>
                 <Link className="linkedit" to="./services">
@@ -50,8 +50,8 @@ export default function Ourservice() {
                 <img src={icons2} alt="" />
                 <h5>Web Development</h5>
                 <p>
-                  Lorem ipsum dolor sit amet <br /> consectetur. Scelerisque
-                  elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
+                  Lorem ipsum dolor sit amet consectetur. Scelerisque
+                  elit vitae dui rhoncus est vestibulum metus 
                   sagittis. Amet duis est eget nisi.
                 </p>
                 <Link className="linkedit" to="./services">
@@ -71,9 +71,8 @@ export default function Ourservice() {
                 <img src={icons3} alt="" />
                 <h5>Networking Services</h5>
                 <p>
-                  Lorem ipsum dolor sit amet <br /> consectetur. Scelerisque
-                  elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
-                  sagittis. Amet duis est eget nisi.
+                  Lorem ipsum dolor sit amet consectetur. Scelerisque
+                  elit vitae dui rhoncus est vestibulum metus sagittis. Amet duis est eget nisi.
                 </p>
                 <Link className="linkedit" to="./services">
                   <span>Read more</span>
@@ -92,8 +91,8 @@ export default function Ourservice() {
                 <img src={icons4} alt="" />
                 <h5>SEO Optimization</h5>
                 <p>
-                  Lorem ipsum dolor sit amet <br /> consectetur. Scelerisque
-                  elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
+                  Lorem ipsum dolor sit amet consectetur. Scelerisque
+                  elit vitae dui rhoncus est vestibulum metus 
                   sagittis. Amet duis est eget nisi.
                 </p>
                 <Link className="linkedit" to="./services">
@@ -113,8 +112,8 @@ export default function Ourservice() {
                 <img src={icons5} alt="" />
                 <h5>App Optimization</h5>
                 <p>
-                  Lorem ipsum dolor sit amet <br /> consectetur. Scelerisque
-                  elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
+                  Lorem ipsum dolor sit amet consectetur. Scelerisque
+                  elit vitae dui rhoncus est vestibulum metus
                   sagittis. Amet duis est eget nisi.
                 </p>
                 <Link className="linkedit" to="./services">
@@ -134,8 +133,8 @@ export default function Ourservice() {
                 <img src={icons6} alt="" />
                 <h5>Data Recovery</h5>
                 <p>
-                  Lorem ipsum dolor sit amet <br /> consectetur. Scelerisque
-                  elit vitae dui <br /> rhoncus est vestibulum metus <br />{" "}
+                  Lorem ipsum dolor sit amet consectetur. Scelerisque
+                  elit vitae dui rhoncus est vestibulum metus
                   sagittis. Amet duis est eget nisi.
                 </p>
                 <Link className="linkedit" to="./services">

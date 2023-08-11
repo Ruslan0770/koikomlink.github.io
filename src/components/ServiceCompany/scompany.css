@@ -29,11 +29,11 @@
 }
 .leftItems p {
   color: var(--white, #fff);
-  font-size: 16px;
+  font-size: 17px;
   width: 100%;
   font-style: normal;
   font-weight: 400;
-  line-height: 155%; 
+  line-height: 160%; 
   margin-top: 15px;
 }
 .leftItems .button {
