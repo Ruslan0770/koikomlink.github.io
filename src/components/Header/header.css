@@ -139,7 +139,7 @@ button:after {
   .nav_menu {
     list-style: none;
     position: fixed;
-    top: 12vh;
+    top: 10.5vh;
     z-index: 1;
     right: 0;
     width: 100%;
