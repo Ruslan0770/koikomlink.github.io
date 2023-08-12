@@ -1,7 +1,7 @@
 import "./header.css";
 import React from "react";
 import koikom from "../../assets/img/koikom.svg";
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 import { useState } from "react";
 import MockUp from "../Mockup/mockup";
 
@@ -52,32 +52,32 @@ export default function Header() {
                 <nav>
                   <ul className={active}>
                     <li className="nav_item">
-                      <Link className="linkEdit" to="/">
+                      <NavLink className="linkEdit" to="/">
                         <span onClick={handleMenuClick} className="basespan">
                           Home
                         </span>
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="nav_item">
-                      <Link className="linkEdit" to="./aboutus">
+                      <NavLink className="linkEdit" to="./aboutus">
                         <span onClick={handleMenuClick} className="spanedit">
                           About Us
                         </span>
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="nav_item">
-                      <Link className="linkEdit" to="./services">
+                      <NavLink className="linkEdit" to="./services">
                         <span onClick={handleMenuClick} className="spanedit">
                           Services
                         </span>
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="nav_item">
-                      <Link className="linkEdit" to="./contactus">
+                      <NavLink className="linkEdit" to="./contactus">
                         <span onClick={handleMenuClick} className="spanedit">
                           Contact Us
                         </span>
-                      </Link>
+                      </NavLink>
                     </li>
                   </ul>
                   <Link className="linkEdit">

@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Borel", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 .container {
   padding-left: 80px !important;
   padding-right: 80px !important;
 }
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
   overflow-x: hidden;
@@ -16,4 +19,15 @@ body {
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  cursor: pointer;
+  font-style: normal;
 }

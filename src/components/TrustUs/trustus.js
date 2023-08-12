@@ -17,7 +17,7 @@ export default function TrustUs() {
                 >
                   <h4>WHY TRUST US?</h4>
                   <h2>
-                    Safeguard your brand with Cyber-Security & IT Solutions
+                  Achieve digital transformation for business services
                   </h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Duis eu et interdum

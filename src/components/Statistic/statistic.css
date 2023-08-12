@@ -1,7 +1,7 @@
 .Statistic {
   background-image: url(../../assets//img/statistic.svg);
   padding: 4rem;
-  margin-top: 8rem;
+  margin-top: 5rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,9 +12,7 @@
 .Statistic h5 {
   color: #fff;
   text-align: center;
-  /* h2-bold -18 */
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.54px;
@@ -23,7 +21,6 @@
   color: #fff;
   text-align: center;
   font-size: 35px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }

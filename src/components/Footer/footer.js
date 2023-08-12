@@ -7,7 +7,9 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/img/footerlogo.svg"
 import copy from "../../assets/img/footercopy.svg"
-
+import icons1 from "../../assets/img/footericons1.svg"
+import icons2 from "../../assets/img/footericons2.svg"
+import icons3 from "../../assets/img/footericons3.svg"
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -20,7 +22,7 @@ export default function Footer() {
       <div className="Footer">
         <div className="container">
           <div className="row all">
-            <div className="col-lg-5 col-md-6">
+            <div className="col-lg-6 col-md-6">
               <div className="box">
                 <div className="left">
                   <img src={logo} alt="" />
@@ -32,17 +34,18 @@ export default function Footer() {
                   <div className="iconcontent">
                     <div className="iconedit">
                       <div className="name">Mobile</div>
-                      <BsFillTelephoneFill className="icons" />
+                      <img src={icons1} className="icons" alt="" />
+
                     </div>
                     <div className="iconedit">
                       <div className="name">Email</div>
 
-                      <SlEnvolopeLetter className="icons" />
+                      <img src={icons2} className="icons" alt="" />
                     </div>
                     <div className="iconedit">
                       <div className="name">Linkedin</div>
 
-                      <AiFillLinkedin className="icons" />
+                       <img src={icons3} className="icons" alt="" />
                     </div>
                   </div>
                 </div>
@@ -52,7 +55,7 @@ export default function Footer() {
               <div className="box">
                 <div className="center">
                   <h5>Our Services</h5>
-                  <hr />
+                  <hr  className="centerhr"/>
                   <Link to="./services">
                     <h6>IT Solution</h6>
                   </Link>
@@ -72,22 +75,22 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-3">
+            <div className="col-lg-2 col-md-3">
               <div className="box">
                 <div className="right">
                   <h5>Useful Links</h5>
-                  <hr />
+                  <hr className="righthr"/>
                   <Link to="./aboutus">
                     <h6>About Us</h6>
                   </Link>
                   <Link to="./contactus">
                     <h6>Contact Us</h6>
                   </Link>
-                  <Link to="./terms">
-                    <h6 className="footer_active">Terms & Condition</h6>
-                  </Link>
                   <Link to="./privacy">
                     <h6 className="footer_active">Privacy Policy</h6>
+                  </Link>
+                  <Link to="./terms">
+                    <h6 className="footer_active">Terms & Condition</h6>
                   </Link>
                 </div>
               </div>

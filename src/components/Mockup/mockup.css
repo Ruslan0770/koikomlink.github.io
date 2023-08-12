@@ -17,8 +17,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  padding: 60px 150px;
-  border-radius: 12px;
+  padding: 75px 170px;
+  border-radius: 5px;
 }
 
 .alertAll .sendbutton:hover {
@@ -50,35 +50,45 @@
 
 .Alert h3 {
   color: var(--blue, #143771);
-  font-size: 30px;
-  font-style: normal;
+  font-size: 26px;
   font-weight: 600;
-  line-height: 130%; /* 32.5px */
+  line-height: 130%;
+  margin-left: -30px;
 }
 
 .Alert input {
-  color: var(--gray-2, #545f6b);
-  font-size: 16px;
-  background-color: rgba(245, 245, 245, 1);
+  margin-left: -30px;
+
+  color: rgba(245, 245, 245, 1);
+  background: #f5f5f5;
   font-style: normal;
   font-weight: 500;
   border-radius: 4px;
   border: 1px solid transparent;
   line-height: 155%; /* 27.9px */
   margin-top: 20px;
-  width: 100%;
+  width: 135%;
   height: 6vh;
-  padding: 20px 40px;
+  padding: 20px 20px;
   cursor: pointer;
 }
+.Alert input::placeholder {
+  color: var(--gray-2, #545f6b);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 155%; /* 27.9px */
+}
 .Alert .sendbutton {
+  margin-left: -30px;
+
   background: var(--red, #c01c25);
   color: var(--white, #fff);
   font-size: 14px;
   margin-top: 20px;
   font-style: normal;
   padding: 12px 50px;
-  width: 50%;
+  width: 60%;
   font-weight: 600;
   outline: none;
   border: none;
@@ -88,25 +98,28 @@
 }
 
 .closebutton {
-  width: 50px !important;
   position: absolute;
-  right: 0;
-  top: 0;
-  color: #545f6b;
-  border: none !important;
-  font-size: 28px !important;
-  background-color: transparent !important;
-  padding: 0px 12px !important;
+  right: 2%;
+  top: 3%;
+  width: 5%;
 }
 @media screen and (max-width: 600px) {
   .Alert input {
-    font-size: 14px;
-    padding: 8px;
-    width: 100%;
+    padding: 18px;
+    width: 95%;
+    margin-left: 0px !important;
+    
+  }
+  .Alert input::placeholder{
+    font-size: 12px !important;
+  }
+  .Alert  button{
+    margin-left: 0px !important;
+      width: 53% !important;
+      padding: 9px 0 !important;
   }
   .Alert .box {
     position: absolute;
-    left: 8%;
   }
   .alertAll {
     position: relative;
@@ -115,7 +128,12 @@
     text-align: left;
   }
   .Alert h3 {
-    font-size: 27px;
+    font-size: 23px;
+    margin-left: 0px !important;
+
+  }
+  .Alert .closebutton {
+    width: 8%;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {
@@ -123,12 +141,17 @@
     font-size: 18px;
     padding: 8px;
     width: 120%;
+    margin-left: 0px !important;
   }
   .Alert .box {
     position: absolute;
     left: 45%;
     top: 50%;
     transform: translate(-50%, -50%);
+  }
+  .alertAll button{
+    margin-left: 0px !important;
+
   }
   .alertAll {
     position: relative;
@@ -137,7 +160,9 @@
     text-align: left;
   }
   .Alert h3 {
-    font-size: 31px;
+    font-size: 25px;
+    margin-left: 0px !important;
+
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
@@ -155,28 +180,27 @@
   .alertAll {
     position: relative;
     width: 55%;
-    height: 50vh;
+    height: 54vh;
     text-align: left;
   }
   .Alert h3 {
-    font-size: 31px;
+    font-size: 30px;
   }
 }
-@media screen and (max-width:350px) {
-  .alertAll h3{
+@media screen and (max-width: 350px) {
+  .alertAll h3 {
     font-size: 20px !important;
   }
-  .alertAll button{
+  .alertAll button {
     padding: 8px 25px !important;
-    width: 60% !important;
+    width: 52% !important;
+    font-size: 12px !important;
   }
-  .alertAll .closebutton{
+  .alertAll .closebutton {
     display: flex;
     justify-content: end;
-    margin-top: -10px;
-    margin-right: -16px;
   }
- .alertAll{
-  padding: 0px;
- }
+  .alertAll {
+    padding: 0px;
+  }
 }

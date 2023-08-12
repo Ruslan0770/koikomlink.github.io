@@ -1,11 +1,10 @@
 .Terms {
-  padding: 6rem 0;
+  padding: 10rem 0;
 }
 .Terms h2 {
   color: var(--blue, #143771);
   text-align: center;
   font-size: 35px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
@@ -21,24 +20,22 @@
 .Terms span {
   color: var(--blue, #143771);
   font-size: 18px;
-  font-style: normal;
   margin-left: 10px;
   font-weight: 500;
-  line-height: 155%; /* 34.1px */
+  line-height: 155%; 
 }
 .Terms p {
   color: var(--gray-2, #545f6b);
   margin-top: 10px;
   margin-left: 30px;
   font-size: 17px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 160%; /* 35.2px */
+  line-height: 160%; 
 }
 .Terms h6 {
   color: var(--red, #c01c25);
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
-  line-height: 155%; /* 27.9px */
+  line-height: 155%; 
 }

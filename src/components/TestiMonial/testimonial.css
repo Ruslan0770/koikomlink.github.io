@@ -5,7 +5,6 @@
   color: var(--red, #c01c25);
   text-align: center;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.54px;
@@ -14,7 +13,6 @@
   color: var(--blue, #143771);
   text-align: center;
   font-size: 35px;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
@@ -62,9 +60,9 @@
   width: 85%;
   margin-left: 20px;
   font-size: 14px;
-  font-style: italic;
+  font-style: italic  !important;
   font-weight: 500;
-  line-height: 140%; /* 19.6px */
+  line-height: 140%; 
 }
 .Testimonial .iconsEdit {
   margin-top: 20px;
@@ -80,7 +78,6 @@
   color: var(--blue, #143771);
   text-align: center;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
@@ -88,7 +85,6 @@
   color: var(--gray-2, #545f6b);
   text-align: center;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
 }

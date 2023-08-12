@@ -4,12 +4,7 @@ import "./statistic.css";
 export default function Statistic() {
   return (
     <>
-      <div
-        data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
-        className="Statistic"
-      >
+      <div className="Statistic">
         <div className="row all">
           <div className="col-lg-2 col-md-3">
             <div className="box">

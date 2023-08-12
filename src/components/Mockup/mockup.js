@@ -1,14 +1,13 @@
 import React from "react";
 import "./mockup.css";
+import close from "../../assets/img/close.svg"
 
 export default function MockUp({ closeMock }) {
   return (
     <>
       <div className="Alert">
         <div className="alertAll">
-          <button className="closebutton" onClick={() => closeMock(false)}>
-            X
-          </button>
+           <img className="closebutton" onClick={() => closeMock(false)} src={close} alt="" />
           <div className="box">
           <h3>Want to get support?</h3>
           <form>
