@@ -26,13 +26,13 @@
 }
 .leftItems h1 {
   color: var(--white, #fff);
-  font-size: 40px;
+  font-size: 35px !important;
   font-weight: 700;
   line-height: normal;
 }
 .leftItems p {
   color: var(--white, #fff);
-  font-size: 17px;
+  font-size: 14px;
   width: 100%;
   font-weight: 400;
   line-height: 160%; 

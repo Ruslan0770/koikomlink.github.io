@@ -17,8 +17,8 @@ export default function Transform() {
           <div className="pedit text-center">
             <p>
               Lorem ipsum dolor sit amet consectetur. Elementum convallis
-              interdum sem  vestibulum fringilla venenatis est. Malesuada
-              mauris lacus sit suspendisse adipiscing vitae augue.
+              interdum sem <br /> vestibulum fringilla venenatis est. Malesuada
+              mauris lacus sit suspendisse <br /> adipiscing vitae augue.
             </p>
           </div>
           <div className="buttonedit">
