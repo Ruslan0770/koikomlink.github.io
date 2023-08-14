@@ -1,5 +1,5 @@
 .About {
-  padding: 15rem 0;
+  padding: 15rem 0 0 0;
 }
 .About h3 {
   color: var(--red, #c01c25);
@@ -51,7 +51,7 @@
 }
 
 .Stats {
-  margin-bottom: 150px;
+  padding: 0 0 10rem 0 !important;
 }
 .Stats h5 {
   color: var(--blue, #143771);
@@ -122,17 +122,15 @@
     font-size: 18px;
     width: 100%;
   }
-  .Stats {
-    margin-top: -50px;
-  }
+  
   .Stats h5 {
-    font-size: 38px;
+    font-size: 30px;
   }
   .Stats h6 {
-    font-size: 21px;
+    font-size: 20px;
   }
   .Stats .box {
-    margin-top: 50px;
+    margin-top: 60px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {

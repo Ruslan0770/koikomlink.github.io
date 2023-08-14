@@ -1,8 +1,5 @@
 import React, { useEffect } from "react";
 import "./footer.css";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { SlEnvolopeLetter } from "react-icons/sl";
-import { AiFillLinkedin } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/img/footerlogo.svg"

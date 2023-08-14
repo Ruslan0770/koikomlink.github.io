@@ -31,3 +31,6 @@ span {
   cursor: pointer;
   font-style: normal;
 }
+img{
+  z-index: 0;
+}

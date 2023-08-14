@@ -122,7 +122,7 @@ button:after {
 }
 @media screen and (max-width: 1000px) {
   .linkEdit span {
-    font-size: 22px;
+    font-size: 20px;
     color: #fff !important;
   }
   .headerall .right {

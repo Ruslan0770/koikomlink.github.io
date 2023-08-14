@@ -94,7 +94,7 @@ button:after {
   
   .Transform p {
     width: 100%;
-    font-size: 16px;
+    font-size: 12px;
   }
   .Transform h2{
     font-size: 23px !important;
@@ -104,17 +104,17 @@ button:after {
     justify-content: center;
   }
   .Transform button{
-    font-size: 12px !important;
+    font-size: 11px !important;
   }
 }
 @media screen and (min-width: 300px) and (max-width: 421px) {
   .Transform .buttonedit button {
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 0px;
   }
   .Transform .buttonedit .button {
     width: 100%;
-    padding: 10px 35px;
+    padding: 10px 25px;
   }
 }
 @media screen and (max-width:361px) {
