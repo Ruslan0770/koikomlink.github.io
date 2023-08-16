@@ -27,8 +27,18 @@
   margin-top: 30px;
   transition: 1s;
   cursor: pointer;
+  /* overflow: scroll; */
 }
+.Testimonial .boxall{
+  /* overflow-y: scroll;
+  width: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none; */
 
+}
+.Testimonial .boxall::-webkit-scrollbar{
+  /* display: none; */
+}
 .Testimonial .box:hover {
   background-color: #143771;
 }

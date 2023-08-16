@@ -27,7 +27,7 @@
   font-size: 15px;
   line-height: normal;
   font-weight: 500;
-  color: rgba(54, 62, 71, 1);
+  color: var(--gray, #363E47);
 }
 
 .Header nav {
@@ -134,7 +134,7 @@ button:after {
   .nav_toggler {
     display: block;
     margin-bottom: 15px;
-    margin-left: 10px;
+    margin-left: 30px;
   }
   .nav_menu {
     list-style: none;
@@ -153,9 +153,9 @@ button:after {
   }
 
   .Header .linkEdit button {
-    font-size: 10px;
-    width: 60%;
-    padding: 3px 30px;
+    font-size: 8px;
+    width: 70%;
+    padding: 10px 20px;
   }
   .headerall {
     display: flex;
@@ -176,6 +176,10 @@ button:after {
   }
   .headerall .nav_toggler {
     margin-right: -50px;
+  }
+  .headerall button{
+    padding: 10px 30px !important;
+    width: 65% !important;
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
@@ -221,11 +225,12 @@ button:after {
   }
 
   .Header .linkEdit button {
-    padding: 9px 10px;
+    padding: 9px 15px;
     font-size: 7px !important;
+    width: 67% !important;
   }
   .Header .nav_toggler {
-    margin-left: 30px !important;
+    margin-left: 38px !important;
   }
   .headerall {
     align-items: center;

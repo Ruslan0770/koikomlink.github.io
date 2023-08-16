@@ -4,7 +4,6 @@ import contact2 from "../assets/img/contactlocation2.svg";
 import contact3 from "../assets/img/contactlocation3.svg";
 import "../assets/styles/contact.css";
 
-
 export default function Contactus() {
   return (
     <>
@@ -17,28 +16,24 @@ export default function Contactus() {
                   <div className="miniboxitems">
                     <h3>Info</h3>
                     <div className="itemsEdit">
-                     <img src={contact} alt="" />
+                      <img src={contact} alt="" />
                     </div>
                     <div className="itemsEdit">
-                     <img src={contact2} alt="" />
+                      <img className="imgedit2" src={contact2} alt="" />
                     </div>
                     <div className="itemsEdit">
-                     <img src={contact3} alt="" />
+                      <img className="imgedit3" src={contact3} alt="" />
                     </div>
                   </div>
                 </div>
-                  
-                  
-                   
               </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-5 rightall">
               <div className="right">
-
-              <h2>Contact Us</h2>
+                <h2>Contact Us</h2>
                 <h6>
-                  Feel free to contact us any time. We will get back to 
-                  you as soon as we can!
+                  Feel free to contact us any time. We will get back to you as
+                  soon as we can!
                 </h6>
                 <form>
                   <input
@@ -58,9 +53,6 @@ export default function Contactus() {
                   />
                 </form>
                 <button>Send</button>
-
-
-             
               </div>
             </div>
           </div>
