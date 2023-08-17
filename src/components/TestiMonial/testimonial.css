@@ -1,5 +1,7 @@
 .Testimonial {
   padding: 5rem 0;
+  overflow-x: auto;
+
 }
 .Testimonial h4 {
   color: var(--red, #c01c25);
@@ -29,15 +31,12 @@
   cursor: pointer;
   /* overflow: scroll; */
 }
-.Testimonial .boxall{
-  /* overflow-y: scroll;
-  width: 100%;
-  -ms-overflow-style: none;
-  scrollbar-width: none; */
 
-}
-.Testimonial .boxall::-webkit-scrollbar{
+
+
+.Testimonial::-webkit-scrollbar{
   /* display: none; */
+  width: 0;
 }
 .Testimonial .box:hover {
   background-color: #143771;

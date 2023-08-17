@@ -19,8 +19,9 @@ export default function Testimonial() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
             className="row all"
+            
           >
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-6 col-12">
              <div className="boxall">
              <div className="box text-center">
                 <AiFillStar className="iconsEdit" />
@@ -39,7 +40,7 @@ export default function Testimonial() {
               </div>
              </div>
             </div>
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-6 col-12">
              <div className="boxall">
              <div className="box text-center">
                 <AiFillStar className="iconsEdit" />
@@ -58,7 +59,7 @@ export default function Testimonial() {
               </div>
              </div>
             </div>
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-6 col-12">
               <div className="boxall">
               <div className="box text-center">
                 <AiFillStar className="iconsEdit" />
@@ -77,7 +78,7 @@ export default function Testimonial() {
               </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-6 col-12">
               <div className="boxall">
               <div className="box text-center">
                 <AiFillStar className="iconsEdit" />

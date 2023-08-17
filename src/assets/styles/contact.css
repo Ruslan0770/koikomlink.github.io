@@ -1,10 +1,11 @@
 .ContactUs {
-  padding: 4rem 0 0rem 0;
+  padding: 10rem 0 7rem 0;
+  position: relative;
 }
 
 .ContactUs .right {
-  position: relative;
-  margin-top: 140px;
+  margin-top: 45px;
+
 }
 .ContactUs h2 {
   color: var(--blue, #143771);
@@ -79,11 +80,11 @@ line-height: 155%; /* 27.9px */
   background-image: url("../img//contactglass.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  position: relative;
-  right: 26.9%;
-  width: 100%;
-  margin-top: -50px;
+  height: 84.5vh;
+  position: absolute;
+  left: 0;
+  width: 45%;
+  margin-top: -80px;
 }
 
 .ContactUs img{
@@ -132,28 +133,29 @@ button:after {
   flex-direction: column-reverse;
  }
  .ContactUs{
-  padding: 6rem 0;
+  padding: 4rem 0 29rem 0 !important;
+  position: relative !important;
  }
  .ContactUs input{
   width: 95%;
  }
  .ContactUs .left{
-  position: relative;
-  right: 28px;
-  width: 115% !important;
+  position: absolute;
+  right: 10px;
+  width: 100% !important;
   margin-top: 40px;
 }
 .ContactUs h6{
-  font-size: 17px;
+  font-size: 16px;
 }
 .ContactUs .left{
   width: 100%;
-  height: 45vh;
+  height: 47vh;
 }
 .ContactUs .box{
-  padding-top: 10px;
-  height: 35vh;
-  width: 90%;
+  padding-top: 25px;
+  height: 36vh;
+  width: 80%;
 }
 .ContactUs .miniboxitems{
   margin-top: -10px;
@@ -185,10 +187,13 @@ button:after {
    }
    .ContactUs .left{
     margin-top: 50px;
-    width: 106%;
-    height: 55vh;
-    position: relative;
-    right: 23px;
+    width: 100%;
+    height: 48vh;
+    position: absolute;
+  }
+  .ContactUs{
+    position: relative !important;
+    padding: 7rem 0 38.5rem 0;
   }
   .ContactUs h6{
     font-size: 16px;
@@ -203,40 +208,52 @@ button:after {
   
   .ContactUs .box{
     padding: 50px;
-    height: 45vh;
-    width: 70%;
+    height: 43vh;
+    width: 65%;
   }
   .ContactUs .miniboxitems{
     margin-top: -10px;
   }
   .ContactUs img{
-    width: 80%;
+    width: 75%;
     margin-top: 10px;
   }
   .ContactUs .imgedit2{
-    width: 75% !important;
+    width: 70% !important;
   }
   .ContactUs .imgedit3{
-    width: 85% !important;
+    width: 80% !important;
   }
   .ContactUs h3{
-    font-size: 55px !important;
+    font-size: 50px !important;
   }
   
 }
 @media screen and (min-width:991px) and (max-width:1400px) {
     .ContactUs .left{
-      width: 90%;
+      width: 40%;
+      height: 79.5vh !important;
     }
-    .ContactUs .box img{
-      width: 70%;
-    }
+    
     .ContactUs .box{
-      width: 90%;
+      width: 75%;
       height: 48vh !important;
+      padding-top: 0px !important;
+    }
+    .ContactUs{
+      position: relative;
     }
     .ContactUs h3{
-      font-size: 40px;
+      font-size: 35px;
+    }
+    .ContactUs img{
+      width: 70%;
+    }
+    .ContactUs .imgedit2{
+      width: 65% !important;
+    }
+    .ContactUs .imgedit3{
+      width: 75% !important;
     }
     .ContactUs h6{
       font-size: 18px;
@@ -249,5 +266,11 @@ button:after {
     .ContactUs input{
       font-size: 12px !important;
       width: 90%;
+    }
+    .ContactUs .box{
+      padding-top: 10px !important;
+    }
+    .ContactUs h6{
+      font-size: 15px !important;
     }
 }

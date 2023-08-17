@@ -2,14 +2,14 @@
   height: 88vh;
   background-color: #143771;
   position: relative;
-  width: 55%;
+  width: 60%;
 }
 .Service{
  padding: 90px 0px;
 }
 
 .Service .right {
-  width: 45%;
+  width: 40%;
 }
 .leftItems {
   position: absolute;
@@ -181,8 +181,8 @@ button:after {
       margin-left: -30px !important;
     }
     .Service button{
-      padding: 8px 18px !important;
-      width: 85% !important;
+      padding: 7px 15px !important;
+      width: 90% !important;
       font-size: 10px !important;
       display: flex;
       margin-left: 35px !important;

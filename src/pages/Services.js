@@ -41,7 +41,7 @@ export default function Services() {
           <div className="box">
             <div className="row all align-items-center">
               <div className="col-lg-4 col-md-3">
-                <div className="left">
+                <div className="left leftreverse">
                   <img src={icons2} alt="" />
                 </div>
               </div>
@@ -93,7 +93,7 @@ export default function Services() {
           <div className="box">
             <div className="row all align-items-center">
               <div className="col-lg-4 col-md-3">
-                <div className="left">
+                <div className="left leftreverse">
                   <img src={icons4} alt="" />
                 </div>
               </div>
@@ -145,7 +145,7 @@ export default function Services() {
           <div className="box">
             <div className="row all align-items-center">
               <div className="col-lg-4 col-md-3">
-                <div className="left">
+                <div className="left leftreverse">
                   <img src={icons6} alt="" />
                 </div>
               </div>

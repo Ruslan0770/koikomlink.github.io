@@ -10,10 +10,12 @@ import { useState, useEffect } from "react";
 export default function Customers() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const images = [brend1, brend2, brend3, brend4, brend5];
+  
+const isMobile = window.innerWidth < 600;
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prevSlide) =>
-        prevSlide === images.length - 1 ? 0 : prevSlide + 1
+      prevSlide === 0 ? images.length - 1 : prevSlide - 1
       );
     }, 2000);
     return () => clearInterval(interval);
@@ -38,12 +40,15 @@ export default function Customers() {
                   src={image}
                   alt=""
                   style={{
+                    
                     display:
+                      
+                    isMobile || index === currentSlide &&
                       index === currentSlide ||
                       index === (currentSlide + 1) % images.length ||
                       index === (currentSlide + 2) % images.length ||
-                      index === (currentSlide + 3) % images.length  
-                     
+                      index === (currentSlide + 3) % images.length 
+
                         ? "block"
                         : "none",
                   }}
