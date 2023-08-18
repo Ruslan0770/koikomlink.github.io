@@ -49,7 +49,7 @@
     font-size: 18px !important;
   }
   .AboutCompany {
-    margin-top: 180px;
+    margin-top: 190px !important;
   }
   .AboutCompany .left {
     margin: auto;
@@ -120,7 +120,7 @@ button:after {
 }
 @media screen and (max-width:361px) {
   .AboutCompany{
-    margin-top: 220px !important;
+    margin-top: 240px !important;
   }
   .AboutCompany h2{
     font-size: 17px !important;
