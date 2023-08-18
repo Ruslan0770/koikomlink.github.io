@@ -112,14 +112,12 @@
     font-size: 20px !important;
   }
   .Testimonial p{
-    font-size: 12px !important;
+    font-size: 15px !important;
     width: 90% !important;
-    color: var(--gray, #363E47) !important;
-text-align: center;
-font-size: 12px;
-font-style: italic;
-font-weight: 500;
-line-height: 140%; /* 16.8px */
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 140%; /* 16.8px */
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {

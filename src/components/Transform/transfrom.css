@@ -92,8 +92,8 @@ button:after {
 
 @media screen and (max-width: 600px) {
     .Transform{
-      height: 550px;
-      padding: 7rem 0;
+      height: 580px;
+      padding: 7.5rem 0;
     }
   .Transform p {
     width: 100%;

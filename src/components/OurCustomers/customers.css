@@ -70,6 +70,9 @@
   .imgedit {
     height: 20vh !important;
   }
+  .Customers h2{
+    font-size: 20px;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {
   .bgimg {

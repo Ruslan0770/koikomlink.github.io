@@ -4,6 +4,9 @@ import koikom from "../../assets/img/koikom.svg";
 import { Link,NavLink } from "react-router-dom";
 import { useState } from "react";
 import MockUp from "../Mockup/mockup";
+import icons1 from "../../assets/img/footericons1.svg"
+import icons2 from "../../assets/img/footericons2.svg"
+import icons3 from "../../assets/img/footericons3.svg"
 
 export default function Header() {
   const [openMock, setOpenMock] = useState(false);
@@ -42,7 +45,7 @@ export default function Header() {
           <div className="headerall row">
             <div className="col-lg-4 col-5 col-md-6">
               <div className="left">
-                <Link onClick={handleMenuClick} to="/">
+                <Link className="logo" onClick={handleMenuClick} to="/">
                   <img src={koikom} alt="" />
                 </Link>
               </div>
@@ -79,6 +82,24 @@ export default function Header() {
                         </span>
                       </NavLink>
                     </li>
+                    <div className="iconcontent">
+                    <div className="iconedit">
+                      <div className="name">Mobile</div>
+                      <img src={icons1} className="icons" alt="" />
+
+                    </div>
+                    <div className="iconedit">
+                      <div className="name">Email</div>
+
+                      <img src={icons2} className="icons" alt="" />
+                    </div>
+                    <div className="iconedit">
+                      <div className="name">Linkedin</div>
+
+                       <img src={icons3} className="icons" alt="" />
+                    </div>
+                  </div>
+                      
                   </ul>
                   <Link className="linkEdit">
                     <button

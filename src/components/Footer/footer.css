@@ -1,4 +1,6 @@
 .Footer {
+  position: relative;
+  z-index: 1;
   background: var(--blue, #143771);
   padding: 80px 0px 0px 0px;
 }
@@ -174,7 +176,7 @@
   }
   .Footer .iconcontent {
     position: absolute;
-    bottom: 7%;
+    bottom: 6.7%;
     left: 6.8%;
   }
   .Footer {
@@ -199,16 +201,19 @@
   }
   .Footer .down h6 {
     font-size: 17px;
-    margin-top: 0px !important;
+    margin-top: 20px !important;
   }
   .Footer .down img {
-    width: 5%;
+    width: 4%;
+    height: 20px !important;
     padding: 0px !important;
+    margin-top: 23px !important;
   }
   .Footer .leftbox {
     display: flex;
-    align-items: center;
+    align-items: normal;
   }
+ 
   .Footer .container{
     margin-top: -50px !important;
   }
@@ -258,6 +263,9 @@
   .Footer .iconedit {
     width: 40px;
     height: 40px;
+  }
+  .Footer hr{
+    width: 90% !important;
   }
 }
 @media screen and (max-width: 1000px) {

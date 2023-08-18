@@ -10,7 +10,7 @@ export default function Contactus() {
       <div className="ContactUs">
         <div className="container">
           <div className="row all">
-            <div className="col-lg-7">
+            <div className="col-lg-7 bgimageall">
               <div className="left">
                 <div className="box">
                   <div className="miniboxitems">
