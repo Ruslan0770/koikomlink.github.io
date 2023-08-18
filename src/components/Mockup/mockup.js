@@ -1,6 +1,8 @@
 import React from "react";
 import "./mockup.css";
 import close from "../../assets/img/close.svg"
+import { Link } from "react-router-dom";
+
 
 export default function MockUp({ closeMock }) {
   return (
@@ -19,7 +21,7 @@ export default function MockUp({ closeMock }) {
               placeholder="Typing your message here...."
             />
           </form>
-          <button className="sendbutton">Send</button>
+         <Link to="/"> <button onClick={()=>closeMock(false)} className="sendbutton">Send</button></Link>
           </div>
         </div>
       </div>

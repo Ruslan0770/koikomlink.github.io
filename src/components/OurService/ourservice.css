@@ -104,6 +104,9 @@
     width: 80%;
     font-size: 16px;
   }
+  .OurService h2{
+    font-size: 20px;
+  }
 }
 @media screen and (min-width: 700px) and (max-width: 1200px) {
   .OurService .box {

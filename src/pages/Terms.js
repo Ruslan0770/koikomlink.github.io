@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/styles/terms.css";
 
-export default function Termss() {
+export default function Terms() {
   return (
     <>
       <div className="Terms">

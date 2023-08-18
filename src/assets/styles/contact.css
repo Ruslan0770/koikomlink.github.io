@@ -58,8 +58,8 @@ line-height: 155%; /* 27.9px */
 .ContactUs .box {
   border-radius: 7px;
   background: var(--blue, #fff);
-  width:65%;
-  height: 43vh;
+  width:60%;
+  height: 48vh;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -67,7 +67,7 @@ line-height: 155%; /* 27.9px */
 }
 .ContactUs .miniboxitems{
   margin-left: 55px;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 .ContactUs h3 {
   color: #C01C25;
@@ -80,6 +80,7 @@ line-height: 155%; /* 27.9px */
   background-image: url("../img//contactglass.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 84.5vh;
   position: absolute;
   left: 0;
@@ -153,9 +154,9 @@ button:after {
   height: 47vh;
 }
 .ContactUs .box{
-  padding-top: 25px;
-  height: 36vh;
-  width: 80%;
+  padding-top: 15px;
+  height: 35vh;
+  width: 85%;
 }
 .ContactUs .miniboxitems{
   margin-top: -10px;

@@ -11,7 +11,7 @@ export default function Transform() {
         data-aos-duration="1000"
         className="Transform"
       >
-        <div className="text-center">
+        <div className="text-center all">
           <h4>WANT TO WORK WITH US?</h4>
           <h2>Digitally transform and grow your business!</h2>
           <div className="pedit text-center">

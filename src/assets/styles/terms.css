@@ -42,15 +42,25 @@
 @media screen and (max-width: 600px) {
   .Terms .boxAll {
     width: 100%;
+    box-shadow: none !important;
   }
   .Terms .boxAll h6{
-    font-size: 15px;
+    font-size: 18px;
+    margin-left: -23px;
+    margin-top: -40px !important;
   }
   .Terms span{
     font-size: 16px !important;
   }
   .Terms .container{
     padding: 0px !important;
+  }
+  .Terms .box{
+    margin-left: -30px;
+  }
+  .Terms h2{
+    text-align: left !important;
+    margin-left: 30px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {

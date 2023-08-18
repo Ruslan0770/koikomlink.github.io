@@ -6,6 +6,7 @@
 .Footer .iconcontent {
   display: flex;
   position: relative;
+  margin-left: -17px;
 }
 .Footer .iconedit:hover .name {
   opacity: 1;
@@ -173,19 +174,19 @@
   }
   .Footer .iconcontent {
     position: absolute;
-    bottom: 7.5%;
-    left: 3%;
+    bottom: 7%;
+    left: 6.8%;
   }
   .Footer {
     width: 100%;
     position: relative;
   }
   .Footer .iconedit {
-    width: 35px !important;
-    height: 35px !important;
+    width: 40px !important;
+    height: 40px !important;
   }
   .Footer .left img {
-    width: 40%;
+    width: 55%;
   }
   .Footer .lefthr {
     width: 100% !important;
@@ -197,15 +198,22 @@
     padding: 0px !important;
   }
   .Footer .down h6 {
-    font-size: 18px;
+    font-size: 17px;
+    margin-top: 0px !important;
   }
   .Footer .down img {
-    width: 4%;
-    margin-top: 45px;
+    width: 5%;
+    padding: 0px !important;
   }
   .Footer .leftbox {
     display: flex;
     align-items: center;
+  }
+  .Footer .container{
+    margin-top: -50px !important;
+  }
+  .Footer .righthr{
+    width: 45% !important;
   }
 }
 
@@ -277,7 +285,12 @@
 }
 @media screen and (max-width: 361px) {
   .Footer .down h6 {
-    font-size: 15px !important;
+    font-size: 14px !important;
+  }
+  .Footer .iconcontent {
+    position: absolute;
+    bottom: 6%;
+    left: 8.9%;
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1400px){

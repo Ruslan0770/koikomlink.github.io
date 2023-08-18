@@ -70,6 +70,7 @@
 @media screen and (max-width: 600px) {
   .Choose img {
     margin: auto;
+    margin-top: -50px;
     margin-bottom: 150px;
     width: 100%;
   }
@@ -79,12 +80,12 @@
   .Choose h2 {
     text-align: center;
     width: 100%;
-    font-size: 23px;
+    font-size: 20px;
   }
   .Choose p {
     text-align: center;
     width: 100%;
-    font-size: 17px;
+    font-size: 16px;
   }
   .Choose .minibox {
     text-align: center;

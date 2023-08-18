@@ -102,7 +102,23 @@
   .Testimonial .box {
     margin: auto;
     margin-top: 30px;
-    height: 45vh;
+    height: 45.5vh;
+  }
+  .Testimonial{
+    padding: 0px !important;
+  }
+  .Testimonial h2{
+    font-size: 20px !important;
+  }
+  .Testimonial p{
+    font-size: 12px !important;
+    width: 90% !important;
+    color: var(--gray, #363E47) !important;
+text-align: center;
+font-size: 12px;
+font-style: italic;
+font-weight: 500;
+line-height: 140%; /* 16.8px */
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {

@@ -85,12 +85,12 @@
   .Trust h2 {
     text-align: center;
     width: 100%;
-    font-size: 23px;
+    font-size: 20px;
   }
   .Trust p {
     text-align: center;
     width: 100%;
-    font-size: 17px;
+    font-size: 16px;
   }
   .Trust .minibox {
     text-align: center;
@@ -101,4 +101,10 @@
     width: 100%;
     margin-top: 100px;
   }
+}
+
+@media screen and (max-width:361px) {
+    .Trust h2{
+      font-size: 19px !important;
+    }
 }

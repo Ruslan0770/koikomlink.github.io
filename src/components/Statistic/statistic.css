@@ -28,6 +28,10 @@
 @media screen and (max-width: 600px) {
   .Statistic .box {
     margin-top: 50px;
+    height: 12vh;
+  }
+  .Statistic{
+    margin-top: -20px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {

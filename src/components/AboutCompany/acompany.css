@@ -47,10 +47,9 @@
     width: 100%;
     text-align: center;
     font-size: 18px !important;
-    margin-top: 20px;
   }
   .AboutCompany {
-    margin-top: 370px;
+    margin-top: 180px;
   }
   .AboutCompany .left {
     margin: auto;
@@ -114,5 +113,21 @@ button:after {
   .AboutCompany p {
     width: 100%;
     font-size: 17px !important;
+  }
+  .AboutCompany {
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width:361px) {
+  .AboutCompany{
+    margin-top: 220px !important;
+  }
+  .AboutCompany h2{
+    font-size: 17px !important;
+  }
+}
+@media screen and (max-width:299px){
+  .AboutCompany button{
+    font-size: 8px !important;
   }
 }

@@ -11,7 +11,7 @@ export default function Aboutus() {
       <section>
         <div className="About">
           <div className="container">
-            <div className="row">
+            <div className="row all">
               <div className="col-lg-8">
                 <div className="left">
                   <h3>ABOUT OUR COMPANY</h3>
@@ -36,9 +36,9 @@ export default function Aboutus() {
               </div>
               <div className="col-lg-4">
                 <div className="right">
-                  <img src={about} alt="" />
                 </div>
               </div>
+              <div className="row all2">
               <div className="col-lg-6">
                 <div className="left">
                   <div className="imgbox">
@@ -67,6 +67,8 @@ export default function Aboutus() {
                   </p>
                 </div>
               </div>
+              </div>
+             
             </div>
           </div>
         </div>

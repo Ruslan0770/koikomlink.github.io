@@ -91,13 +91,19 @@ button:after {
 }
 
 @media screen and (max-width: 600px) {
-  
+    .Transform{
+      height: 550px;
+      padding: 7rem 0;
+    }
   .Transform p {
     width: 100%;
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 155%;
+    font-weight: 400;
   }
   .Transform h2{
-    font-size: 23px !important;
+    font-size: 28px !important;
+    width: 100%;
   }
   .Transform .buttonedit {
     display: flex;
@@ -119,21 +125,24 @@ button:after {
 }
 @media screen and (max-width:361px) {
   .Transform p{
-    font-size: 12px;
+    font-size: 15px;
     width: 100%;
   }
+  .Transform {
+    padding: 7.5rem 0 !important;
+  }
   .Transform h2{
-    font-size: 18px !important;
+    font-size: 25px !important;
   }
   .Transform .button2{
-    padding:5px 15px !important;
-    width: 80% !important;
+    padding:8px 15px !important;
+    width: 78% !important;
     font-size: 9px !important;
   }
   .Transform .button{
     width: 100% !important;
     font-size: 9px !important;
-    padding: 6px 20px !important;
+    padding: 8px 20px !important;
   }
   .Transform .buttonedit{
     display: flex;

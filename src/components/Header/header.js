@@ -42,7 +42,7 @@ export default function Header() {
           <div className="headerall row">
             <div className="col-lg-4 col-5 col-md-6">
               <div className="left">
-                <Link to="/">
+                <Link onClick={handleMenuClick} to="/">
                   <img src={koikom} alt="" />
                 </Link>
               </div>

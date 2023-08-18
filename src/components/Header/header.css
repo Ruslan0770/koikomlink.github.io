@@ -15,8 +15,12 @@
   position: fixed;
   z-index: 111111;
 }
+.Header .left img{
+  z-index: 2222;
+}
 .Header .left {
   margin-top: -10px;
+  z-index: 22;
 }
 
  .Header .linkEdit {
@@ -97,10 +101,10 @@ button:after {
 }
 
 .nav_toggler div {
-  width: 2.1rem;
+  width: 1.6rem;
   height: 0.2rem;
-  margin: 0.3rem;
-  background: rgb(85, 69, 69);
+  margin: 0.2rem;
+  background: rgb(161, 129, 129);
   transition: 0.4s ease-in;
 }
 .nav_menu {
@@ -109,10 +113,12 @@ button:after {
   align-items: center;
   justify-content: space-around;
   gap: 3rem;
+  z-index: 1;
 }
 .nav_toggler {
   cursor: pointer;
   display: none;
+  z-index: 1;
 }
 .headerall ul {
   list-style: none;
@@ -136,7 +142,7 @@ button:after {
   .nav_menu {
     list-style: none;
     position: fixed;
-    top: 9.9vh;
+    top: 10vh;
     z-index: 1;
     right: 0;
     width: 100%;
@@ -159,6 +165,7 @@ button:after {
     display: flex;
     align-items: center;
   }
+  
 }
 .nav_active {
   transform: translateX(0);
@@ -178,6 +185,9 @@ button:after {
   .headerall button {
     padding: 10px 30px !important;
     width: 65% !important;
+  }
+  .Header .container{
+    padding: 0px 50px 0px 0px !important;
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
@@ -202,13 +212,13 @@ button:after {
 
 /* Toggle animation */
 .toggle .line1 {
-  transform: rotate(-45deg) translate(-1px, 5px);
+  transform: rotate(-45deg) translate(0px, 5px);
 }
 .toggle .line2 {
   opacity: 0;
 }
 .toggle .line3 {
-  transform: rotate(45deg) translate(-6px, -11px);
+  transform: rotate(45deg) translate(-3px, -10px);
 }
 @media screen and (max-width: 361px) {
   .Header .left img {
@@ -238,7 +248,7 @@ button:after {
     font-size: 20px !important;
     width: 155% !important;
   }
-  .headerall .nav_menu {
-    padding: 150px;
+  .nav_menu {
+    padding: 120px 50px 170px 0px  !important;
   }
 }
