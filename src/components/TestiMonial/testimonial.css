@@ -105,7 +105,8 @@
     height: 45.5vh;
   }
   .Testimonial{
-    padding: 0px !important;
+    margin-top: -50px !important;
+    padding: 20px 0!important;
   }
   .Testimonial h2{
     font-size: 20px !important;

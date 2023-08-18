@@ -97,7 +97,7 @@ button:after {
     }
   .Transform p {
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 155%;
     font-weight: 400;
   }
@@ -116,11 +116,11 @@ button:after {
 @media screen and (min-width: 300px) and (max-width: 421px) {
   .Transform .buttonedit button {
     width: 100%;
-    padding: 10px 0px;
+    padding: 10px 10px;
   }
   .Transform .buttonedit .button {
-    width: 100%;
-    padding: 10px 25px;
+    width: 110%;
+    padding: 11px 20px;
   }
 }
 @media screen and (max-width:361px) {
