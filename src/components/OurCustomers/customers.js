@@ -11,7 +11,6 @@ export default function Customers() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const images = [brend1, brend2, brend3, brend4, brend5];
   
-const isMobile = window.innerWidth < 600;
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prevSlide) =>
@@ -20,7 +19,7 @@ const isMobile = window.innerWidth < 600;
     }, 2000);
     return () => clearInterval(interval);
   }, []);
-
+  
   return (
     <>
       <div
@@ -43,7 +42,6 @@ const isMobile = window.innerWidth < 600;
                     
                     display:
                       
-                    isMobile || index === currentSlide &&
                       index === currentSlide ||
                       index === (currentSlide + 1) % images.length ||
                       index === (currentSlide + 2) % images.length ||

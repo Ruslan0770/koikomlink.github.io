@@ -102,11 +102,23 @@ button:after {
   text-decoration: underline;
 }
 
+.active::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  transition: 0.5s;
+  background-color: rgb(240, 18, 55);
+}
+
 .nav_toggler div {
   width: 1.6rem;
-  height: 0.2rem;
-  margin: 0.2rem;
-  background: rgb(161, 129, 129);
+  height: 2.6px;
+  margin: 0.3rem;
+  border-radius: 4px;
+  background: rgb(78, 65, 65);
   transition: 0.4s ease-in;
 }
 .Header .left{
@@ -177,13 +189,12 @@ button:after {
   .Header .iconedit img {
     width: 100% !important;
     border-radius: 50%;
-    border: 1px solid grey;
+    border: 1px solid rgba(20, 55, 113, 1);
   }
   
   .Header .iconedit {
     font-size: 22px;
     background: white;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 1;
     height: 40px;
@@ -234,7 +245,7 @@ button:after {
     right: 0;
     width: 100%;
     height: 94vh;
-    padding: 130px;
+    padding: 190px 0px 150px 0px;
     background: #fff;
     flex-direction: column;
     transform: translateY(-130%);
@@ -297,16 +308,6 @@ button:after {
   }
 }
 
-/* Toggle animation */
-.toggle .line1 {
-  transform: rotate(-45deg) translate(0px, 5px);
-}
-.toggle .line2 {
-  opacity: 0;
-}
-.toggle .line3 {
-  transform: rotate(45deg) translate(-3px, -10px);
-}
 @media screen and (max-width: 361px) {
   .Header .left img {
     width: 120%;
@@ -341,6 +342,20 @@ button:after {
     width: 155% !important;
   }
   .nav_menu {
-    padding: 120px 50px 170px 0px  !important;
+    padding: 190px 50px 150px 0px  !important;
+    height: 94vh !important;
+    top: 7.4vh !important;
   }
+}
+
+
+/* Toggle animation */
+.toggle .line1 {
+  transform: rotate(-45deg) translate(0px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -10px);
 }

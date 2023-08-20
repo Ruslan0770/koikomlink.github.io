@@ -40,6 +40,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .Terms{
+    padding:100px 0 30px 0!important;
+  }
   .Terms .boxAll {
     width: 100%;
     box-shadow: none !important;
@@ -47,7 +50,7 @@
   .Terms .boxAll h6{
     font-size: 18px;
     margin-left: -23px;
-    margin-top: -40px !important;
+    margin-top: -50px !important;
   }
   .Terms span{
     font-size: 16px !important;
@@ -57,10 +60,16 @@
   }
   .Terms .box{
     margin-left: -30px;
+    margin-top: 15px !important;
   }
   .Terms h2{
     text-align: left !important;
     margin-left: 30px;
+    color: var(--blue, #143771) !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px !important;
+    line-height: 130%; /* 39px */
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {

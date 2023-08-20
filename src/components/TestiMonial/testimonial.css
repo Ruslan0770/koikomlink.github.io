@@ -1,7 +1,6 @@
 .Testimonial {
   padding: 5rem 0;
   overflow-x: auto;
-
 }
 .Testimonial h4 {
   color: var(--red, #c01c25);
@@ -32,9 +31,7 @@
   /* overflow: scroll; */
 }
 
-
-
-.Testimonial::-webkit-scrollbar{
+.Testimonial::-webkit-scrollbar {
   /* display: none; */
   width: 0;
 }
@@ -69,9 +66,9 @@
   width: 90%;
   margin-left: 10px;
   font-size: 13px;
-  font-style: italic  !important;
+  font-style: italic !important;
   font-weight: 500;
-  line-height: 140%; 
+  line-height: 140%;
 }
 .Testimonial .iconsEdit {
   margin-top: 20px;
@@ -99,25 +96,38 @@
 }
 
 @media screen and (max-width: 600px) {
+  .Testimonial .all {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 0px !important;
+  }
+  .Testimonial::-webkit-scrollbar {
+    display: none;
+  }
+
   .Testimonial .box {
     margin: auto;
+    margin-top: 17px !important;
+    flex: 0 0 auto;
+
+    transition: 1s;
     margin-top: 30px;
     height: 45.5vh;
   }
-  .Testimonial{
+  .Testimonial {
     margin-top: -50px !important;
-    padding: 20px 0!important;
+    padding: 20px 0 0px 0 !important;
   }
-  .Testimonial h2{
+  .Testimonial h2 {
     font-size: 20px !important;
   }
-  .Testimonial p{
+  .Testimonial p {
     font-size: 15px !important;
     width: 90% !important;
-  text-align: center;
-  font-style: italic;
-  font-weight: 500;
-  line-height: 140%; /* 16.8px */
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 140%; /* 16.8px */
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {
@@ -143,9 +153,8 @@
     width: 100%;
   }
 }
-@media screen and (max-width:361px) {
-    .Testimonial .box{
-      height: 47vh;
-    }
-    
+@media screen and (max-width: 361px) {
+  .Testimonial .box {
+    height: 49vh;
+  }
 }

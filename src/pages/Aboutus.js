@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/styles/aboutus.css";
-import about from "../assets/img/aboutus.svg";
 import about2 from "../assets/img/aboutus2.svg";
 import about3 from "../assets/img/aboutus3.svg";
 import about4 from "../assets/img/aboutus4.svg";

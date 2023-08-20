@@ -108,19 +108,22 @@ button:after {
   .Transform .buttonedit {
     display: flex;
     justify-content: center;
+    gap: 0px !important;
   }
   .Transform button{
-    font-size: 11px !important;
+    font-size: 12px !important;
   }
 }
-@media screen and (min-width: 300px) and (max-width: 421px) {
+@media screen and (min-width: 300px) and (max-width: 600px) {
   .Transform .buttonedit button {
     width: 100%;
-    padding: 10px 10px;
+    padding: 9px 10px;
+    
   }
   .Transform .buttonedit .button {
-    width: 110%;
-    padding: 11px 20px;
+    width: 130%;
+    padding: 10px 30px;
+    margin-left: -25px;
   }
 }
 @media screen and (max-width:361px) {
@@ -136,17 +139,30 @@ button:after {
   }
   .Transform .button2{
     padding:8px 15px !important;
-    width: 78% !important;
+    width: 80% !important;
     font-size: 9px !important;
+    font-size: 12px !important;
+
   }
   .Transform .button{
-    width: 100% !important;
+    width: 130% !important;
     font-size: 9px !important;
-    padding: 8px 20px !important;
+    padding: 8px 27px !important;
+    font-size: 12px !important;
   }
   .Transform .buttonedit{
     display: flex;
     align-items: center;
     gap: 0px;
   }
+}
+@media screen and (max-width:300px){
+    .Transform .button{
+      padding: 10px 10px !important;
+      
+    }
+    .Transform .buttonedit{
+      display: flex;
+      gap: 20px !important;
+    }
 }

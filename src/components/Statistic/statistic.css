@@ -33,10 +33,32 @@
   .Statistic{
     margin-top: -20px;
   }
+  .Statistic h3{
+    font-size: 40px !important;
+  }
+  .Statistic h5{
+    font-size:  18px !important;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    margin-top: 20px;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {
   .Statistic .box {
     margin: auto;
     margin-top: 50px;
+  }
+}
+@media screen and (max-width:361px) {
+  .Statistic h3{
+    font-size: 35px !important;
+  }
+  .Statistic h5{
+    font-size:  16px !important;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    margin-top: 20px;
   }
 }

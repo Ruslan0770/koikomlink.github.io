@@ -58,8 +58,8 @@ line-height: 155%; /* 27.9px */
 .ContactUs .box {
   border-radius: 7px;
   background: var(--blue, #fff);
-  width:60%;
-  height: 48vh;
+  width:70%;
+  height: 350px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -77,14 +77,14 @@ line-height: 155%; /* 27.9px */
   line-height: normal;
 }
 .ContactUs .left{
-  background-image: url("../img//contactglass.svg");
+  background-image: url("../img/contactusbuilding.svg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
   position: absolute;
   left: 0;
-  width: 45%;
+  width: 42%;
   margin-top: -80px;
 }
 

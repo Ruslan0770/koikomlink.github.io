@@ -68,11 +68,9 @@
   font-size: 30px;
   font-weight: 700;
   line-height: normal;
-  cursor: pointer;
 }
 .Stats h6 {
   color: var(--blue, #143771);
-  cursor: pointer;
 
   text-align: center;
   font-size: 16px;
@@ -85,12 +83,13 @@
   .About .right {
     margin-top: -80px;
     width: 100%;
-    height: 60vh;
+    height: 55vh;
   }
 
   .About .imgbox {
     width: 110%;
     object-fit: cover;
+    border-radius: 7px;
   }
   .Stats .box {
     margin: auto;
@@ -129,20 +128,21 @@
     margin-top: 20px;
     text-align: left;
     font-size: 16px;
-    width: 100%;
+    width: 110% !important;
   }
   
   .Stats h5 {
-    font-size: 30px;
+    font-size: 40px;
   }
   .Stats h6 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .Stats .box {
     margin-top: 60px;
   }
   .Stats{
     margin-top: -230px;
+    padding: 0px 0px 80px 0 !important;
   }
   .About .all2{
     display: flex;

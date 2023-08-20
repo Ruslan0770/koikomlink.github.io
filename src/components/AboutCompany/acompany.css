@@ -49,7 +49,7 @@
     font-size: 18px !important;
   }
   .AboutCompany {
-    margin-top: 190px !important;
+    margin-top: 210px !important;
   }
   .AboutCompany .left {
     margin: auto;
@@ -69,8 +69,8 @@
     left: 50%;
     top: 50%;
     margin-top: 20px !important;
-    width: 45%;
-    font-size: 19px;
+    width: 40%;
+    font-size: 12px !important;
     transform: translate(-50%, -50%);
   }
 }
@@ -120,7 +120,7 @@ button:after {
 }
 @media screen and (max-width:361px) {
   .AboutCompany{
-    margin-top: 240px !important;
+    margin-top: 260px !important;
   }
   .AboutCompany h2{
     font-size: 17px !important;
@@ -129,5 +129,6 @@ button:after {
 @media screen and (max-width:299px){
   .AboutCompany button{
     font-size: 8px !important;
+    padding: 10px 10px !important;
   }
 }
