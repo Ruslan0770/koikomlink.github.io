@@ -99,6 +99,7 @@
   .Testimonial .all {
     flex-wrap: nowrap;
     overflow-x: auto;
+    height: 52vh;
     margin-top: 0px !important;
   }
   .Testimonial::-webkit-scrollbar {
@@ -107,7 +108,7 @@
 
   .Testimonial .box {
     margin: auto;
-    margin-top: 17px !important;
+    margin-top: 10px !important;
     flex: 0 0 auto;
 
     transition: 1s;
