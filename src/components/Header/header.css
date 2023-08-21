@@ -55,7 +55,7 @@ button:after {
   transition: 0.5s;
   background-color: rgb(240, 18, 55);
 }
-.Header .left{
+.Header .left {
   z-index: 111;
 }
 .Header {
@@ -63,9 +63,9 @@ button:after {
   background-color: #fff;
   width: 100%;
   position: fixed;
-  z-index: 111111;
+  z-index: 999;
 }
-.Header .left img{
+.Header .left img {
   z-index: 2222;
 }
 .Header .left {
@@ -73,7 +73,7 @@ button:after {
   z-index: 22;
 }
 
- .Header .linkEdit {
+.Header .linkEdit {
   text-decoration: none;
   position: relative;
   text-align: center;
@@ -121,7 +121,7 @@ button:after {
   background: rgb(78, 65, 65);
   transition: 0.4s ease-in;
 }
-.Header .left{
+.Header .left {
   position: relative;
   z-index: 2500;
 }
@@ -142,7 +142,7 @@ button:after {
   list-style: none;
 }
 
-.Header .iconcontent{
+.Header .iconcontent {
   display: none;
 }
 
@@ -191,7 +191,7 @@ button:after {
     border-radius: 50%;
     border: 1px solid rgba(20, 55, 113, 1);
   }
-  
+
   .Header .iconedit {
     font-size: 22px;
     background: white;
@@ -220,7 +220,6 @@ button:after {
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.26, 1.55);
   }
 
-
   .linkEdit span {
     font-size: 20px;
     color: var(--gray, #363e47);
@@ -231,7 +230,7 @@ button:after {
     gap: 21px;
     justify-content: center;
   }
- 
+
   .nav_toggler {
     display: block;
     margin-bottom: 15px;
@@ -263,7 +262,6 @@ button:after {
     display: flex;
     align-items: center;
   }
-  
 }
 .nav_active {
   transform: translateX(0);
@@ -284,7 +282,7 @@ button:after {
     padding: 10px 30px !important;
     width: 65% !important;
   }
-  .Header .container{
+  .Header .container {
     padding: 0px 50px 0px 0px !important;
   }
 }
@@ -342,12 +340,11 @@ button:after {
     width: 155% !important;
   }
   .nav_menu {
-    padding: 190px 50px 150px 0px  !important;
+    padding: 190px 50px 150px 0px !important;
     height: 94vh !important;
     top: 7.4vh !important;
   }
 }
-
 
 /* Toggle animation */
 .toggle .line1 {
