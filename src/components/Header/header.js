@@ -1,12 +1,12 @@
 import "./header.css";
 import React from "react";
 import koikom from "../../assets/img/koikom.svg";
-import { Link,NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import MockUp from "../Mockup/mockup";
-import icons1 from "../../assets/img/footericons1.svg"
-import icons2 from "../../assets/img/footericons2.svg"
-import icons3 from "../../assets/img/footericons3.svg"
+import icons1 from "../../assets/img/footericons1.svg";
+import icons2 from "../../assets/img/footericons2.svg";
+import icons3 from "../../assets/img/footericons3.svg";
 
 export default function Header() {
   const [openMock, setOpenMock] = useState(false);
@@ -31,10 +31,9 @@ export default function Header() {
       ? setToggleIcon("nav_toggler toggle")
       : setToggleIcon("nav_toggler");
     if (window.innerWidth <= 1000) {
-      document.documentElement.style.overflow = active === "nav_menu" ? "hidden" : "auto";
-    } 
-    else{
-      document.documentElement.style.overflow = "auto";
+      document.body.style.overflow = active === "nav_menu" ? "hidden" : "auto";
+    } else {
+      document.body.style.overflow = "auto";
     }
   };
 
@@ -83,23 +82,21 @@ export default function Header() {
                       </NavLink>
                     </li>
                     <div className="iconcontent">
-                    <div className="iconedit">
-                      <div className="name">Mobile</div>
-                      <img src={icons1} className="icons" alt="" />
+                      <div className="iconedit">
+                        <div className="name">Mobile</div>
+                        <img src={icons1} className="icons" alt="" />
+                      </div>
+                      <div className="iconedit">
+                        <div className="name">Email</div>
 
-                    </div>
-                    <div className="iconedit">
-                      <div className="name">Email</div>
+                        <img src={icons2} className="icons" alt="" />
+                      </div>
+                      <div className="iconedit">
+                        <div className="name">Linkedin</div>
 
-                      <img src={icons2} className="icons" alt="" />
+                        <img src={icons3} className="icons" alt="" />
+                      </div>
                     </div>
-                    <div className="iconedit">
-                      <div className="name">Linkedin</div>
-
-                       <img src={icons3} className="icons" alt="" />
-                    </div>
-                  </div>
-                      
                   </ul>
                   <Link className="linkEdit">
                     <button
