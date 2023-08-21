@@ -251,6 +251,8 @@ button:after {
     transition: 0.5s ease-in;
     background-color: #fff;
     align-items: center;
+
+    max-height: 100%;
   }
 
   .Header .linkEdit button {
