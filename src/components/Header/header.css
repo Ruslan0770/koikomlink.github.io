@@ -153,6 +153,9 @@ button:after {
     margin-left: -17px !important;
     margin-top: -30px;
   }
+  .Header{
+    z-index:2500;
+  }
   .Header .iconedit:hover .name {
     opacity: 1;
     pointer-events: visible;
@@ -221,7 +224,7 @@ button:after {
   }
 
   .linkEdit span {
-    font-size: 20px;
+    font-size: 22px;
     color: var(--gray, #363e47);
   }
   .headerall .right {
@@ -247,7 +250,7 @@ button:after {
     padding: 190px 0px 150px 0px;
     background: #fff;
     flex-direction: column;
-    transform: translateY(-130%);
+    transform: translateY(-120%);
     transition: 0.5s ease-in;
     background-color: #fff;
     align-items: center;

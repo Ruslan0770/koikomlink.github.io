@@ -120,7 +120,8 @@ button:after {
 @media screen and (max-width: 600px) {
   .Service .left {
     width: 100%;
-    height: 73vh !important;
+    height: 72vh !important;
+    padding-bottom: 530px !important;
   }
   .Service .right img {
     height: 44vh !important;
@@ -141,7 +142,7 @@ button:after {
 
   .Service .buttonedit {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     margin-left: -70px;
   }
 
@@ -177,7 +178,7 @@ button:after {
 }
 @media screen and (min-width: 300px) and (max-width: 420px) {
   .Service .buttonedit button {
-    padding: 10px 14px !important;
+    padding: 10px 23px !important;
     width: 100% !important;
   }
 }

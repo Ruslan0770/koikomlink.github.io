@@ -32,6 +32,8 @@
   }
   .Statistic{
     margin-top: -20px;
+  background-image: url(../../assets//img/statisticmobile.png) !important;
+
   }
   .Statistic h3{
     font-size: 40px !important;

@@ -76,8 +76,8 @@
 @media screen and (max-width: 600px) {
   .Trust img {
     margin: auto;
-    margin-top: 60px;
-    width: 80%;
+    margin-top: 30px;
+    width: 60%;
   }
   .Trust h4 {
     text-align: center;

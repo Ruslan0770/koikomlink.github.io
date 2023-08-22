@@ -51,7 +51,10 @@
     width: 100%;
     font-size: 16px !important;
     font-weight: 400;
-line-height: 155%; /* 24.8px */
+  line-height: 155%; /* 24.8px */
+  }
+  .Services{
+    padding: 110px 0px !important;
   }
   .Services .box {
     width: 100%;
@@ -72,14 +75,14 @@ line-height: 155%; /* 24.8px */
     display: flow;
   }
   .Services .left{
-    width: 115%;
+    width: 120%;
   }
   .Services .leftreverse{
     display: flex;
     justify-content: end;
   }
   .Services .right1 h5{
-    font-size: 19px !important;
+    font-size: 22px !important;
     width: 100%;
   }
   .Services .right1{

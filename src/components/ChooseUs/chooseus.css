@@ -70,9 +70,10 @@
 @media screen and (max-width: 600px) {
   .Choose img {
     margin: auto;
-    margin-top: -50px;
+    margin-top: -80px;
     margin-bottom: 150px;
-    width: 100%;
+    display: flex;
+    width: 60%;
   }
   .Choose h4 {
     text-align: center;

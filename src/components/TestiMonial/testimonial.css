@@ -99,25 +99,29 @@
   .Testimonial .all {
     flex-wrap: nowrap;
     overflow-x: auto;
-    height: 52vh;
+    padding: 0px 0px 40px 0;
     margin-top: 0px !important;
   }
   .Testimonial::-webkit-scrollbar {
     display: none;
   }
-
+  .Testimonial h4{
+    font-size: 16px !important;
+  }
   .Testimonial .box {
     margin: auto;
-    margin-top: 10px !important;
+    margin-top: 30px !important;
     flex: 0 0 auto;
-
+    padding: 10px 0px 360px 0px !important;
     transition: 1s;
     margin-top: 30px;
-    height: 45.5vh;
   }
   .Testimonial {
     margin-top: -50px !important;
-    padding: 20px 0 0px 0 !important;
+    padding: 20px 0px 0px 0px !important;
+  }
+  .Testimonial h5{
+    margin-top: 20px;
   }
   .Testimonial h2 {
     font-size: 20px !important;

@@ -143,9 +143,9 @@ button:after {
  .ContactUs .left{
   position: absolute;
   right: 10px;
-  height: 60vh !important;
+  height: 65vh !important;
   width: 100% !important;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .ContactUs h6{
   font-size: 16px;
@@ -277,7 +277,11 @@ button:after {
     }
     .ContactUs .left{
       height: 350px !important;
-      margin-top: 120px !important;
+      margin-top: 50px !important;
+    }
+    .ContactUs{
+      padding: 4rem 0 25rem 0 !important;
+
     }
 }
 @media screen and (min-width: 389px) and (max-width: 450px){
@@ -285,7 +289,7 @@ button:after {
     margin-top: -20px !important;
   }
   .ContactUs .left{
-    height: 55vh !important;
+    height: 58vh !important;
   }
 } 
 @media screen and (min-width: 600px) and (max-width: 767px){
@@ -295,7 +299,7 @@ button:after {
     margin-top: 0px;
   }
   .ContactUs .left{
-    height: 400px !important;
+    height: 420px !important;
   }
   .ContactUs img{
     width: 55%;
