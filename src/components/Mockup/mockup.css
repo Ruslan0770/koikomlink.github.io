@@ -66,8 +66,7 @@
 
 .Alert input {
   margin-left: -40px;
-
-  color: rgba(245, 245, 245, 1);
+  cursor: pointer;
   background: #f5f5f5;
   font-style: normal;
   font-weight: 500;
@@ -78,10 +77,8 @@
   width: 135%;
   height: 6vh;
   padding: 20px 20px;
-  cursor: pointer;
 }
 .Alert input::placeholder {
-  color: var(--gray-2, #545f6b);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
