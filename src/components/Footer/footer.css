@@ -139,10 +139,11 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 155%; /* 24.8px */
+  margin-top: 10px;
 }
 .Footer .down img {
   width: 1%;
-  margin-top: 28px;
+  margin-top: 38px;
   z-index: 11;
 }
 .Footer .leftbox {
@@ -201,7 +202,7 @@
   }
   .Footer .down h6 {
     font-size: 17px;
-    margin-top: 23px !important;
+    margin-top: 32.5px !important;
   }
   .Footer .down img {
     width: 4%;
@@ -292,7 +293,16 @@
 }
 @media screen and (max-width: 361px) {
   .Footer .down h6 {
-    font-size: 14px !important;
+    font-size: 16px !important;
+    margin-top: 23px !important;
+  }
+  .Footer .down img{
+    margin-top: 25px !important;
+    width: 5%;
+
+  }
+  .Footer .down{
+    padding: 0px !important;
   }
   .Footer .iconcontent {
     position: absolute;
@@ -309,3 +319,17 @@
     left: 0;
   }
 }
+ @media screen and (max-width:282px) {
+  .Footer .down h6 {
+    font-size: 13px !important;
+    margin-top: 24.5px !important;
+  }
+  .Footer .down img{
+    margin-top: 27px !important;
+    width: 5%;
+
+  }
+  .Footer .down{
+    padding: 0px !important;
+  }
+ }

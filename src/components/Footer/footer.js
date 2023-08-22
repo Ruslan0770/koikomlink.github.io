@@ -3,7 +3,7 @@ import "./footer.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/img/footerlogo.svg"
-import copy from "../../assets/img/footercopy.svg"
+import footericonclogo from "../../assets/img/footericonclogo.png"
 import icons1 from "../../assets/img/footericons1.svg"
 import icons2 from "../../assets/img/footericons2.svg"
 import icons3 from "../../assets/img/footericons3.svg"
@@ -97,7 +97,7 @@ export default function Footer() {
         <div className="down">
               <div className="left">
                 <div className="leftbox">
-                <img src={copy} alt="" />
+                <img src={footericonclogo} alt="" />
                 <h6>
                   {new Date().getFullYear()} KOIKOM - All Rights Reserved.
                 </h6>

@@ -37,12 +37,31 @@
   background: var(--red, #c01c25);
   color: var(--white, #fff);
   text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px 23px;
+  width: 10.5%;
+  position: relative;
+  border: none;
+  transition: 0.7s;
+}
+.Transform .button2 {
+  background: var(--white, #fff);
+  color: var(--red, #c01c25);
+  text-align: center;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
-  padding: 12px 40px;
+  padding: 10px 23px;
+  width: 10.5%;
   position: relative;
-  border: none;
+  margin-left: 25px;
   transition: 0.7s;
 }
 .Transform button:hover {
@@ -72,23 +91,6 @@ button:after {
   transition: 800ms ease all;
 }
 
-.Transform .button2 {
-  background: var(--white, #fff);
-  color: var(--red, #c01c25);
-  text-align: center;
-  margin-top: 10px;
-  border: none;
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: 600;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: normal;
-  padding: 12px 40px;
-  position: relative;
-  margin-left: 25px;
-  transition: 0.7s;
-}
 
 @media screen and (max-width: 600px) {
     .Transform{

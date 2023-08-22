@@ -58,8 +58,8 @@ line-height: 155%; /* 27.9px */
 .ContactUs .box {
   border-radius: 7px;
   background: var(--blue, #fff);
-  width:70%;
-  height: 350px;
+  width:80%;
+  height: 370px;
   position: absolute;
   top: 50%;
   left: 50%;

@@ -20,7 +20,15 @@
   padding: 75px 170px;
   border-radius: 5px;
 }
-
+.alertAll img:hover{
+  background-color:#fff2f3;
+  transform: scale(0.8);
+  border-radius: 50%;
+}
+.alertAll img{
+  transition: 0.4s;
+  cursor: pointer;
+}
 .alertAll .sendbutton:hover {
   background: #fff;
   color: #c01c25;
