@@ -102,6 +102,10 @@
     padding: 0px 0px 40px 0;
     margin-top: 0px !important;
   }
+  .Testimonial .boxall{
+    pointer-events: none !important;
+    
+  }
   .Testimonial::-webkit-scrollbar {
     display: none;
   }

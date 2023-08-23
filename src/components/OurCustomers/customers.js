@@ -14,8 +14,8 @@ export default function Customers() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prevSlide) =>
-        prevSlide === 0 ? images.length - 1 : prevSlide - 1
-      );
+      (prevSlide + 1) % images.length);
+      
     }, 2000);
     return () => clearInterval(interval);
   }, []);

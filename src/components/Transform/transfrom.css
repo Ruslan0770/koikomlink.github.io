@@ -96,6 +96,7 @@ button:after {
     .Transform{
       height: 580px;
       padding: 7.5rem 0;
+      background-image: url("../../assets/img/statisticmobile.png");
     }
   .Transform p {
     width: 100%;

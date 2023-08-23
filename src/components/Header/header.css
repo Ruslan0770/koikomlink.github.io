@@ -153,9 +153,7 @@ button:after {
     margin-left: -17px !important;
     margin-top: -30px;
   }
-  .Header{
-    z-index:2500;
-  }
+  
   .Header .iconedit:hover .name {
     opacity: 1;
     pointer-events: visible;
@@ -242,7 +240,7 @@ button:after {
   .nav_menu {
     list-style: none;
     position: fixed;
-    top: 7vh;
+    top: 8.5vh;
     z-index: 1;
     right: 0;
     width: 100%;
@@ -250,12 +248,12 @@ button:after {
     padding: 190px 0px 150px 0px;
     background: #fff;
     flex-direction: column;
+    align-items: center;
     transform: translateY(-120%);
     transition: 0.5s ease-in;
     background-color: #fff;
-    align-items: center;
-
     max-height: 100vh;
+
   }
 
   .Header .linkEdit button {
@@ -325,7 +323,6 @@ button:after {
   .Header .iconcontent {
     display: flex;
     position: relative;
-    margin-left: 37px !important;
     margin-top: 0px !important;
   }
   .Header .linkEdit button {
@@ -336,18 +333,22 @@ button:after {
   .Header .nav_toggler {
     margin-left: 38px !important;
   }
-  .headerall {
-    align-items: center;
-  }
+  
   .headerall .linkEdit span {
     display: inline-block;
-    font-size: 20px !important;
-    width: 155% !important;
+    font-size: 22px !important;
+    display: flex;
+    align-items: end;
+    margin-top: 20px !important;
+
   }
   .nav_menu {
-    padding: 190px 50px 150px 0px !important;
+    padding: 190px 0px 150px 0px !important;
     height: 94vh !important;
+
     top: 7.4vh !important;
+    flex-direction: column !important;
+    align-items: center !important;
   }
 }
 
