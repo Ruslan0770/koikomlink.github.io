@@ -81,7 +81,7 @@ button:after {
   line-height: normal;
   font-weight: 500;
   color: var(--gray, #363e47);
-  z-index: 1;
+  z-index: 9999;
 }
 
 .Header nav {
@@ -136,7 +136,7 @@ button:after {
 .nav_toggler {
   cursor: pointer;
   display: none;
-  z-index: 1;
+  z-index: 999;
 }
 .headerall ul {
   list-style: none;
@@ -241,7 +241,7 @@ button:after {
     list-style: none;
     position: fixed;
     top: 8.5vh;
-    z-index: 1;
+    z-index: 2;
     right: 0;
     width: 100%;
     height: 94vh;
@@ -253,7 +253,7 @@ button:after {
     transition: 0.5s ease-in;
     background-color: #fff;
     max-height: 100vh;
-
+    overflow: hidden;
   }
 
   .Header .linkEdit button {
