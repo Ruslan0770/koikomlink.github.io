@@ -81,11 +81,12 @@
   }
   .Trust h4 {
     text-align: center;
+    font-size: 16px !important;
   }
   .Trust h2 {
     text-align: center;
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
   }
   .Trust p {
     text-align: center;

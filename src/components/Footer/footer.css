@@ -166,7 +166,7 @@
 
 @media screen and (max-width: 600px) {
   .Footer .box p {
-    font-size: 16px;
+    font-size: 15px;
     width: 100%;
   }
   .Footer h6 {
@@ -298,6 +298,9 @@
 @media screen and (max-width: 361px) {
   .Footer .down h6 {
     font-size: 16px !important;
+  }
+  .Footer p{
+    font-size: 14px !important;
   }
   .Footer .down img{
     width: 0%;

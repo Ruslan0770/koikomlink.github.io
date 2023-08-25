@@ -26,8 +26,8 @@ export default function ServiceCompany() {
                 </p>
               </div>
               <div className="buttonedit">
-               <Link  to="./services"><button className="button">Our Service</button></Link>
-                <Link  to="./contactus"><button className="button2">Contact Us</button></Link>
+               <Link  to="./services"><button className="servicebutton">Our Service</button></Link>
+                <Link  to="./contactus"><button className="contactbutton">Contact Us</button></Link>
               </div>
             </div>
           </div>

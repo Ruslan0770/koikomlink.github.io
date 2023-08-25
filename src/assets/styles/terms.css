@@ -40,60 +40,64 @@
 }
 
 @media screen and (max-width: 600px) {
-  .Terms{
-    padding:100px 0 30px 0!important;
+  .Terms {
+    padding: 100px 0 30px 0 !important;
   }
   .Terms .boxAll {
     width: 100%;
     box-shadow: none !important;
   }
-  .Terms .boxAll h6{
+  .Terms .boxAll h6 {
     font-size: 18px;
     margin-left: -23px;
     margin-top: -60px !important;
   }
-  .Terms span{
-    font-size: 16px !important;
+  .Terms span {
+    color: var(--blue, #143771) !important;
+    font-size: 21px !important;
+    width: 100% !important;
+    font-weight: 500 !important;
+    line-height: 155%; /* 34.1px */
   }
-  .Terms .container{
+  .Terms .container {
     padding: 0px !important;
   }
-  .Terms .box{
+  .Terms .box {
     margin-left: -30px;
     margin-top: 15px !important;
   }
-  .Terms h2{
+  .Terms h2 {
     text-align: left !important;
     margin-left: 30px;
     color: var(--blue, #143771) !important;
     font-style: normal;
     font-weight: 600;
-    font-size: 29px !important;
+    font-size: 30px !important;
     line-height: 130%; /* 39px */
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {
 }
-@media screen and (max-width:361px) {
-    .Terms p{
-      width: 100%;
-      font-size:12px !important;
-    }
-    .Terms .box{
-      width: 100%;
-      margin-left: -30px;
-    }
-    .Terms .boxAll{
-      width: 100% !important;
-    }
-    .Terms span{
-      font-size: 13px !important;
-      width: 100% !important;
-    }
-    .Terms h2{
-      font-size: 28px !important;
-    }
-    .Terms h6{
-      font-size: 12px !important;
-    }
+@media screen and (max-width: 361px) {
+  .Terms p {
+    width: 100%;
+    font-size: 16px !important;
+  }
+  .Terms .box {
+    width: 100%;
+    margin-left: -30px;
+  }
+  .Terms .boxAll {
+    width: 100% !important;
+  }
+  .Terms span {
+    font-size: 20px !important;
+    width: 100% !important;
+  }
+  .Terms h2 {
+    font-size: 30px !important;
+  }
+  .Terms h6 {
+    font-size: 17px !important;
+  }
 }

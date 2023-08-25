@@ -121,7 +121,7 @@ button:after {
 }
 @media screen and (max-width:361px) {
   .AboutCompany{
-    margin-top: 260px !important;
+    margin-top: 300px !important;
   }
   .AboutCompany h2{
     font-size: 17px !important;

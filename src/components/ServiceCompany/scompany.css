@@ -1,13 +1,12 @@
+.Service {
+  padding: 90px 0px;
+}
 .Service .left {
   height: 88vh;
   background-color: #143771;
   position: relative;
   width: 60%;
 }
-.Service {
-  padding: 90px 0px;
-}
-
 .Service .right {
   width: 40%;
 }
@@ -18,6 +17,19 @@
   flex-direction: row;
   flex-flow: wrap;
 }
+.Service .right img {
+  width: 100%;
+  height: 88vh;
+  object-fit: cover;
+}
+
+.Service .h1edit {
+  width: 120%;
+}
+.Service .pedit {
+  width: 130%;
+}
+
 .leftItems {
   position: absolute;
   top: 50%;
@@ -38,7 +50,7 @@
   line-height: 160%;
   margin-top: 15px;
 }
-.leftItems .button {
+.leftItems .servicebutton {
   border-radius: 4px;
   background: var(--red, #c01c25);
   color: var(--white, #fff);
@@ -56,7 +68,7 @@
   width: 30%;
   transition: 0.7s;
 }
-.leftItems .button2 {
+.leftItems .contactbutton {
   width: 30%;
 
   background: var(--white, #fff);
@@ -104,18 +116,7 @@ button:after {
   transition: 800ms ease all;
 }
 
-.Service .right img {
-  width: 100%;
-  height: 88vh;
-  object-fit: cover;
-}
-
-.Service .h1edit {
-  width: 120%;
-}
-.Service .pedit {
-  width: 130%;
-}
+  /* For Mobile */
 
 @media screen and (max-width: 600px) {
   .Service .left {
@@ -159,6 +160,9 @@ button:after {
     margin-left: 0px;
   }
 }
+
+  /* For Tablet */
+
 @media screen and (min-width: 600px) and (max-width: 1030px) {
   .Service .left {
     width: 100%;
@@ -168,6 +172,8 @@ button:after {
     height: 50vh !important;
   }
 }
+
+  /* For Md Screen */
 @media screen and (max-width: 1053px) {
   .Service .left {
     width: 100%;
@@ -176,6 +182,10 @@ button:after {
     width: 100%;
   }
 }
+
+
+/* For MiniPhone */
+
 @media screen and (min-width: 300px) and (max-width: 420px) {
   .Service .buttonedit button {
     padding: 10px 23px !important;
@@ -192,23 +202,32 @@ button:after {
     font-size: 12px;
     margin-left: -50px !important;
   }
-  .Service button {
+  .Service .buttonedit .servicebutton {
     font-size: 9px !important;
     margin-left: 14px !important;
+    padding: 7px 13px !important;
   }
-  .Service .right img{
+  .Service .buttonedit .contactbutton {
+    font-size: 9px !important;
+    margin-left: 14px !important;
+    padding: 6.5px 13px !important;
+  }
+  .Service .right img {
     height: 56vh !important;
   }
-  .Service .buttonedit{
+  .Service .buttonedit {
     display: flex;
     gap: 10px !important;
   }
-
 }
- @media screen and (max-width:299px) {
-    .Service button{
-      width: 100% !important;
-      font-size: 9px !important;
-      padding: 10px 8px  !important;
-    }
- }
+@media screen and (max-width: 299px) {
+  .Service button {
+    width: 100% !important;
+    font-size: 9px !important;
+    padding: 7px 8px !important;
+  }
+  .Service .buttonedit {
+    display: flex;
+    gap: 20px !important;
+  }
+}
