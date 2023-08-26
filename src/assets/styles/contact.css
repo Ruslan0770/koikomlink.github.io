@@ -333,3 +333,9 @@ button:after {
     width: 65% !important;
   }
 } 
+@media screen and (min-width: 450px) and (max-width: 500px){
+
+  .ContactUs .box{
+    margin-top: -50px !important;
+  }
+}

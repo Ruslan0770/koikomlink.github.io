@@ -230,4 +230,7 @@ button:after {
     display: flex;
     gap: 20px !important;
   }
+  .Service .right{
+    height: 20vh !important;
+  }
 }

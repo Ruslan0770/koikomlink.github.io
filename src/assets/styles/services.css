@@ -104,26 +104,60 @@
     font-size: 12.5px;
   }
 }
-@media screen and (max-width:350px){
-    .Services p{
-      font-size: 12px !important;
-      width: 140% !important;
-    }
-    .Services h5{
-      font-size: 14.5px;
-      width: 140%;
-    }
-    .Services .box{
-      width: 100%;
-    }
-    .Services img{
-      width: 60%;
-    }
-    .Services .right{
-      display: flex;
-      align-items: center;
-      justify-content: end;
-    }
+@media screen and (max-width:300px){
+   
+  .Services .all2 p {
+    width: 140%;
+    font-size: 13px !important;
+    font-weight: 400;
+    line-height: 155%; /* 24.8px */
+  }
+  .Services .all p{
+    width: 140%;
+    font-size: 13px !important;
+    margin-left: -40px;
+  }
+ 
+  .Services{
+    padding: 110px 0px !important;
+  }
+  .Services .box {
+    width: 100%;
+    margin-top: 30px !important;
+  }
+  .Services .left{
+    margin-left: -35px;
+  }
+  .Services .leftreverse{
+    margin-left: 25px !important;
+  }
+  .Services .all2 img {
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: -35px !important;
+  }
+  .Services .all2{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Services .right{
+    display: flow;
+  }
+  .Services .left{
+    width: 120%;
+  }
+  .Services .leftreverse{
+    display: flex;
+    justify-content: end;
+  }
+  .Services .right1 h5{
+    font-size: 20px !important;
+    width: 100%;
+  }
+  .Services .right1{
+    width: 145%;
+  }
+ 
     
 }
 @media screen and (min-width: 580px) and (max-width: 766px){
