@@ -179,6 +179,9 @@ button:after {
   .ContactUs .right{
     margin-top: 50px;
   }
+  .ContactUs h2{
+    font-size: 30px !important;
+  }
  
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {

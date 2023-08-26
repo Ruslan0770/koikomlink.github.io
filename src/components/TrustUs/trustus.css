@@ -76,7 +76,8 @@
 @media screen and (max-width: 600px) {
   .Trust img {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 40px !important;
+    margin-bottom: 30px;
     width: 60%;
   }
   .Trust h4 {

@@ -82,8 +82,9 @@
 @media screen and (max-width: 600px) {
   .About .right {
     background-image: url("../img/aboutus.png");
-    margin-top: -110px;
+    margin-top: -100px;
     width: 100%;
+    margin-bottom: -70px;
   }
 
   .About .imgbox {
@@ -125,7 +126,8 @@
     text-align: left;
   }
   .About .downright {
-    margin-top: -100px;
+    margin-top: 0px !important;
+    padding: 0px  !important;
   }
   .About .downright h3{
     margin-top: 20px;
@@ -191,13 +193,34 @@
 }
 
 @media screen and (max-width:361px) {
-    .About .downright{
-      margin-top: -60px !important;
-    }
+  .About .right{
+    margin-bottom: -80px !important;
+    margin-top: -100px !important;
+  }
+  .About .downright{
+    margin-top: 0px !important;
+  }
     .About .left h3{
       font-size: 15px !important;
     }
     .About .left h2{
       font-size: 17px !important;
     }
+}
+ @media screen and (min-width:380px) and (max-width:400px) {
+      .About .right{
+        margin-bottom: -150px !important;
+        margin-top: -100px !important;
+      }
+ }
+ @media screen and (min-width:400px) and (max-width:500px) {
+  .About .right{
+    margin-bottom: -80px !important;
+    margin-top: -100px !important;
+  }
+}
+@media screen and (max-width:300px) {
+    .About  .imgbox img{
+        width: 43% !important;
+      }
 }

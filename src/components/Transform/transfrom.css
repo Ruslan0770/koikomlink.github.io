@@ -95,7 +95,7 @@ button:after {
 @media screen and (max-width: 600px) {
     .Transform{
       height: 580px;
-      padding: 7.5rem 0;
+      padding: 8.4rem 0;
       background-image: url("../../assets/img/statisticmobile.png");
     }
   .Transform p {
@@ -105,7 +105,7 @@ button:after {
     font-weight: 400;
   }
   .Transform h2{
-    font-size: 28px !important;
+    font-size: 18px !important;
     width: 100%;
   }
   .Transform .buttonedit {
@@ -138,7 +138,7 @@ button:after {
     padding: 7.5rem 0 !important;
   }
   .Transform h2{
-    font-size: 25px !important;
+    font-size: 18px !important;
   }
   .Transform .button2{
     padding:8px 15px !important;

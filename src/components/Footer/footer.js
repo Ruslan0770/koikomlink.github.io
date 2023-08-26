@@ -53,21 +53,33 @@ export default function Footer() {
                 <div className="center">
                   <h5>Our Services</h5>
                   <hr  className="centerhr"/>
-                  <Link to="./services">
-                    <h6>IT Solution</h6>
+                  <div className="centerboxitems">
+                  <Link className="linkedit" to="./services">
+                    <span className="solutionhover">IT Solution</span>
                   </Link>
-                  <Link to="./services">
-                    <h6>Web Development</h6>
+                  </div>
+                  <div className="centerboxitems">
+                  <Link className="linkedit" to="./services">
+                    <span>Web Development</span>
                   </Link>
-                  <Link to="./services">
-                    <h6>Networking Services</h6>
+                  </div>
+                    <div className="centerboxitems">
+                    <Link className="linkedit" to="./services">
+                    <span>Networking Services</span>
                   </Link>
-                  <Link to="./services">
-                    <h6>SEO Optimization</h6>
+                    </div>
+                  <div className="centerboxitems">
+                  <Link  className="linkedit"to="./services">
+                    <span>SEO Optimization</span>
                   </Link>
-                  <Link to="./services">
-                    <h6>App Optimization</h6>
+                  </div>
+                  <div className="centerboxitems">
+                  <Link className="linkedit" to="./services">
+                    <span>App Optimization</span>
                   </Link>
+                  </div>
+                 
+                
                 </div>
               </div>
             </div>
@@ -77,18 +89,27 @@ export default function Footer() {
                 <div className="right">
                   <h5>Useful Links</h5>
                   <hr className="righthr"/>
-                  <Link to="./aboutus">
-                    <h6>About Us</h6>
+                 <div className="rightboxitems">
+                 <Link to="./aboutus">
+                    <span >About Us</span>
                   </Link>
-                  <Link to="./contactus">
-                    <h6>Contact Us</h6>
+                 </div>
+                 <div className="rightboxitems">
+                 <Link to="./contactus">
+                    <span>Contact Us</span>
                   </Link>
+                 </div>
+                  <div className="rightboxitems">
+                    
                   <Link to="./privacy">
-                    <h6 className="footer_active">Privacy Policy</h6>
+                    <span className="footer_active">Privacy Policy</span>
                   </Link>
+                  </div>
+                  <div className="rightboxitems">
                   <Link to="./terms">
-                    <h6 className="footer_active">Terms & Condition</h6>
+                    <span className="footer_active">Terms & Conditions</span>
                   </Link>
+                  </div>
                 </div>
               </div>
             </div>
