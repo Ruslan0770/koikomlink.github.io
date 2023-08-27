@@ -5,17 +5,18 @@ import brend2 from "../../assets/img/customerbrend2.svg";
 import brend3 from "../../assets/img/customerbrend3.svg";
 import brend4 from "../../assets/img/customerbrend4.svg";
 import brend5 from "../../assets/img/customerbrend3.svg";
+import { Carousel } from "react-responsive-carousel";
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { useState, useEffect } from "react";
 
 export default function Customers() {
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const images = [brend1, brend2, brend3, brend4, brend5];
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentSlide((prevSlide) =>
-        prevSlide === 0 ? images.length - 1 : prevSlide - 1
-      );
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 2000);
     return () => clearInterval(interval);
   }, []);
@@ -33,22 +34,35 @@ export default function Customers() {
           <h2 className="text-center">Our Customers</h2>
           <div className="imgedit">
             <div className="bgimg">
-              {images.map((image, index) => (
-                <img
-                  key={index}
-                  src={image}
-                  alt=""
-                  style={{
-                    display:
-                      index === currentSlide ||
-                      index === (currentSlide + 1) % images.length ||
-                      index === (currentSlide + 2) % images.length ||
-                      index === (currentSlide + 3) % images.length
-                        ? "block"
-                        : "none",
-                  }}
-                />
-              ))}
+              <Carousel
+                showThumbs={false}
+                showStatus={false}
+                autoPlay={true}
+                infiniteLoop={true}
+                interval={2000}
+                transitionTime={500}
+                selectedItem={currentIndex}
+                onChange={(index) => setCurrentIndex(index)}
+                stopOnHover={false}
+                swipeable={true}
+                emulateTouch={true}
+                dynamicHeight={false}
+                showArrows={true}
+                showIndicators={false}
+                swipeScrollTolerance={5}
+                useKeyboardArrows={true}
+               
+              >
+                {images.map((image, index) => (
+                  <div key={index}>
+                    <img
+                      style={{ width: 200,height:200 }}
+                      src={image}
+                      alt={`brend${index + 1}`}
+                    />
+                  </div>
+                ))}
+              </Carousel>
             </div>
           </div>
         </div>

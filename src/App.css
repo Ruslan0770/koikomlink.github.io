@@ -37,7 +37,7 @@ button{
   cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .aos-animate {
 
     -o-transition-property: none !important;
@@ -58,4 +58,4 @@ button{
     -ms-animation: none !important;
     animation: none !important;
   }
-}
+} */

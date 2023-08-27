@@ -255,7 +255,7 @@ button:after {
     max-height: 100vh;
     overflow: hidden;
   }
-
+  
   .Header .linkEdit button {
     font-size: 8px;
     width: 70%;
