@@ -34,9 +34,7 @@
 .OurService .box:hover {
   background-color: #143771;
 }
-.OurService .box:hover {
-  transform: scale(1.1);
-}
+
 .OurService span:hover::before {
   width: 28%;
 }
