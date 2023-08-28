@@ -356,4 +356,9 @@
   .Footer .down {
     padding: 0px !important;
   }
+  .Footer .iconcontent {
+    position: absolute;
+    bottom: 2.5% !important;
+    left: 8.9%;
+  }
 }

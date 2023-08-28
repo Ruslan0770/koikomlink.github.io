@@ -37,6 +37,7 @@ export default function Customers() {
               <Carousel
                 showThumbs={false}
                 showStatus={false}
+                
                 autoPlay={true}
                 infiniteLoop={true}
                 interval={2000}
@@ -47,11 +48,10 @@ export default function Customers() {
                 swipeable={true}
                 emulateTouch={true}
                 dynamicHeight={false}
-                showArrows={true}
+                showArrows={false}
                 showIndicators={false}
                 swipeScrollTolerance={5}
                 useKeyboardArrows={true}
-               
               >
                 {images.map((image, index) => (
                   <div key={index}>
