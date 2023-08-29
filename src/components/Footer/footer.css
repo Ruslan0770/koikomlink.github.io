@@ -232,7 +232,16 @@
   }
  
 }
+@media screen and (min-width: 400px) and (max-width: 600px) {
 
+  .Footer .down .leftbox{
+    justify-content: start;
+    padding: 0px 0px 0px 30px;
+  }
+  .Footer .down{
+    padding: 0px !important;
+  }
+}
 @media screen and (min-width: 600px) and (max-width: 1000px) {
   .Footer hr {
     width: 80%;
