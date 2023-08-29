@@ -241,7 +241,8 @@
 
 @media screen and (max-width: 361px) {
   .About .right {
-   height: 45vh !important;
+   height: 43vh !important;
+   margin-top: -120px !important;
   }
   .About .downright {
     margin-top: 0px !important;
