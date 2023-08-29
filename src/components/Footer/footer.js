@@ -3,7 +3,7 @@ import "./footer.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/img/footerlogo.svg"
-import footericonclogo from "../../assets/img/footercopybug.png"
+import footericonclogo from "../../assets/img/footercopyy.png"
 import icons1 from "../../assets/img/footericons1.svg"
 import icons2 from "../../assets/img/footericons2.svg"
 import icons3 from "../../assets/img/footericons3.svg"
