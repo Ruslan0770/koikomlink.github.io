@@ -8,7 +8,7 @@
   line-height: normal;
   letter-spacing: 0.54px;
 }
-.About .right{
+.About .right {
   background-image: url("../img/aboutus.svg");
   width: 100%;
   background-repeat: no-repeat;
@@ -79,12 +79,12 @@
   letter-spacing: 0.54px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .About .right {
     background-image: url("../img/aboutus.png");
-    margin-top: -100px;
     width: 100%;
-    margin-bottom: -70px;
+    height: 40vh !important;
+    margin-top: -100px;
   }
 
   .About .imgbox {
@@ -92,7 +92,7 @@
     object-fit: cover;
     border-radius: 7px;
   }
-  .About .imgbox img{
+  .About .imgbox img {
     width: 45% !important;
   }
   .Stats .box {
@@ -101,7 +101,7 @@
   }
   .About {
     width: 100%;
-    padding: 120px 0!important;
+    padding: 120px 0 !important;
   }
 
   .About .left h2 {
@@ -112,7 +112,7 @@
   .About .left h3 {
     text-align: start;
   }
-  .About .left h3{
+  .About .left h3 {
     font-size: 16px !important;
   }
   .About .left p {
@@ -127,13 +127,13 @@
   }
   .About .downright {
     margin-top: 0px !important;
-    padding: 0px  !important;
+    padding: 0px !important;
   }
-  .About .downright h3{
+  .About .downright h3 {
     margin-top: 20px;
     font-size: 16px !important;
   }
-  .About .downright h2{
+  .About .downright h2 {
     font-size: 20px !important;
   }
   .About .downright p {
@@ -142,7 +142,7 @@
     font-size: 16px;
     width: 110% !important;
   }
-  
+
   .Stats h5 {
     font-size: 40px;
   }
@@ -152,17 +152,16 @@
   .Stats .box {
     margin-top: 60px;
   }
-  .Stats{
+  .Stats {
     margin-top: -230px;
     padding: 0px 0px 80px 0 !important;
   }
-  .About .all2{
+  .About .all2 {
     display: flex;
     flex-direction: column-reverse;
   }
-
 }
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 767px) and (max-width: 1000px) {
   .Stats .box {
     margin: auto;
     margin-top: 20px;
@@ -171,9 +170,54 @@
     width: 100%;
     font-size: 20px;
   }
-  .About .all2{
-    display: flex;
-    flex-direction: column-reverse;
+  .About .all2 .left {
+    margin-top: 160px;
+  }
+  .About .all2 {
+    margin-top: -150px !important;
+  }
+  .About .downright {
+    margin-left: 30px;
+  }
+  .About .all2 p {
+    color: var(--gray-2, #545f6b);
+    font-size: 19px;
+    font-style: normal;
+    width: 110% !important;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+  }
+  .About .all2 .imgbox img {
+    width: 45% !important;
+  }
+  .About {
+    padding: 200px 0 !important;
+  }
+  .About .container {
+    padding: 0px !important;
+  }
+  .About p {
+    color: var(--gray-2, #545f6b);
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    width: 100% !important;
+  }
+  .About h2 {
+    font-size: 25px !important;
+    color: var(--blue, #143771);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 39px */
+  }
+  .About h3 {
+    color: var(--red, #c01c25);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
   }
   .Stats h6 {
     font-size: 13px;
@@ -182,45 +226,142 @@
   .Stats .all {
     width: 100%;
   }
+  .Stats{
+    margin-top: -100px;
+    padding: 0px 0px 100px 0 !important;
+  }
   .Stats .container {
     padding: 0px !important;
   }
   .About .right {
-    background-image: url("../img/aboutus.png");
-    margin-top: -110px;
-    width: 100%;
+    background-image: url("../img/aboutus.svg");
+    margin-top: 110px;
   }
 }
 
-@media screen and (max-width:361px) {
-  .About .right{
-    margin-bottom: -80px !important;
-    margin-top: -100px !important;
+@media screen and (max-width: 361px) {
+  .About .right {
+   height: 45vh !important;
   }
-  .About .downright{
+  .About .downright {
     margin-top: 0px !important;
   }
-    .About .left h3{
-      font-size: 15px !important;
-    }
-    .About .left h2{
-      font-size: 17px !important;
-    }
+  .About .left h3 {
+    font-size: 15px !important;
+  }
+  .About .left h2 {
+    font-size: 17px !important;
+  }
 }
- @media screen and (min-width:380px) and (max-width:400px) {
-      .About .right{
-        margin-bottom: -150px !important;
-        margin-top: -100px !important;
-      }
- }
- @media screen and (min-width:400px) and (max-width:500px) {
-  .About .right{
-    margin-bottom: -80px !important;
+@media screen and (min-width: 380px) and (max-width: 400px) {
+  /* .About .right {
+    height: 45vh !important;
+  } */
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .About .right {
+    height: 40vh !important;
     margin-top: -100px !important;
   }
 }
-@media screen and (max-width:300px) {
-    .About  .imgbox img{
-        width: 43% !important;
-      }
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .About .right {
+    margin-bottom:30px !important;
+    margin-top: -100px !important;
+  }
+  .About .imgbox img{
+    width: 40% !important;
+  }
+}
+@media screen and (max-width: 300px) {
+  .About .imgbox img {
+    width: 43% !important;
+  }
+}
+@media screen and (min-width:299px) and (max-width:350px){
+  .About .all2 .imgbox  img{
+    width: 40% !important;
+  }
+  .About .right{
+    height: 50vh !important;
+    margin-top: -100px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .Stats .box {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .About p {
+    width: 100%;
+    font-size: 20px;
+  }
+  .About .all2 .left {
+    margin-top: 120px;
+  }
+  .About .all2 {
+    margin-top: -250px !important;
+  }
+  .About .downright {
+    margin-left: 30px;
+  }
+  .About .all2 p {
+    color: var(--gray-2, #545f6b);
+    font-size: 19px;
+    font-style: normal;
+    width: 120% !important;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+  }
+  .About .all2 .imgbox img {
+    width: 45% !important;
+  }
+  .About {
+    padding: 200px 0 !important;
+  }
+  .About .container {
+    padding: 80px !important;
+  }
+  .About p {
+    color: var(--gray-2, #545f6b);
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    width: 100% !important;
+  }
+  .About h2 {
+    font-size: 25px !important;
+    color: var(--blue, #143771);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 39px */
+  }
+  .About h3 {
+    color: var(--red, #c01c25);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+  }
+  .Stats h6 {
+    font-size: 13px;
+    width: 100%;
+  }
+  .Stats .all {
+    width: 100%;
+  }
+  .Stats{
+    margin-top: -200px;
+    padding: 0px 0px 100px 0 !important;
+  }
+  .Stats .container {
+    padding: 0px !important;
+  }
+  .About .right {
+    background-image: url("../img/aboutus.svg");
+    margin-top: 110px;
+  }
 }

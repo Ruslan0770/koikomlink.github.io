@@ -67,7 +67,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .Choose img {
     margin: auto;
     margin-top: 70px;
@@ -103,10 +103,19 @@
     padding: 0px !important;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 767px) and (max-width: 1000px) {
   .Choose img {
     text-align: center;
-    margin-bottom: 200px;
-    width: 100%;
+   margin-top: 50px;
+    width: 80%;
+  }
+  .Choose .container{
+    padding: 0px !important;
+  }
+  .Choose{
+    padding: 0px !important;
+  }
+  .Choose .minibox button{
+    font-size: 11px !important;
   }
 }

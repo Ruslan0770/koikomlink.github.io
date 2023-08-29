@@ -22,7 +22,7 @@ export default function ServiceCompany() {
                 <p>
                   Lorem ipsum dolor sit amet consectetur. Elementum convallis
                   interdum sem vestibulum fringilla venenatis est. Malesuada
-                  mauris lacus sit suspendisse adipiscing vitae augue.{" "}
+                  mauris lacus sit suspendisse adipiscing vitae augue.
                 </p>
               </div>
               <div className="buttonedit">

@@ -11,7 +11,7 @@ export default function Aboutus() {
         <div className="About">
           <div className="container">
             <div className="row all">
-              <div className="col-lg-8">
+              <div className="col-lg-8 col-md-7">
                 <div className="left">
                   <h3>ABOUT OUR COMPANY</h3>
                   <h2>
@@ -33,12 +33,12 @@ export default function Aboutus() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-5">
                 <div className="right">
                 </div>
               </div>
               <div className="row all2">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6">
                 <div className="left">
                   <div className="imgbox">
                     <img src={about2} alt="" />
@@ -47,7 +47,7 @@ export default function Aboutus() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6">
                 <div className="downright">
                   <h3>ABOUT OUR TEAM</h3>
                   <h2>The Team</h2>

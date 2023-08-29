@@ -7,7 +7,7 @@ export default function TrustUs() {
       <div className="Trust">
         <div className="container">
           <div className="row all">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <div className="box">
                 <div
                   data-aos="flip-left"
@@ -25,32 +25,32 @@ export default function TrustUs() {
                     ornare felis in semper sit.
                   </p>
                   <div className="row all2">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                       <div className="minibox">
                         <button>Remote It Assistance</button>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                       <div className="minibox">
                         <button>Solving IT Problems</button>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                       <div className="minibox">
                         <button>Practice IT Management</button>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                       <div className="minibox">
                         <button>IT Security Services</button>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                       <div className="minibox">
                         <button>Managed IT Service</button>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                       <div className="minibox">
                         <button>Cloud Services</button>
                       </div>
@@ -59,7 +59,7 @@ export default function TrustUs() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <div className="box">
                 <div
                   data-aos="fade-up"

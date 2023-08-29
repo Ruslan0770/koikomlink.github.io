@@ -73,7 +73,7 @@
   justify-content: end;
   margin-top: 60px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .Trust img {
     margin: auto;
     margin-top: 40px !important;
@@ -98,11 +98,38 @@
     text-align: center;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 767px) and (max-width: 1000px) {
   .Trust img {
-    width: 100%;
-    margin-top: 100px;
+    text-align: start;
+   margin-top: 50px;
+   margin-right: 50px;
+    width: 60%;
   }
+  .Trust .container{
+    padding: 0px !important;
+  }
+  .Trust{
+    padding: 100px 0!important;
+  }
+  .Trust .minibox button{
+    font-size: 10px !important;
+    width: 100% !important;
+  }
+  .Trust .minibox button:nth-last-child(3){
+    margin-left: 100px;
+  }
+  .Trust h4{
+    font-size: 16px !important;
+  }
+  .Trust h2{
+    font-size: 22px !important;
+    width: 100%;
+  }
+  .Trust p{
+    font-size: 17px !important;
+    width: 100% !important;
+  }
+ 
 }
 
 @media screen and (max-width:361px) {

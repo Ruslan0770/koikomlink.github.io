@@ -96,7 +96,7 @@
   line-height: normal;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .Testimonial .all {
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -152,12 +152,19 @@
     height: 0vh !important;
     width: 100%;
   }
+  .Testimonial h4{
+    font-size: 16px !important;
+  }
+  .Testimonial h2{
+    font-size: 30px !important;
+  }
 }
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
   .Testimonial .box {
     margin: auto;
     margin-top: 50px;
-    height: 54vh;
+    padding: 15px 0px 300px 0px !important;
+    height: 0vh !important;
     width: 100%;
   }
 }
