@@ -80,6 +80,7 @@
     margin-bottom: 30px;
     width: 60%;
   }
+  
   .Trust h4 {
     text-align: center;
     font-size: 16px !important;
@@ -96,6 +97,9 @@
   }
   .Trust .minibox {
     text-align: center;
+  }
+  .Trust button{
+    pointer-events: none;
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1000px) {

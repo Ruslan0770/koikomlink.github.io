@@ -330,6 +330,10 @@
   .Footer .down {
     padding: 0px !important;
   }
+  .Footer .leftbox{
+    justify-content: start;
+    padding: 0px 0px 0px 30px;
+  }
   .Footer .iconcontent {
     position: absolute;
     bottom: 3.5%;
@@ -363,5 +367,16 @@
     position: absolute;
     bottom: 2.5% !important;
     left: 8.9%;
+  }
+}
+
+@media screen and (min-width: 299px) and (max-width: 350px) {
+  .Footer .iconcontent {
+    position: absolute;
+    bottom: 1.5% !important;
+    left: 8.9%;
+  }
+  .Footer .leftbox h6 {
+    font-size: 13px !important;
   }
 }
