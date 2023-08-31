@@ -16,9 +16,7 @@ export default function TrustUs() {
                   className="left"
                 >
                   <h4>WHY TRUST US?</h4>
-                  <h2>
-                  Achieve digital transformation for business services
-                  </h2>
+                  <h2>Achieve digital transformation for business services</h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Duis eu et interdum
                     id. Malesuada amet rhoncus non sit. Lectus pellentesque

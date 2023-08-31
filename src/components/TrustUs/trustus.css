@@ -2,9 +2,8 @@
   width: 60%;
 }
 
-.Trust{
+.Trust {
   padding: 7rem 0;
-
 }
 .Trust .row {
   justify-content: center;
@@ -27,7 +26,7 @@
   color: var(--gray-2, #545f6b);
   font-size: 17px;
   font-weight: 400;
-  line-height: 155%; 
+  line-height: 155%;
   margin-bottom: 30px;
 }
 .Trust button {
@@ -76,11 +75,11 @@
 @media screen and (max-width: 767px) {
   .Trust img {
     margin: auto;
-    margin-top:10px !important;
+    margin-top: 10px !important;
     margin-bottom: 30px;
     width: 60%;
   }
-  
+
   .Trust h4 {
     text-align: center;
     font-size: 16px !important;
@@ -98,46 +97,57 @@
   .Trust .minibox {
     text-align: center;
   }
-  .Trust button{
+  .Trust button {
     pointer-events: none;
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1000px) {
   .Trust img {
     text-align: start;
-   margin-top: 50px;
-   margin-right: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
     width: 60%;
   }
-  .Trust .container{
+  .Trust .container {
     padding: 0px !important;
   }
-  .Trust{
-    padding: 100px 0!important;
+  .Trust {
+    padding: 100px 0 !important;
   }
-  .Trust .minibox button{
+  .Trust .minibox button {
     font-size: 10px !important;
     width: 100% !important;
   }
-  .Trust .minibox button:nth-last-child(3){
+  .Trust .minibox button:nth-last-child(3) {
     margin-left: 100px;
   }
-  .Trust h4{
+  .Trust h4 {
     font-size: 16px !important;
   }
-  .Trust h2{
+  .Trust h2 {
     font-size: 22px !important;
     width: 100%;
   }
-  .Trust p{
+  .Trust p {
     font-size: 17px !important;
     width: 100% !important;
   }
- 
 }
 
-@media screen and (max-width:361px) {
-    .Trust h2{
-      font-size: 19px !important;
-    }
+@media screen and (max-width: 361px) {
+  .Trust h2 {
+    font-size: 19px !important;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .Trust .minibox button {
+    font-size: 10px !important;
+    width: 100% !important;
+  }
+  .Trust img {
+    margin-top: 30px;
+  }
+  .Trust h2 {
+    font-size: 24px !important;
+  }
 }

@@ -20,54 +20,51 @@ export default function Aboutus() {
                   </h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Duis eu et interdum
-                    id. Malesuada  amet rhoncus non sit. Lectus
-                    pellentesque ornare felis in semper sit. Lorem  ipsum
-                    dolor sit amet consectetur. Duis eu et interdum id.
-                    Malesuada amet  rhoncus non sit. Lectus pellentesque
-                    ornare felis in semper sit. Lorem ipsum  dolor sit
-                    amet consectetur. Duis eu et interdum id. Malesuada amet
-                  rhoncus non sit. Lectus pellentesque ornare felis in
-                    semper sit. Lorem ipsum  dolor sit amet consectetur.
-                    Duis eu et interdum id. Malesuada amet  rhoncus non
-                    sit. Lectus pellentesque ornare felis in semper sit.
+                    id. Malesuada amet rhoncus non sit. Lectus pellentesque
+                    ornare felis in semper sit. Lorem ipsum dolor sit amet
+                    consectetur. Duis eu et interdum id. Malesuada amet rhoncus
+                    non sit. Lectus pellentesque ornare felis in semper sit.
+                    Lorem ipsum dolor sit amet consectetur. Duis eu et interdum
+                    id. Malesuada amet rhoncus non sit. Lectus pellentesque
+                    ornare felis in semper sit. Lorem ipsum dolor sit amet
+                    consectetur. Duis eu et interdum id. Malesuada amet rhoncus
+                    non sit. Lectus pellentesque ornare felis in semper sit.
                   </p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-5">
-                <div className="right">
-                </div>
+                <div className="right"></div>
               </div>
               <div className="row all2">
-              <div className="col-lg-6 col-md-6">
-                <div className="left">
-                  <div className="imgbox">
-                    <img src={about2} alt="" />
-                    <img src={about3} alt="" />
-                    <img src={about4} alt="" />
+                <div className="col-lg-6 col-md-6">
+                  <div className="left">
+                    <div className="imgbox">
+                      <img src={about2} alt="" />
+                      <img src={about3} alt="" />
+                      <img src={about4} alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6">
+                  <div className="downright">
+                    <h3>ABOUT OUR TEAM</h3>
+                    <h2>The Team</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur. Duis eu et
+                      interdum id. Malesuada amet rhoncus non sit. Lectus
+                      pellentesque ornare felis in semper sit. Lorem ipsum dolor
+                      sit amet consectetur. Duis eu et interdum id. Malesuada
+                      amet rhoncus non sit. Lectus pellentesque ornare felis in
+                      semper sit. Lorem ipsum dolor sit amet consectetur. Duis
+                      eu et interdum id. Malesuada amet rhoncus non sit. Lectus
+                      pellentesque ornare felis in semper sit. Lorem ipsum dolor
+                      sit amet consectetur. Duis eu et interdum id. Malesuada
+                      amet rhoncus non sit. Lectus pellentesque ornare felis in
+                      semper sit.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-6">
-                <div className="downright">
-                  <h3>ABOUT OUR TEAM</h3>
-                  <h2>The Team</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur. Duis eu et interdum
-                    id. Malesuada amet rhoncus non sit. Lectus
-                    pellentesque ornare felis in semper sit. Lorem ipsum
-                    dolor sit amet consectetur. Duis  eu et interdum id.
-                    Malesuada amet rhoncus non sit. Lectus  pellentesque
-                    ornare felis in semper sit. Lorem ipsum dolor sit 
-                    amet consectetur. Duis eu et interdum id. Malesuada amet
-                     rhoncus non sit. Lectus pellentesque ornare felis in
-                    semper sit.  Lorem ipsum dolor sit amet consectetur.
-                    Duis eu et interdum id.  Malesuada amet rhoncus non
-                    sit. Lectus pellentesque ornare  felis in semper sit.
-                  </p>
-                </div>
-              </div>
-              </div>
-             
             </div>
           </div>
         </div>

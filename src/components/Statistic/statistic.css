@@ -58,15 +58,15 @@
     font-weight: 700;
     line-height: normal;
   }
-  .Statistic h5{
-    color: #FFF;
-text-align: center;
-font-size: 18px;
-width: 100%;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.54px;
+  .Statistic h5 {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.54px;
   }
   /* .Statistic{
     background-image: url(../../assets//img/statisticmobile.png) !important;

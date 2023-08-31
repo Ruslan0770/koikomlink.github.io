@@ -153,7 +153,7 @@ button:after {
     margin-left: -17px !important;
     margin-top: -30px;
   }
-  
+
   .Header .iconedit:hover .name {
     opacity: 1;
     pointer-events: visible;
@@ -257,10 +257,10 @@ button:after {
     overflow: hidden;
     opacity: 0;
   }
-  .nav_active{
+  .nav_active {
     opacity: 1;
   }
-  
+
   .Header .linkEdit button {
     font-size: 8px;
     width: 70%;
@@ -293,14 +293,15 @@ button:after {
   .Header .container {
     padding: 0px 50px 0px 0px !important;
   }
-  .Header .nav_menu{
+  .Header .nav_menu {
     top: 6vh !important;
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
   .Header button {
-    padding: 2px 25px;
-    width: 75%;
+    padding: 12px 25px;
+    width: 80%;
+    font-size: 11px !important;
   }
   .headerall ul {
     width: 100%;
@@ -341,14 +342,13 @@ button:after {
   .Header .nav_toggler {
     margin-left: 38px !important;
   }
-  
+
   .headerall .linkEdit span {
     display: inline-block;
     font-size: 22px !important;
     display: flex;
     align-items: end;
     margin-top: 20px !important;
-
   }
   .nav_menu {
     padding: 190px 0px 150px 0px !important;
@@ -371,7 +371,7 @@ button:after {
   transform: rotate(45deg) translate(-5px, -10px);
 }
 @media screen and (min-width: 600px) and (max-width: 767px) {
-  .nav_menu{
+  .nav_menu {
     top: 7vh !important;
   }
 }

@@ -75,10 +75,10 @@
     display: flex;
     width: 60%;
   }
-  .Choose .right{
+  .Choose .right {
     margin-top: -120px;
   }
-  .Choose .all{
+  .Choose .all {
     display: flex;
     flex-direction: column-reverse;
   }
@@ -99,26 +99,33 @@
   .Choose .minibox {
     text-align: center;
   }
-  .Choose{
+  .Choose {
     padding: 0px !important;
   }
-  .Choose button{
+  .Choose button {
     pointer-events: none;
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1000px) {
   .Choose img {
     text-align: center;
-   margin-top: 50px;
+    margin-top: 50px;
     width: 80%;
   }
-  .Choose .container{
+  .Choose .container {
     padding: 0px !important;
   }
-  .Choose{
+  .Choose {
     padding: 0px !important;
   }
-  .Choose .minibox button{
+  .Choose .minibox button {
     font-size: 11px !important;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .Choose button {
+    font-size: 10px !important;
+    padding: 13px 18px !important;
+    width: 100% !important;
   }
 }

@@ -165,3 +165,8 @@
     text-align: center !important;
   }
 }
+@media screen and (min-width: 500px) and (max-width: 600px){
+  .Services img{
+    width: 20% !important;
+  }
+}

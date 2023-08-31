@@ -40,7 +40,7 @@
   font-size: 13px;
   font-weight: 600;
   line-height: normal;
-  padding: 10px 23px;
+  padding: 11px 23px;
   width: 10.5%;
   position: relative;
   border: none;
@@ -91,20 +91,19 @@ button:after {
   transition: 800ms ease all;
 }
 
-
 @media screen and (max-width: 767px) {
-    .Transform{
-      height: 580px;
-      padding: 8.4rem 0;
-      background-image: url("../../assets/img/statisticmobile.png");
-    }
+  .Transform {
+    height: 580px;
+    padding: 8.4rem 0;
+    background-image: url("../../assets/img/statisticmobile.png");
+  }
   .Transform p {
     width: 100%;
     font-size: 18px;
     line-height: 155%;
     font-weight: 400;
   }
-  .Transform h2{
+  .Transform h2 {
     font-size: 18px !important;
     width: 100%;
   }
@@ -113,7 +112,7 @@ button:after {
     justify-content: center;
     gap: 0px !important;
   }
-  .Transform button{
+  .Transform button {
     font-size: 12px !important;
   }
 }
@@ -121,92 +120,84 @@ button:after {
   .Transform .buttonedit button {
     width: 100%;
     padding: 9px 10px;
-    
   }
   .Transform .buttonedit .button {
     width: 130%;
     padding: 10px 30px;
     margin-left: -25px;
   }
-  
 }
 @media screen and (min-width: 767px) and (max-width: 1100px) {
-  .Transform h2{
+  .Transform h2 {
     font-size: 28px !important;
   }
-  .Transform h4{
+  .Transform h4 {
     font-size: 16px !important;
   }
   .Transform .buttonedit button {
     width: 20% !important;
     padding: 9px 10px;
-    
   }
   .Transform .buttonedit .button {
     width: 20% !important;
     padding: 10px 30px;
   }
 }
-@media screen and (max-width:361px) {
-  .Transform p{
+@media screen and (max-width: 361px) {
+  .Transform p {
     font-size: 15px;
     width: 100%;
   }
   .Transform {
     padding: 9rem 0 !important;
   }
-  .Transform h2{
+  .Transform h2 {
     font-size: 18px !important;
   }
-  .Transform .button2{
-    padding:8px 15px !important;
+  .Transform .button2 {
+    padding: 8px 15px !important;
     width: 80% !important;
     font-size: 9px !important;
     font-size: 12px !important;
-
   }
-  .Transform .button{
+  .Transform .button {
     width: 130% !important;
     font-size: 9px !important;
     padding: 8px 27px !important;
     font-size: 12px !important;
   }
-  .Transform .buttonedit{
+  .Transform .buttonedit {
     display: flex;
     align-items: center;
     gap: 0px;
   }
 }
-@media screen and (max-width:300px){
-    .Transform .button{
-      padding: 10px 10px !important;
-      
-    }
-    .Transform .buttonedit{
-      display: flex;
-      gap: 20px !important;
-    }
+@media screen and (max-width: 300px) {
+  .Transform .button {
+    padding: 10px 10px !important;
+  }
+  .Transform .buttonedit {
+    display: flex;
+    gap: 20px !important;
+  }
 }
-@media screen and (min-width:1100px) and (max-width:1350px) {
+@media screen and (min-width: 1100px) and (max-width: 1350px) {
   .Transform .buttonedit button {
     width: 13% !important;
     padding: 9px 10px;
-    
   }
   .Transform .buttonedit .button {
     width: 13% !important;
     padding: 10px 20px;
   }
 }
-@media screen and (min-width:599px) and (max-width:767px) {
+@media screen and (min-width: 599px) and (max-width: 767px) {
   .Transform .buttonedit button {
     width: 100% !important;
     padding: 9px 10px !important;
-    
   }
   .Transform .buttonedit .button {
     width: 100% !important;
     padding: 10px 30px !important;
   }
 }
-

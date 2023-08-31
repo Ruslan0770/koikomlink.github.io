@@ -42,7 +42,6 @@
   text-decoration-color: #c01c25;
 }
 
-
 .OurService .box:hover p {
   color: #fff;
 }
@@ -53,15 +52,13 @@
   color: #fff;
 }
 
-
-
 .OurService p {
   margin-left: 30px;
   color: var(--gray-2, #545f6b);
   font-size: 13px;
   width: 82%;
   font-weight: 400;
-  line-height: 140%; 
+  line-height: 140%;
 }
 .OurService h5 {
   color: var(--blue, #143771);
@@ -81,7 +78,7 @@
   width: 80%;
   position: relative;
 }
-.OurService .linkedit{
+.OurService .linkedit {
   display: inline-block;
   height: 0;
 }
@@ -99,17 +96,17 @@
     width: 100%;
     padding: 20px 0px 300px 0;
   }
-  .OurService .box p{
+  .OurService .box p {
     width: 80%;
     font-size: 14px;
   }
-  .OurService h4{
+  .OurService h4 {
     font-size: 16px !important;
   }
-  .OurService h2{
+  .OurService h2 {
     font-size: 18px;
   }
-  .OurService .linkedit{
+  .OurService .linkedit {
     margin-top: 30px !important;
   }
 }
@@ -121,16 +118,16 @@
     padding: 15px 0px 280px 0px !important;
     height: 0vh !important;
   }
-  .OurService h4{
+  .OurService h4 {
     font-size: 18px !important;
   }
-  .OurService h2{
+  .OurService h2 {
     font-size: 30px !important;
   }
-  .OurService{
+  .OurService {
     padding: 0px !important;
   }
-  .OurService p{
+  .OurService p {
     width: 80%;
     font-size: 15px;
   }
@@ -141,10 +138,9 @@
     width: 100%;
   }
 }
-@media screen and (max-width:361px) {
-    .OurService p{
-      font-size: 12.3px !important;
-      width: 81% !important;
-    }
-    
+@media screen and (max-width: 361px) {
+  .OurService p {
+    font-size: 12.3px !important;
+    width: 81% !important;
+  }
 }
