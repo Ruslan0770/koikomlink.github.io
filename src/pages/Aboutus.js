@@ -1,8 +1,8 @@
 import React from "react";
 import "../assets/styles/aboutus.css";
-import about2 from "../assets/img/aboutusminimg.png";
-import about3 from "../assets/img/aboutus3.svg";
-import about4 from "../assets/img/aboutus4.svg";
+import about from "../assets/img/aboutusminimg.png";
+import about2 from "../assets/img/aboutusminimg2.png";
+import about3 from "../assets/img/aboutusminimg3.png";
 
 export default function Aboutus() {
   return (
@@ -39,9 +39,9 @@ export default function Aboutus() {
                 <div className="col-lg-6 col-md-6">
                   <div className="left">
                     <div className="imgbox">
-                      <img src={about2} alt="" />
+                      <img src={about} alt="" />
                       <img src={about3} alt="" />
-                      <img src={about4} alt="" />
+                      <img src={about2} alt="" />
                     </div>
                   </div>
                 </div>
