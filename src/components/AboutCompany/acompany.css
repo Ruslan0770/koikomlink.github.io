@@ -115,6 +115,9 @@ button:after {
   .AboutCompany {
     padding: 100px 0 !important;
   }
+  .AboutCompany h3{
+    font-size: 16px !important;
+  }
   .AboutCompany .container {
     padding: 0px !important;
   }
