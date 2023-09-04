@@ -74,14 +74,14 @@ button:after {
 }
 
 .Header .linkEdit {
-  text-decoration: none;
   position: relative;
+  text-decoration: none;
   text-align: center;
   font-size: 15px;
   line-height: normal;
   font-weight: 500;
-  color: var(--gray, #363e47);
   z-index: 9999;
+  color: var(--gray, #363e47);
 }
 
 .Header nav {

@@ -2,6 +2,7 @@ import React from "react";
 import contact from "../assets/img/contactlocation.svg";
 import contact2 from "../assets/img/contactlocation2.svg";
 import contact3 from "../assets/img/contactlocation3.svg";
+import { Link } from "react-router-dom";
 import "../assets/styles/contact.css";
 
 export default function Contactus() {
@@ -52,7 +53,7 @@ export default function Contactus() {
                     placeholder="Typing your message here...."
                   />
                 </form>
-                <button>Send</button>
+              <Link to="/">  <button>Send</button></Link>
               </div>
             </div>
           </div>

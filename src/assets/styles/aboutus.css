@@ -81,8 +81,8 @@
   .About .right {
     background-image: url("../img/aboutus.png");
     width: 100%;
-    height: 40vh !important;
-    margin-top: -110px;
+    height: 300px !important;
+    margin-top: -120px;
   }
 
   .About .imgbox {
@@ -259,8 +259,8 @@
 }
 @media screen and (min-width: 400px) and (max-width: 500px) {
   .About .right {
-    height: 40vh !important;
-    margin-top: -100px !important;
+    height: 350px !important;
+    margin-top: -120px !important;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 600px) {
