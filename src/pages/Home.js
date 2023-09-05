@@ -8,6 +8,7 @@ import TrustUs from "../components/TrustUs/trustus";
 import Testimonial from "../components/TestiMonial/testimonial";
 import Transform from "../components/Transform/transform";
 import Customers from "../components/OurCustomers/customers";
+
 export default function Home() {
   return (
     <>
