@@ -240,7 +240,7 @@ button:after {
   .nav_menu {
     list-style: none;
     position: fixed;
-    top: 8.5vh;
+    top: 5.5vh;
     z-index: 0;
     left: 0;
     right: 0;

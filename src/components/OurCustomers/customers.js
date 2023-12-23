@@ -34,9 +34,7 @@ export default function Customers() {
   return (
     <>
       <div
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1000"
+       
         className="Customers"
       >
         <div className="container">

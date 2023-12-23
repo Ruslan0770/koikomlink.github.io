@@ -26,10 +26,15 @@
   color: var(--white, #fff);
   text-align: center;
   font-size: 16px;
-  width: 100%;
+  width: 40%;
   font-weight: 400;
   line-height: 160%; /* 35.2px */
   margin-top: 15px;
+}
+.Transform .pedit{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .Transform .button {
   margin-top: 10px;
@@ -141,6 +146,9 @@ button:after {
   .Transform .buttonedit .button {
     width: 20% !important;
     padding: 10px 30px;
+  }
+  .Transform p{
+    width: 70% !important;
   }
 }
 @media screen and (max-width: 361px) {

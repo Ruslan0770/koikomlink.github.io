@@ -14,23 +14,22 @@ export default function Ourservice() {
       <div className="OurService">
         <div className="container">
           <h4 className="text-center">WHAT WE PROVIDE</h4>
-          <h2 className="text-center">Our Services</h2>
+          <h2 className="text-center">Innovative IT Solutions for Progressive Business Growth</h2>
           <div className="row all">
             <div className="col-lg-4 col-md-6">
               <div className="boxall"></div>
               <div
                 style={{ transition: "1.3s" }}
-                data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"
+                // data-aos="flip-left"
+                // data-aos-easing="ease-out-cubic"
+                // data-aos-duration="2000"
                 className="box"
               >
                 <img src={icons1} alt="" />
                 <h5>IT Solution</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Scelerisque elit vitae
-                  dui rhoncus est vestibulum metus sagittis. Amet duis est eget
-                  nisi.
+                  We offer custom IT strategies, including system integration
+                  and data management, tailored to meet specific business needs.
                 </p>
                 <Link className="linkedit" to="./services">
                   <span>Read more</span>
@@ -41,17 +40,17 @@ export default function Ourservice() {
               <div className="boxall"></div>
               <div
                 style={{ transition: "1.3s" }}
-                data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"
+                // data-aos="flip-left"
+                // data-aos-easing="ease-out-cubic"
+                // data-aos-duration="2000"
                 className="box"
               >
                 <img src={icons2} alt="" />
                 <h5>Web Development</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Scelerisque elit vitae
-                  dui rhoncus est vestibulum metus sagittis. Amet duis est eget
-                  nisi.
+                  Our team provides creative web design and development
+                  services, ensuring an engaging and brand-aligned online
+                  presence.
                 </p>
                 <Link className="linkedit" to="./services">
                   <span>Read more</span>
@@ -62,17 +61,16 @@ export default function Ourservice() {
               <div className="boxall"></div>
               <div
                 style={{ transition: "1.3s" }}
-                data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"
+                // data-aos="flip-left"
+                // data-aos-easing="ease-out-cubic"
+                // data-aos-duration="2000"
                 className="box"
               >
                 <img src={icons3} alt="" />
                 <h5>Networking Services</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Scelerisque elit vitae
-                  dui rhoncus est vestibulum metus sagittis. Amet duis est eget
-                  nisi.
+                  We deliver dependable, expertly managed networking solutions
+                  to support secure and high-speed business operations.
                 </p>
                 <Link className="linkedit" to="./services">
                   <span>Read more</span>
@@ -83,17 +81,16 @@ export default function Ourservice() {
               <div className="boxall"></div>
               <div
                 style={{ transition: "1.3s" }}
-                data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"
+                // data-aos="flip-left"
+                // data-aos-easing="ease-out-cubic"
+                // data-aos-duration="2000"
                 className="box"
               >
                 <img src={icons4} alt="" />
                 <h5>SEO Optimization</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Scelerisque elit vitae
-                  dui rhoncus est vestibulum metus sagittis. Amet duis est eget
-                  nisi.
+                  Our strategic SEO practices are designed to increase your
+                  online visibility and attract more traffic.
                 </p>
                 <Link className="linkedit" to="./services">
                   <span>Read more</span>
@@ -104,17 +101,16 @@ export default function Ourservice() {
               <div className="boxall"></div>
               <div
                 style={{ transition: "1.3s" }}
-                data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"
+                // data-aos="flip-left"
+                // data-aos-easing="ease-out-cubic"
+                // data-aos-duration="2000"
                 className="box"
               >
                 <img src={icons5} alt="" />
                 <h5>App Optimization</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Scelerisque elit vitae
-                  dui rhoncus est vestibulum metus sagittis. Amet duis est eget
-                  nisi.
+                  We focus on comprehensive app improvement to enhance
+                  performance, usability, and user engagement.
                 </p>
                 <Link className="linkedit" to="./services">
                   <span>Read more</span>
@@ -125,17 +121,16 @@ export default function Ourservice() {
               <div className="boxall"></div>
               <div
                 style={{ transition: "1.3s" }}
-                data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"
+                // data-aos="flip-left"
+                // data-aos-easing="ease-out-cubic"
+                // data-aos-duration="2000"
                 className="box"
               >
                 <img src={icons6} alt="" />
                 <h5>Data Recovery</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Scelerisque elit vitae
-                  dui rhoncus est vestibulum metus sagittis. Amet duis est eget
-                  nisi.
+                  Our specialized services are geared towards secure and
+                  efficient retrieval of critical, lost business data.
                 </p>
                 <Link className="linkedit" to="./services">
                   <span>Read more</span>

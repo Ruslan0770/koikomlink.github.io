@@ -5,20 +5,15 @@ import { Link } from "react-router-dom";
 export default function Transform() {
   return (
     <>
-      <div
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1000"
-        className="Transform"
-      >
+      <div className="Transform">
         <div className="text-center all">
           <h4>WANT TO WORK WITH US?</h4>
-          <h2>Digitally transform and grow your business!</h2>
+          <h2>Igniting Digital Transformation, Powering Your Growth!</h2>
           <div className="pedit text-center">
             <p>
-              Lorem ipsum dolor sit amet consectetur. Elementum convallis
-              interdum sem <br /> vestibulum fringilla venenatis est. Malesuada
-              mauris lacus sit suspendisse <br /> adipiscing vitae augue.
+              Realize the full potential of your business with KOIKOM –
+              Together, we'll shape a digital future that's uniquely yours,
+              filled with growth and possibilities.
             </p>
           </div>
           <div className="buttonedit">

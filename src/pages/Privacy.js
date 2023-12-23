@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/styles/privacy.css";
+import { Link } from "react-router-dom";
 
 export default function Privacy() {
   return (
@@ -8,100 +9,95 @@ export default function Privacy() {
         <h2>Privacy Policy</h2>
         <div className="container">
           <div className="boxAll">
-            <h6>Last Updated: [July 26th 2023]</h6>
+            <h6>
+              At KOIKOM, we are committed to protecting your privacy and
+              ensuring the security of your personal information. This Privacy
+              Policy outlines our practices concerning the collection, use, and
+              safeguarding of your data. By using our services, you agree to the
+              terms outlined in this policy.
+            </h6>
             <div className="box">
               <span>1.</span>
               <span>Information We Collect</span>
               <p>
-                1.1 Personal Information: We may collect personal information
-                that you voluntarily provide to us, such as your name, email
-                address, contact details, and any other information you choose
-                to provide when using the Service. <br /> 1.2 Usage Data: We may
-                collect information about how you use the Service, including
-                your IP address, device information, browser type, pages
-                visited, and other usage data to improve the Service's
-                performance and your experience. <br /> 1.3 Cookies and Similar
-                Technologies: We may use cookies and similar technologies to
-                collect information about your interactions with the Service.
-                You can manage your cookie preferences through your browser
-                settings.
+                We may collect personal information, including but not limited
+                to your name, email address, phone number, and company details.
+                This information is collected when you interact with us, such as
+                when you visit our website, sign up for our services, or
+                communicate with our team.
               </p>
             </div>
             <div className="box">
               <span>2.</span>
-              <span>Use of Information</span>
+              <span>How We Use Your Information</span>
               <p>
-                2.1 We use the information we collect for the following
-                purposes: a) To provide and maintain the Service; b) To improve
-                and optimize the Service; c) To respond to your inquiries,
-                comments, or requests; d) To send you important updates,
-                newsletters, and promotional materials; e) To prevent or detect
-                fraud, security breaches, or other illegal activities; f) To
-                comply with legal obligations.
+                We use your personal information for various purposes, including
+                to provide and improve our services, respond to your inquiries,
+                send important updates or announcements, and personalize your
+                experience with us. We may also use your data for internal
+                analytics to enhance our offerings.
               </p>
             </div>
             <div className="box">
               <span>3.</span>
-              <span>Disclosure of Information</span>
+              <span>. Data Security</span>
               <p>
-                3.1 We may share your personal information in the following
-                circumstances: a) With service providers and partners who assist
-                us in operating the Service and providing related services; b)
-                With law enforcement, government authorities, or other third
-                parties when required by law or to protect our rights, privacy,
-                safety, or property; c) In connection with a merger,
-                acquisition, or sale of all or a portion of our assets.
+                We employ industry-standard security measures to protect your
+                data from unauthorized access, disclosure, alteration, or
+                destruction. We continuously monitor and update our security
+                protocols to ensure the safety of your information.
               </p>
             </div>
             <div className="box">
               <span>4.</span>
-              <span>Data Security</span>
+              <span>Data Sharing</span>
               <p>
-                4.1 We implement reasonable security measures to protect your
-                personal information from unauthorized access, disclosure,
-                alteration, or destruction. However, please note that no method
-                of transmission over the internet or electronic storage is 100%
-                secure, and we cannot guarantee absolute security.
+                We do not sell or share your personal information with third
+                parties, except when necessary to provide our services or comply
+                with legal obligations. In such cases, we ensure that strict
+                data protection standards are maintained.
               </p>
             </div>
             <div className="box">
               <span>5.</span>
-              <span>Third-Party Links</span>
+              <span>Cookies and Tracking</span>
               <p>
-                5.1 The Service may contain links to third-party websites or
-                services that are not operated by us. We are not responsible for
-                the privacy practices of such third parties, and you should
-                review their respective privacy policies.
+                We may use cookies and similar tracking technologies to enhance
+                your browsing experience and analyze website traffic. You have
+                the option to disable cookies in your browser settings, although
+                this may affect your ability to access certain features of our
+                website.
               </p>
             </div>
             <div className="box">
               <span>6.</span>
-              <span>Your Choices</span>
+              <span>Your Rights</span>
               <p>
-                6.1 You have the right to access, update, or delete your
-                personal information. If you wish to exercise these rights or
-                have any concerns about your data, please contact us using the
-                information provided below.
+                You have the right to access, correct, or delete your personal
+                information. You may also opt out of receiving promotional
+                communications from us at any time.
               </p>
             </div>
             <div className="box">
               <span>7.</span>
-              <span>Changes to this Privacy Police</span>
+              <span>Changes to This Policy</span>
               <p>
-                7.1 We may update this Privacy Policy from time to time to
-                reflect changes to our practices or for other operational,
-                legal, or regulatory reasons. The updated Privacy Policy will be
-                posted on this page, and the "Last Updated" date will be revised
-                accordingly.
+                We reserve the right to update this Privacy Policy to reflect
+                changes in our practices or legal requirements. Any updates will
+                be posted on our website, and your continued use of our services
+                constitutes acceptance of these changes.
               </p>
             </div>
             <div className="box">
               <span>8.</span>
               <span>Contact Us</span>
               <p>
-                8.1 If you have any questions or concerns about this Privacy
-                Policy or our data practices, please contact us at [Contact
-                Email Address].
+                If you have any questions or concerns regarding this Privacy
+                Policy or the handling of your data, please contact us at
+                 <Link to="/"> contact@koikom.com.</Link> <br /> By choosing KOIKOM, you entrust us with your
+                data, and we take this responsibility seriously. We are
+                dedicated to ensuring the privacy and security of your
+                information while delivering exceptional services.
               </p>
             </div>
           </div>

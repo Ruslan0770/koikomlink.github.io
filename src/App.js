@@ -11,8 +11,19 @@ import Termss from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import { useState, useEffect } from "react";
 import PulseLoader from "react-spinners/PulseLoader";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      disable: function () {
+        var maxWidth = 1200;
+        return window.innerWidth < maxWidth;
+      },
+    });
+  }, []);
+
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);

@@ -46,6 +46,12 @@
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1000px) {
+  .Statistic{
+
+    background-position: center !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+  }
   .Statistic .box {
     margin: auto;
     margin-top: 50px;
@@ -61,18 +67,14 @@
   .Statistic h5 {
     color: #fff;
     text-align: center;
-    font-size: 18px;
-    width: 100%;
+    font-size: 18px !important;
+    width: 100% !important;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.54px;
   }
-  /* .Statistic{
-    background-image: url(../../assets//img/statisticmobile.png) !important;
-    background-position: center;
-    background-size: cover;
-  } */
+
 }
 @media screen and (max-width: 361px) {
   .Statistic h3 {

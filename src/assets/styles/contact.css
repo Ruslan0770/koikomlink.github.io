@@ -5,93 +5,37 @@
 
 .ContactUs .right {
   margin-top: 45px;
-
-}
-.ContactUs h2 {
-  color: var(--blue, #143771);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: normal;
-}
-.ContactUs h6 {
-  color: var(--gray, #363e47);
-  font-size: 18px;
-  width: 100%;
-  font-weight: 400;
-  line-height: 160%; /* 35.2px */
-  margin-bottom: 40px;
-}
-
-.ContactUs input {
-  font-size: 16px;
-  background: #F5F5F5;
-  font-weight: 500;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  line-height: 155%; /* 27.9px */
-  margin-top: 20px;
-  width: 100%;
-  height: 6vh;
-  padding: 20px 28px;
-  cursor: pointer;
-}
-.ContactUs button {
-  border-radius: 4px;
-  background: var(--red, #c01c25);
-  color: var(--white, #fff);
-  text-align: center;
-  font-size: 14px;
-  margin-top: 30px;
-  padding: 10px 47px;
-  font-weight: 600;
-  line-height: normal;
-  position: relative;
-  border: none;
-}
-.ContactUs input::placeholder{
-  font-size: 15px;
-font-style: normal;
-color: var(--gray-2, #545F6B);
-font-weight: 500;
-line-height: 155%; /* 27.9px */
 }
 .ContactUs .box {
   border-radius: 7px;
   background: var(--blue, #fff);
-  width:80%;
+  width: 80%;
   height: 370px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.ContactUs .miniboxitems{
+.ContactUs .miniboxitems {
   margin-left: 55px;
   margin-top: 70px;
 }
-.ContactUs h3 {
-  color: #C01C25;
-  font-size: 31px;
-  font-weight: 700;
-  margin-top: 30px;
-  line-height: normal;
-}
-.ContactUs .left{
+.ContactUs .left {
   background-image: url("../img/contactusbuilding.svg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 90.5vh;
   position: absolute;
   left: 0;
   width: 42%;
   margin-top: -80px;
 }
 
-.ContactUs img{
+.ContactUs img {
   width: 47%;
 }
-.ContactUs .imgedit2{
+.ContactUs .imgedit2 {
   width: 40% !important;
 }
 .ContactUs .itemsEdit {
@@ -99,7 +43,7 @@ line-height: 155%; /* 27.9px */
   align-items: center;
   margin-top: 25px;
 }
-.ContactUs .imgedit3{
+.ContactUs .imgedit3 {
   width: 53% !important;
 }
 .ContactUs button:hover {
@@ -128,216 +72,271 @@ button:after {
   width: 100%;
   transition: 800ms ease all;
 }
+.ContactUs h2 {
+  color: var(--blue, #143771);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+}
+.ContactUs h6 {
+  color: var(--gray, #363e47);
+  font-size: 18px;
+  width: 100%;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+  margin-bottom: 40px;
+}
+
+.ContactUs input {
+  font-size: 16px;
+  background: #f5f5f5;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  line-height: 155%; /* 27.9px */
+  margin-top: 20px;
+  width: 100%;
+  height: 6vh;
+  padding: 20px 28px;
+  cursor: pointer;
+}
+.ContactUs input:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-transition: width 0.2s ease-in 0.2s;
+  transition: width 0.2s ease-in 0.2s;
+}
+.ContactUs button {
+  border-radius: 4px;
+  background: var(--red, #c01c25);
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+  padding: 10px 47px;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  border: none;
+}
+.ContactUs input::placeholder {
+  font-size: 15px;
+  font-style: normal;
+  color: var(--gray-2, #545f6b);
+  font-weight: 500;
+  line-height: 155%; /* 27.9px */
+}
+.ContactUs h3 {
+  color: #c01c25;
+  font-size: 31px;
+  font-weight: 700;
+  margin-top: 30px;
+  line-height: normal;
+}
 
 @media screen and (max-width: 767px) {
- .ContactUs .all{
-  flex-direction: column-reverse;
- }
- .ContactUs{
-  padding: 4rem 0 29rem 0 !important;
-  position: relative !important;
- }
- .ContactUs input{
-  width: 95%;
- }
- .ContactUs .left{
-  position: absolute;
-  right: 10px;
-  height: 65vh !important;
-  width: 100% !important;
-  margin-top: 50px;
-}
-.ContactUs h6{
-  font-size: 16px;
-}
-
-.ContactUs .box{
-  margin-top: -15px;
-  padding-top: 15px;
-  height: 270px !important;
-  width: 85%;
-}
-.ContactUs .miniboxitems{
-  margin-top: -10px;
-}
-.ContactUs img{
-  width: 65%;
-}
-.ContactUs .imgedit2{
-  width: 60% !important;
-}
-.ContactUs .imgedit3{
-  width: 75% !important;
-}
-.ContactUs h3{
-  font-size: 20px;
-  
-}
-  .ContactUs button{
-    margin-top: 30px;
+  .ContactUs .all {
+    flex-direction: column-reverse;
   }
-  .ContactUs .right{
+  .ContactUs {
+    padding: 4rem 0 29rem 0 !important;
+    position: relative !important;
+  }
+  .ContactUs input {
+    width: 95%;
+  }
+  .ContactUs .left {
+    position: absolute;
+    right: 10px;
+    height: 65vh !important;
+    width: 100% !important;
     margin-top: 50px;
   }
-  .ContactUs h2{
+  .ContactUs h6 {
+    font-size: 16px;
+  }
+
+  .ContactUs .box {
+    margin-top: -15px;
+    padding-top: 15px;
+    height: 270px !important;
+    width: 85%;
+  }
+  .ContactUs .miniboxitems {
+    margin-top: -10px;
+  }
+  .ContactUs img {
+    width: 65%;
+  }
+  .ContactUs .imgedit2 {
+    width: 60% !important;
+  }
+  .ContactUs .imgedit3 {
+    width: 75% !important;
+  }
+  .ContactUs h3 {
+    font-size: 20px;
+  }
+  .ContactUs button {
+    margin-top: 30px;
+  }
+  .ContactUs .right {
+    margin-top: 50px;
+  }
+  .ContactUs h2 {
     font-size: 30px !important;
   }
- 
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
-  .ContactUs .all{
+  .ContactUs .all {
     flex-direction: column-reverse;
-   }
-   .ContactUs .left{
+  }
+  .ContactUs .left {
     margin-top: 50px;
     width: 100%;
     height: 580px !important;
     position: absolute;
   }
-  .ContactUs{
+  .ContactUs {
     position: relative !important;
     padding: 7rem 0 38.5rem 0;
   }
-  .ContactUs h6{
+  .ContactUs h6 {
     font-size: 16px;
   }
 
-  .ContactUs input{
+  .ContactUs input {
     width: 57% !important;
   }
-  .ContactUs .container{
+  .ContactUs .container {
     padding: 0px !important;
   }
-  
-  .ContactUs .box{
+
+  .ContactUs .box {
     padding: 50px;
     height: 420px !important;
     width: 65%;
   }
-  .ContactUs .miniboxitems{
+  .ContactUs .miniboxitems {
     margin-top: -10px;
   }
-  .ContactUs img{
+  .ContactUs img {
     width: 75%;
     margin-top: 10px;
   }
-  .ContactUs .imgedit2{
+  .ContactUs .imgedit2 {
     width: 70% !important;
   }
-  .ContactUs .imgedit3{
+  .ContactUs .imgedit3 {
     width: 80% !important;
   }
-  .ContactUs h3{
+  .ContactUs h3 {
     font-size: 50px !important;
   }
-  
 }
-@media screen and (min-width:991px) and (max-width:1300px) {
-    .ContactUs .left{
-      width: 40%;
-      height: 810px !important;
-      
-    }
-    
-    .ContactUs .box{
-      width: 85%;
-      padding: 0px 0 350px 0 !important;
-      height: 0;
-      margin-top: -20px !important;
-    }
-    .ContactUs{
-      position: relative;
-    }
-    .ContactUs h3{
-      font-size: 35px;
-    }
-    .ContactUs img{
-      width: 70%;
-    }
-    .ContactUs .imgedit2{
-      width: 65% !important;
-    }
-    .ContactUs .imgedit3{
-      width: 75% !important;
-    }
-    .ContactUs h6{
-      font-size: 18px;
-    }
-    .ContactUs input{
-      width: 100%;
-    }
-}
-@media screen and (max-width:361px) {
-    .ContactUs input{
-      font-size: 12px !important;
-      width: 90%;
-    }
-    .ContactUs .box{
-      padding-top: 10px !important;
-      height: 260px !important;
-      margin-top: 10px;
-    }
-    .ContactUs h6{
-      font-size: 15px !important;
-    }
-    .ContactUs .left{
-      height: 350px !important;
-      margin-top: 50px !important;
-    }
-    .ContactUs{
-      padding: 4rem 0 25rem 0 !important;
+@media screen and (min-width: 991px) and (max-width: 1300px) {
+  .ContactUs .left {
+    width: 40%;
+    height: 810px !important;
+  }
 
-    }
-}
-@media screen and (min-width: 389px) and (max-width: 450px){
-  .ContactUs .box{
+  .ContactUs .box {
+    width: 85%;
+    padding: 0px 0 350px 0 !important;
+    height: 0;
     margin-top: -20px !important;
   }
-  .ContactUs .left{
+  .ContactUs {
+    position: relative;
+  }
+  .ContactUs h3 {
+    font-size: 35px;
+  }
+  .ContactUs img {
+    width: 70%;
+  }
+  .ContactUs .imgedit2 {
+    width: 65% !important;
+  }
+  .ContactUs .imgedit3 {
+    width: 75% !important;
+  }
+  .ContactUs h6 {
+    font-size: 18px;
+  }
+  .ContactUs input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 361px) {
+  .ContactUs input {
+    font-size: 12px !important;
+    width: 90%;
+  }
+  .ContactUs .box {
+    padding-top: 10px !important;
+    height: 260px !important;
+    margin-top: 10px;
+  }
+  .ContactUs h6 {
+    font-size: 15px !important;
+  }
+  .ContactUs .left {
+    height: 350px !important;
+    margin-top: 50px !important;
+  }
+  .ContactUs {
+    padding: 4rem 0 25rem 0 !important;
+  }
+}
+@media screen and (min-width: 389px) and (max-width: 450px) {
+  .ContactUs .box {
+    margin-top: -20px !important;
+  }
+  .ContactUs .left {
     height: 58vh !important;
   }
-} 
-@media screen and (min-width: 600px) and (max-width: 767px){
-  .ContactUs .box{
+}
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .ContactUs .box {
     height: 300px !important;
     width: 60% !important;
     margin-top: 0px;
   }
-  .ContactUs .left{
+  .ContactUs .left {
     height: 420px !important;
   }
-  .ContactUs img{
+  .ContactUs img {
     width: 55%;
   }
-  .ContactUs .imgedit2{
+  .ContactUs .imgedit2 {
     width: 50% !important;
   }
-  .ContactUs .imgedit3{
+  .ContactUs .imgedit3 {
     width: 65% !important;
   }
-} 
-@media screen and (min-width: 500px) and (max-width: 600px){
-  .ContactUs .box{
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .ContactUs .box {
     margin-top: 0px !important;
     height: 300px !important;
     width: 60% !important;
   }
-  .ContactUs .left{
+  .ContactUs .left {
     height: 50vh !important;
   }
-  .ContactUs img{
+  .ContactUs img {
     width: 55%;
   }
-  .ContactUs .imgedit2{
+  .ContactUs .imgedit2 {
     width: 50% !important;
   }
-  .ContactUs .imgedit3{
+  .ContactUs .imgedit3 {
     width: 65% !important;
   }
-} 
-@media screen and (min-width: 450px) and (max-width: 500px){
-
-  .ContactUs .box{
+}
+@media screen and (min-width: 450px) and (max-width: 500px) {
+  .ContactUs .box {
     margin-top: -50px !important;
   }
 }

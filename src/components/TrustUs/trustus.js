@@ -7,62 +7,57 @@ export default function TrustUs() {
       <div className="Trust">
         <div className="container">
           <div className="row all">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-6 col-md-7">
               <div className="box">
-                <div
-                  data-aos="flip-left"
-                  data-aos-easing="ease-out-cubic"
-                  data-aos-duration="2000"
-                  className="left"
-                >
+                <div className="left">
                   <h4>WHY TRUST US?</h4>
-                  <h2>Achieve digital transformation for business services</h2>
+                  <h2>Reliable, Secure, and Ethical IT Solutions</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Duis eu et interdum
-                    id. Malesuada amet rhoncus non sit. Lectus pellentesque
-                    ornare felis in semper sit.
+                    Our dedication to secure and ethical IT practices forms the
+                    foundation of lasting partnerships built on trust and
+                    transparency.
                   </p>
                   <div className="row all2">
                     <div className="col-lg-6 col-md-6">
                       <div className="minibox">
-                        <button>Remote It Assistance</button>
+                        <button>Proven Reliability</button>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6">
                       <div className="minibox">
-                        <button>Solving IT Problems</button>
+                        <button>Transparent Communication</button>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6">
                       <div className="minibox">
-                        <button>Practice IT Management</button>
+                        <button>Robust Data Security</button>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6">
                       <div className="minibox">
-                        <button>IT Security Services</button>
+                        <button>Ethical Practices</button>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6">
                       <div className="minibox">
-                        <button>Managed IT Service</button>
+                        <button>Lasting Relationships</button>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6">
                       <div className="minibox">
-                        <button>Cloud Services</button>
+                        <button>Responsive Support</button>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-5 col-md-5">
               <div className="box">
                 <div
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="top-center"
-                  data-aos-duration="1500"
+                  // data-aos="fade-up"
+                  // data-aos-anchor-placement="top-center"
+                  // data-aos-duration="1500"
                   className="right"
                 >
                   <img src={trust} alt="" />

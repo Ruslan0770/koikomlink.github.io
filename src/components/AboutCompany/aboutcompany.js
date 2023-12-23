@@ -12,21 +12,20 @@ export default function Aboutcompany() {
             <div className="col-lg-7 col-md-7">
               <div className="box">
                 <div
-                  data-aos="fade-up-right"
-                  data-aos-duration="1000"
+                  // data-aos="fade-up-right"
+                  // data-aos-duration="1000"
                   className="left"
                 >
                   <h3>ABOUT OUR COMPANY</h3>
-                  <h2>
-                    Providing your business with a quality IT services is our
-                    passion.
-                  </h2>
+                  <h2>Pioneering Technology Solutions with a Personal Touch</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Duis eu et interdum
-                    id. Malesuada amet rhoncus non sit. Lectus pellentesque
-                    ornare felis in semper sit. Lorem ipsum dolor sit amet
-                    consectetur. Duis eu et interdum id. Malesuada amet rhoncus
-                    non sit. Lectus pellentesque ornare felis in semper sit.
+                    Founded on a vision to bring innovative IT solutions to
+                    businesses of all sizes, KOIKOM began as a small team of
+                    tech enthusiasts with a big dream. Today, we've grown into a
+                    leading provider of comprehensive IT services, yet we've
+                    maintained our commitment to personalized care and bespoke
+                    solutions. Our journey has been fueled by a passion for
+                    technology and a dedication to our clients' success.
                   </p>
                   <Link to="./aboutus">
                     <button>Learn More</button>
@@ -37,8 +36,8 @@ export default function Aboutcompany() {
             <div className="col-lg-5 col-md-5">
               <div className="box">
                 <div
-                  data-aos="fade-up-right"
-                  data-aos-duration="1000"
+                  // data-aos="fade-up-right"
+                  // data-aos-duration="1000"
                   className="right"
                 >
                   <div className="imgedit">

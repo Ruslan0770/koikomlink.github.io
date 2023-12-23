@@ -389,6 +389,9 @@
     position: relative;
     left: 0;
   }
+  .Footer .down img{
+    width: 2% !important;
+  }
 }
 @media screen and (max-width: 282px) {
   .Footer .down h6 {

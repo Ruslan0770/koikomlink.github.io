@@ -128,7 +128,7 @@ button:after {
     height: 44vh !important;
   }
   .Service h1 {
-    font-size: 36px !important;
+    font-size: 30px !important;
     margin-left: -70px;
     line-height: 147%; /* 58.8px */
   }
@@ -233,16 +233,26 @@ button:after {
     padding: 10px 23px !important;
     width: 100% !important;
   }
+ 
+}
+@media screen and (min-width: 280px) and (max-width: 350px) {
+  
+  .Service .h1edit{
+    width: 100% !important;
+  }
+  .Service .pedit{
+    width: 100% !important;
+  }
 }
 @media screen and (max-width: 361px) {
   .Service h1 {
     font-size: 35px !important;
-    margin-left: -50px !important;
+    margin-left: 0px !important;
   }
   .Service p {
     width: 100% !important;
     font-size: 12px;
-    margin-left: -50px !important;
+    margin-left: 0px !important;
   }
   .Service .buttonedit .servicebutton {
     font-size: 9px !important;
@@ -260,6 +270,8 @@ button:after {
   .Service .buttonedit {
     display: flex;
     gap: 10px !important;
+    margin-top: -20px !important;
+    margin-left: -10px !important;
   }
 }
 @media screen and (max-width: 299px) {

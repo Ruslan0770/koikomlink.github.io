@@ -26,7 +26,6 @@ export default function MockUp({ closeMock }) {
               />
             </form>
             <Link to="/">
-              {" "}
               <button onClick={() => closeMock(false)} className="sendbutton">
                 Send
               </button>

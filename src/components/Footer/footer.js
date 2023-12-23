@@ -23,11 +23,7 @@ export default function Footer() {
               <div className="box">
                 <div className="left">
                   <img src={logo} alt="" />
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur. Duis eu et interdum
-                    id. Malesuada amet rhoncus non sit. Lectus pellentesque
-                    ornare felis in semper sit.
-                  </p>
+                  <p>Leading the Way in Digital Excellence and Innovation</p>
                   <div className="iconcontent">
                     <div className="iconedit">
                       <div className="name">Mobile</div>
