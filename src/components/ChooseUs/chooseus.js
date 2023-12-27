@@ -1,6 +1,6 @@
 import React from "react";
 import "./chooseus.css";
-import choose from "../../assets/img/choose.svg";
+import choose from "../../assets/img/choose.png";
 
 export default function Chooseus() {
   return (

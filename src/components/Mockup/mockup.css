@@ -205,7 +205,7 @@
   }
   .alertAll .closebutton {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
   }
   .alertAll {
     padding: 0px;

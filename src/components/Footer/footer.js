@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import logo from "../../assets/img/footerlogo.svg";
+import logo from "../../assets/img/footerkoikom.png";
 import footericonclogo from "../../assets/img/footercopyy.png";
 import icons1 from "../../assets/img/footericons1.svg";
 import icons2 from "../../assets/img/footericons2.svg";
@@ -10,6 +10,17 @@ import icons3 from "../../assets/img/footericons3.svg";
 
 export default function Footer() {
   const navigate = useNavigate();
+  const phoneNumber = "+994 50 212 81 36   ";
+  
+  const handleCallClick = () => {
+    window.location.href = `tel:${phoneNumber}`;
+  };
+  const handleImageClick = () => {
+    window.location.href = "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A93189408&keywords=koikom&origin=RICH_QUERY_SUGGESTION&position=0&searchId=bb9e7ff7-6f17-41be-968a-192d82ce36ab&sid=AEu&spellCorrectionEnabled=false";
+  };
+  const handleMessageClick = () => {
+    window.location.href = "https://gmail.com";
+  };
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0 });
@@ -27,17 +38,20 @@ export default function Footer() {
                   <div className="iconcontent">
                     <div className="iconedit">
                       <div className="name">Mobile</div>
-                      <img src={icons1} className="icons" alt="" />
+                      <img  src={icons1} className="icons" alt="" />
                     </div>
                     <div className="iconedit">
                       <div className="name">Email</div>
 
-                      <img src={icons2} className="icons" alt="" />
+                <img onClick={handleMessageClick}   src={icons2} className="icons" alt="" />
                     </div>
                     <div className="iconedit">
                       <div className="name">Linkedin</div>
+                      <div onClick={handleImageClick} >
 
                       <img src={icons3} className="icons" alt="" />
+
+                      </div>
                     </div>
                   </div>
                 </div>

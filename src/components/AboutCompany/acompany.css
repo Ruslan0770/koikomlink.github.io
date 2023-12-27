@@ -11,6 +11,9 @@
   font-weight: 600;
   line-height: normal;
 }
+.AboutCompany img{
+  width: 100%;
+}
 .AboutCompany .box p {
   color: var(--gray-2, #545f6b);
   font-size: 17px;

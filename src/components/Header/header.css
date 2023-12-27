@@ -67,11 +67,13 @@ button:after {
 }
 .Header .left img {
   z-index: 2222;
+
 }
 .Header .left {
   margin-top: -10px;
   z-index: 22;
 }
+
 
 .Header .linkEdit {
   position: relative;
@@ -192,6 +194,9 @@ button:after {
     border-radius: 50%;
     border: 1px solid rgba(20, 55, 113, 1);
   }
+  .Header .left img{
+  }
+ 
 
   .Header .iconedit {
     font-size: 22px;
@@ -281,7 +286,7 @@ button:after {
     display: flex;
     width: 100%;
     gap: 21px;
-    justify-content: end;
+    justify-content: flex-end;
   }
   .headerall .nav_toggler {
     margin-right: -50px;
@@ -314,7 +319,7 @@ button:after {
   }
   .headerall {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
   }
 }
 
@@ -347,7 +352,7 @@ button:after {
     display: inline-block;
     font-size: 22px !important;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     margin-top: 20px !important;
   }
   .nav_menu {

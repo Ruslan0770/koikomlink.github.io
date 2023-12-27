@@ -1,6 +1,6 @@
 import React from "react";
 import "./trustus.css";
-import trust from "../../assets/img/trust.svg";
+import trust from "../../assets/img/trust.png";
 export default function TrustUs() {
   return (
     <>

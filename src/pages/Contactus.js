@@ -6,6 +6,11 @@ import { Link } from "react-router-dom";
 import "../assets/styles/contact.css";
 
 export default function Contactus() {
+  const phoneNumber = "+994 50 212 81 36   ";
+  const handleCallClick = () => {
+    window.location.href = `tel:${phoneNumber}`;
+  };
+  const googleMapsUrl = `https://maps.app.goo.gl/xq65F9g12CqzxcHW7`;
   return (
     <>
       <div className="ContactUs">
@@ -17,13 +22,17 @@ export default function Contactus() {
                   <div className="miniboxitems">
                     <h3>Info</h3>
                     <div className="itemsEdit">
-                      <img src={contact} alt="" />
+                      {/* <img src={contact} alt="" /> */}
+                      <Link to={googleMapsUrl}><h2>Maqsud Əlizadə Baku,Azerbaijan</h2></Link>
                     </div>
                     <div className="itemsEdit">
-                      <img className="imgedit2" src={contact2} alt="" />
+                      {/* <img className="imgedit2" src={contact2} alt="" /> */}
+                      <button onClick={handleCallClick}>{phoneNumber}</button>
+
                     </div>
                     <div className="itemsEdit">
-                      <img className="imgedit3" src={contact3} alt="" />
+                      {/* <img className="imgedit3" src={contact3} alt="" /> */}
+                      <Link to="https://gmail.com"><h2>contact@koikom.com</h2></Link>
                     </div>
                   </div>
                 </div>

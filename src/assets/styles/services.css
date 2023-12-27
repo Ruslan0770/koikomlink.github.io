@@ -31,7 +31,7 @@
 }
 .Services .right {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .Services .box {
   border-radius: 5px;
@@ -80,7 +80,7 @@
   }
   .Services .leftreverse{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
   }
   .Services .right1 h5{
     font-size: 22px !important;
@@ -148,7 +148,7 @@
   }
   .Services .leftreverse{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
   }
   .Services .right1 h5{
     font-size: 20px !important;

@@ -1,6 +1,6 @@
 import "./acompany.css";
 import React from "react";
-import aboutcompany from "../../assets/img/aboutcompany.svg";
+import aboutcompany from "../../assets/img/aboutcompany.png";
 import { Link } from "react-router-dom";
 
 export default function Aboutcompany() {

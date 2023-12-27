@@ -1,10 +1,10 @@
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
 import "./testimonial.css";
-import people from "../../assets/img/people.svg";
-import people2 from "../../assets/img/people2.svg";
-import people3 from "../../assets/img/people3.svg";
-import people4 from "../../assets/img/people4.svg";
+import people from "../../assets/img/people1.png";
+import people2 from "../../assets/img/people2.png";
+import people3 from "../../assets/img/people3.png";
+import people4 from "../../assets/img/people4.png";
 
 export default function Testimonial() {
   return (

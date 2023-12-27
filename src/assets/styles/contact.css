@@ -6,6 +6,13 @@
 .ContactUs .right {
   margin-top: 45px;
 }
+.itemsEdit h2{
+  font-size: 20px !important;
+  cursor: pointer;
+}
+.itemsEdit button{
+  margin-top: -10px !important;
+}
 .ContactUs .box {
   border-radius: 7px;
   background: var(--blue, #fff);
