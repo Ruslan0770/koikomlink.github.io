@@ -16,12 +16,18 @@ export default function ServiceCompany() {
           <div className="left">
             <div className="leftItems">
               <div className="h1edit">
-                <h1>Premier IT Solutions & Business Services for Transformative Success</h1>
+                <h1>
+                  Premier IT Solutions & Business Services for Transformative
+                  Success
+                </h1>
               </div>
               <div className="pedit">
                 <p>
-                At KOIKOM, we redefine the role of an IT company, focusing on providing bespoke IT solutions and services that boost your business's operational efficiency and competitive standing. Explore how our cutting-edge technology expertise can transform your business.
-
+                  At KOIKOM, we redefine the role of an IT company, focusing on
+                  providing bespoke IT solutions and services that boost your
+                  business's operational efficiency and competitive standing.
+                  Explore how our cutting-edge technology expertise can
+                  transform your business.
                 </p>
               </div>
               <div className="buttonedit">
